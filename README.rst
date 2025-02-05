@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
+Documentación para Programación con Python
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Este repositorio contiene la documentación del curso de "Programación con Python" para el curso vocacional del Parque Ajá y FIEC, ESPOL.
