@@ -7,10 +7,11 @@ Este curso introduce a los jóvenes al mundo de la programación mediante el des
 
    Al completar el curso, tendrán un videojuego funcional y conocimientos fundamentales de programación.
 
-Contents
+Contenido
 --------
 
 .. toctree::
 
    usage
    api
+   presentacion
