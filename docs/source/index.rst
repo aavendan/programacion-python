@@ -10,12 +10,6 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
 #. A manejar eventos para que el juego responda a las acciones del jugador, ¡como si supiera lo que estás pensando!
 #. A ponerle sonido y efectos para que tu juego sea una experiencia inmersiva y emocionante.
 
-**¿Por qué este curso es diferente?**
-
-#. Aprenderás haciendo: no solo teoría aburrida, ¡aquí la práctica es la clave!
-#. Te divertirás: ¿hay mejor forma de aprender que creando tu propio videojuego?
-#. Desarrollarás habilidades valiosas: la programación te abrirá puertas en el futuro, ¡y no solo en el mundo de los videojuegos!
-
 .. image:: img/index.jpeg
   :width: 400
   :alt: Imagen principal
