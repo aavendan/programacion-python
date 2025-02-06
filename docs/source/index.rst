@@ -16,9 +16,10 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
 #. Te divertirás: ¿hay mejor forma de aprender que creando tu propio videojuego?
 #. Desarrollarás habilidades valiosas: la programación te abrirá puertas en el futuro, ¡y no solo en el mundo de los videojuegos!
 
-.. image:: path/filename.png
+.. image:: img/index.jpeg
   :width: 400
-  :alt: Alternative text
+  :alt: Imagen principal
+
 
 Contenido
 --------
