@@ -12,6 +12,4 @@ Contenido
 
 .. toctree::
 
-   usage
-   api
    presentacion
