@@ -1,7 +1,23 @@
-Presentación
+Presentación del Curso
 =====
 
-.. autosummary::
-   :toctree: generated
+.. _installation:
 
-   lumache
+Objetivo del curso
+------------
+
+
+¿Qué es programar? 
+----------------
+
+
+¿Por qué aprender a programar? 
+----------------
+
+
+¿Quiénes necesitan aprender a programar?
+----------------
+
+
+En la ESPOL
+----------------
