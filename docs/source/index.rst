@@ -1,17 +1,11 @@
-Welcome to Lumache's documentation!
+Programación con Python
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Este curso introduce a los jóvenes al mundo de la programación mediante el desarrollo de un videojuego interactivo mediante el uso de variables, funciones, estructuras de control, manejo de eventos, sonidos y efectos. 
 
 .. note::
 
-   This project is under active development.
+   Al completar el curso, tendrán un videojuego funcional y conocimientos fundamentales de programación.
 
 Contents
 --------
