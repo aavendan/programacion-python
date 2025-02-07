@@ -1,10 +1,8 @@
-##########
 Presentación del Curso
-##########
+======================
 
 Objetivo del curso
-==================
-
+------------------
 
 
 ¿Qué es programar? 
