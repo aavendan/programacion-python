@@ -1,8 +1,6 @@
 Presentación del Curso
 =====
 
-.. _installation:
-
 Objetivo del curso
 ------------
 
