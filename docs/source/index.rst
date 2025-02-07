@@ -23,3 +23,4 @@ Contenido
   :maxdepth: 1
 
   presentacion
+  configuracion
