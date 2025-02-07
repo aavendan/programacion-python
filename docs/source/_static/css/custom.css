@@ -1,3 +1,3 @@
-img:has(parent) {
+a:has(> img) {
 	text-align: center;
 }
