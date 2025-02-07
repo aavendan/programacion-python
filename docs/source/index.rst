@@ -19,5 +19,7 @@ Contenido
 --------
 
 .. toctree::
+  :numbered:
+  :maxdepth: 1
 
-   presentacion
+  presentacion
