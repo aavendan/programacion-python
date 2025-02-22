@@ -157,7 +157,7 @@ cuándo vas a empezar a dibujar (`start_render`) y
 cuándo has terminado de dibujar (`finish_render`).
 
 .. code-block:: python
-    :emphasize-lines: 19,20,21,22,25,26
+    :emphasize-lines: 19,20,22,23,27,28
 
     """
     Galaxia Indie
