@@ -203,7 +203,8 @@ cuándo terminas de dibujar (**arcade.finish_render()**).
 
 .. note::
 
-    Para especificar colores por nombre ( por 
-    ejemplo `arcade.color.BLUE_SAPPHIRE`), puedes 
-    consultar los nombres en la tabla de colores de 
+    Puedes consultar los nombres en la 
+    tabla de colores de 
     `ColorPicker <https://www.webfx.com/web-design/color-picker/color-chart/>`_.
+    para especificar colores por nombre ( por 
+    ejemplo `arcade.color.BLUE_SAPPHIRE`), 
