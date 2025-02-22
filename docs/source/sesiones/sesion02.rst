@@ -1,2 +1,2 @@
-Planetas 🪐 y Asteriodes ☄️
+Estrellas ✨, Planetas 🪐 y Asteriodes ☄️
 ===================================
