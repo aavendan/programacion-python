@@ -1,7 +1,7 @@
 Un nuevo universo 🌌
 ===================================
 
-.. autofunction:: import.arcade
+.. autodata:: import.arcade
 .. autofunction:: arcade.open_window
 .. autofunction:: arcade.run
 .. autofunction:: arcade.set_background_color
@@ -62,7 +62,7 @@ una :term:`librería` de código que contiene comandos para
 dibujar.
 
 Si queremos usar la librería Arcade solo debemos 
-agregar :py:func:`import arcade` al inicio de nuestro programa.
+agregar :py:data:`import arcade` al inicio de nuestro programa.
 
 .. code-block:: python
     :emphasize-lines: 14 
