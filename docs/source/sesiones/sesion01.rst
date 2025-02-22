@@ -1,6 +1,22 @@
 Un nuevo universo 🌌
 ===================================
 
+Programa principal
+------------------
+
+En Visual Studio Code, crea un archivo con 
+extensión `.py`, como se muestra en la imagen:
+
+
+
+Ejecuta el código
+------------------
+
+En la parte superior de Visual Studio Code, haz clic 
+en el botón **correr** para ejecutar el código, como 
+se muestra en la imagen:
+
+
 Comenta tu código
 ------------------
 
