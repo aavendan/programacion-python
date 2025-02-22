@@ -17,6 +17,7 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
 
 .. toctree::
   :maxdepth: 1
+  :numbered:
   :caption: Contenido
   :glob:
   
