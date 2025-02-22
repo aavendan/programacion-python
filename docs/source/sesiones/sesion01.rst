@@ -89,8 +89,7 @@ Ventana para dibujar
 La primera :term:`función` de Arcade que vamos a 
 aprender es :py:func:`arcade.open_window()`. 
 Esta función abre una ventana con un tamaño y título 
-específicos. La función *arcade.open_window* 
-requiere al menos tres :term:`parámetros`:
+específicos y requiere al menos tres :term:`parámetros`:
 
 - El **ancho** de la ventana en píxeles.
 - El **alto** de la ventana en píxeles.
