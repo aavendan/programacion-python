@@ -3,6 +3,9 @@ Un nuevo universo 🌌
 
 .. autodata:: import.arcade
 .. autofunction:: arcade.open_window
+
+    Abre una ventana de acuerdo con el tamaño y título
+
 .. autofunction:: arcade.run
 .. autofunction:: arcade.set_background_color
 .. autofunction:: arcade.start_render
