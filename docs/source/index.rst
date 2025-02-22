@@ -24,5 +24,6 @@ Contenido
 
   presentacion
   configuracion
-  sesiones/sesion01
-  sesiones/sesion02
+  sesiones/galaxiaindie
+    sesiones/sesion01
+    sesiones/sesion02

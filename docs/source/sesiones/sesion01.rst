@@ -1,4 +1,4 @@
-Sesión01: Un universo paralelo
+Un nuevo universo 🌌
 ===================================
 
 Comenta tu código
