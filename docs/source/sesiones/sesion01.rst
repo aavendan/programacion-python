@@ -13,8 +13,8 @@ Ejecuta el código
 ------------------
 
 En la parte superior de Visual Studio Code, haz clic 
-en el botón **correr** para ejecutar el código, como 
-se muestra en la imagen:
+en el botón `Ejecutar Archivo de Python` para 
+ejecutar el código, como se muestra en la imagen:
 
 
 Comenta tu código
@@ -22,8 +22,11 @@ Comenta tu código
 
 Antes de empezar a escribir programas largos, 
 necesitamos aprender sobre los comentarios en el 
-código. Cuando escribimos código, a veces queremos describir 
-lo que hace, para nosotros mismos o para otros. 
+código. 
+
+Los comentarios sirven para describir 
+lo que hace el código. Lo cual, es útil para nosotros 
+mismos o para otros. 
 
 A continuación se muestran dos formas de agregar 
 comentarios al código escrito en Python.
@@ -54,7 +57,7 @@ una :term:`librería` de código que contiene comandos para
 dibujar.
 
 Si queremos usar la librería Arcade solo debemos 
-agregar `import arcade` al inicio de nuestro programa.
+agregar **import arcade** al inicio de nuestro programa.
 
 .. code-block:: python
     :emphasize-lines: 14 
@@ -78,9 +81,11 @@ agregar `import arcade` al inicio de nuestro programa.
 Ventana para dibujar
 ------------------
 
-La primera :term:`función` de Arcade que vamos a aprender es `arcade.open_window()`. 
-Esta función abre una ventana con un tamaño y título específicos.
-La función `open_window` requiere al menos tres :term:`parámetros`:
+La primera :term:`función` de Arcade que vamos a 
+aprender es `arcade.open_window()`. 
+Esta función abre una ventana con un tamaño y título 
+específicos. La función **arcade.open_window** 
+requiere al menos tres :term:`parámetros`:
 
 - El *ancho* de la ventana en píxeles.
 - El *alto* de la ventana en píxeles.
@@ -108,15 +113,16 @@ La función `open_window` requiere al menos tres :term:`parámetros`:
     arcade.open_window(600, 600, "Galaxia Indie")    
 
 
-¡Funciona (pero muy rápido)!
+¡Funciona (pero, es muy rápido)!
 
 Para mantener la ventana abierta, necesitamos hacer 
 una pausa hasta que el usuario presione el botón de 
-cerrar. Para hacer esto, usaremos la función `run` 
-de la librería Arcade. 
+cerrar. 
 
-Esta función run no necesita parámetros, pero aún así 
-requiere paréntesis.
+Para hacer esto, usaremos la función 
+**arcade.run()** de la librería Arcade. 
+Esta función run no necesita parámetros, pero aún 
+así requiere paréntesis.
 
 .. code-block:: python
     :emphasize-lines: 19,20
@@ -148,13 +154,15 @@ Color de fondo y espacio de dibujo
 En este momento tenemos el color blanco por defecto 
 como el fondo de nuestra pantalla. 
 
-¿Cómo podemos obtener un color diferente? 
-Usamos el comando `arcade.set_background_color()`. 
+¿Cómo podemos obtener un color diferente?
+
+Para cambiar el color de fondo, usamos el comando 
+**arcade.set_background_color()**. 
 
 Antes de poder ver el color, necesitamos dos comandos 
 más. Estos comandos le dicen a la librería Arcade 
-cuándo empiezas a dibujar (`arcade.start_render()`) y 
-cuándo terminas de dibujar (`arcade.finish_render()`).
+cuándo empiezas a dibujar (**arcade.start_render()**) y 
+cuándo terminas de dibujar (**arcade.finish_render()**).
 
 .. code-block:: python
     :emphasize-lines: 19,20,22,23,27,28
@@ -178,7 +186,7 @@ cuándo terminas de dibujar (`arcade.finish_render()`).
     arcade.open_window(600, 600, "Galaxia Indie")
 
     # Establecer el color de fondo de la ventana
-    arcade.set_background_color(arcade.csscolor.SKY_BLUE)
+    arcade.set_background_color(arcade.color.BLUE_SAPPHIRE)
 
     # Inicio del dibujo
     arcade.start_render()
