@@ -24,4 +24,4 @@ Contenido
 
   presentacion
   configuracion
-  nivel01
+  sesiones/sesion01

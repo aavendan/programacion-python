@@ -1,2 +1,2 @@
-Nivel 01: Un hermoso paisaje
+Sesión01: Un hermoso paisaje
 ===================================
