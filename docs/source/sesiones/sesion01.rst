@@ -156,7 +156,7 @@ como el fondo de nuestra pantalla.
 Para cambiar el color de fondo, usamos el comando 
 :py:func:`arcade.set_background_color()`. Esta función
 necesita un parámetro: el color. En este caso, el nombre de un color, 
-por ejemplo: `arcade.color.BLUE_SAPPHIRE`.
+por ejemplo: `arcade.color.DARK_IMPERIAL_BLUE`.
 
 Antes de poder ver el color, necesitamos dos comandos 
 más. Estos comandos le dicen a la librería Arcade 
@@ -185,7 +185,7 @@ cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
     arcade.open_window(600, 600, "Galaxia Indie")
 
     # Establecer el color de fondo de la ventana
-    arcade.set_background_color( arcade.color.BLUE_SAPPHIRE )
+    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
 
     # Inicio del dibujo
     arcade.start_render()
@@ -204,4 +204,4 @@ cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
     tabla de colores de 
     `ColorPicker <https://www.webfx.com/web-design/color-picker/color-chart/>`_.
     para especificar colores por nombre ( por 
-    ejemplo `arcade.color.BLUE_SAPPHIRE`), 
+    ejemplo `arcade.color.DARK_IMPERIAL_BLUE`), 
