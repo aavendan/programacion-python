@@ -39,7 +39,7 @@ Antes de poder dibujar algo, necesitamos importar
 una "librería" de código que contiene comandos para 
 dibujar.
 
-Los lenguajes de computadora vienen con un conjunto 
+Los lenguajes de programación vienen con un conjunto 
 de instrucciones básicas. La mayoría de los programas 
 requerirán más instrucciones especializadas. 
 A este conjunto de instrucciones especializadas se 
@@ -62,5 +62,5 @@ agregar `import arcade` al inicio de nuestro programa.
     Creado usando Python y la biblioteca Arcade.
     """
 
-    # Importar la librería "arcade" para crear juegos.
+    # Importar la librería "arcade" para crear videojuegos.
     import arcade
