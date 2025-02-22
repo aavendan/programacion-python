@@ -1,2 +1,2 @@
-Problema 01: Un hermoso paisaje
+Nivel 01: Un hermoso paisaje
 ===================================
