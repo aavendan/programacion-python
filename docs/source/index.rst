@@ -20,10 +20,9 @@ Contenido
 
 .. toctree::
   :numbered:
-  :maxdepth: 2
+  :maxdepth: 1
+  :glob:
 
   presentacion
   configuracion
-  sesiones/galaxiaindie
-    sesiones/sesion01
-    sesiones/sesion02
+  sesiones/*

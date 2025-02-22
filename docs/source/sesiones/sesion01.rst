@@ -54,7 +54,7 @@ agregar `import arcade` al inicio de nuestro programa.
     Galaxia Indie
 
     Un juego indie minimalista de exploración espacial 
-    donde navegas a través del cosmos.
+    donde viajarás a través del cosmos.
     Navega a través de misteriosos sistemas estelares,
     descubriendo antiguos artefactos y desentrañando los 
     misterios de una civilización olvidada.
