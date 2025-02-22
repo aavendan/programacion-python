@@ -15,12 +15,9 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
   :alt: Imagen principal
 
 
-Contenido
---------
-
 .. toctree::
-  :numbered:
   :maxdepth: 2
+  :caption: Contenido
   
   presentacion
   configuracion
