@@ -6,9 +6,7 @@ Comenta tu código
 
 Antes de empezar a escribir programas largos, 
 necesitamos aprender sobre los comentarios en el 
-código. 
-
-Cuando escribimos código, a veces queremos describir 
+código. Cuando escribimos código, a veces queremos describir 
 lo que hace, para nosotros mismos o para otros. 
 
 A continuación se muestran dos formas de agregar 
@@ -66,9 +64,9 @@ Ventana para dibujar
 
 La primera :term:`función` de Arcade que vamos a aprender es `arcade.open_window()`. 
 Esta función abre una ventana con un tamaño y título específicos.
-La función `open_window`` requiere al menos tres parámetros:
+La función `open_window` requiere al menos tres :term:`parámetros`:
 
-- El *ancho de la ventana en píxeles.
+- El *ancho* de la ventana en píxeles.
 - El *alto* de la ventana en píxeles.
 - El *texto* que aparecerá en la barra de título.
 
@@ -139,3 +137,7 @@ requiere paréntesis.
         Un bloque de código que realiza una tarea específica
         y puede ser llamado desde cualquier parte del programa.
         Las funciones pueden tener parámetros y devolver valores.
+    
+    parámetros
+        Valores que se pasan a una función para que los use
+        al realizar su tarea. 
