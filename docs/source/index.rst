@@ -16,7 +16,7 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
 
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :numbered:
   :caption: Contenido
   :glob:
@@ -24,4 +24,3 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
   presentacion
   configuracion
   galaxiaindie
-  sesiones/index
