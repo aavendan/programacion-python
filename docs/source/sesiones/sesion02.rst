@@ -23,7 +23,7 @@ Por lo tanto, el punto 0,0 estará en la esquina inferior izquierda
 de la pantalla, y todas las coordenadas negativas estarán fuera de 
 la pantalla.
 
-2. Cada "punto" será un píxel. Así que una ventana que tiene 600 
+2. Cada punto es un :term:`píxel`. Así que una ventana que tiene 600 
 píxeles de ancho, tendrá coordenadas x que van desde 0 hasta 599. 
 
 .. warning::
@@ -34,6 +34,36 @@ píxeles de ancho, tendrá coordenadas x que van desde 0 hasta 599.
 Líneas
 ------------------
 
+Para dibujar una línea, se utiliza con la función :py:func:`arcade.draw_line()` 
+y con las coordenadas del punto de inicio y un punto final. 
+Opcionalmente, puedes especificar el ancho de la línea. 
+
+En nuestra imagen de ejemplo, usaremos varias líneas para dibujar 
+rayos de una estrella:
+
+.. code-block:: python
+    :emphasize-lines: 8-12, 14-17
+
+    ...
+
+    # Inicio del dibujo
+    ...
+
+    # (Aquí irá el código para dibujar)
+
+    # Rayos de luz
+    # Horizontal, de izquierda (400, 450) a derecha (500, 450)
+    arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
+    # Vertical, de arriba (450, 500) a abajo (450, 400)
+    arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
+
+    # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
+    arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
+    # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
+    arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
+
+    # Fin del dibujo
+    ...
 
 Círculos
 ------------------

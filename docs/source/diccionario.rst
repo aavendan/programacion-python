@@ -16,3 +16,6 @@ Diccionario de términos
     parámetros
         Valores que se pasan a una función para que los use
         al realizar su tarea. 
+
+    píxel
+        Un punto individual en una imagen digital.
