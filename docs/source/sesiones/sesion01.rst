@@ -18,7 +18,7 @@ comentarios al código en el lenguaje de programación
 Python:
 
 .. code-block:: python
-    :emphasize-lines: 1-11,13
+    :emphasize-lines: 1-11
 
     """
     Galaxia Indie
@@ -82,9 +82,21 @@ La función `open_window`` requiere al menos tres parámetros:
 - El *texto* que aparecerá en la barra de título.
 
 .. code-block:: python
-    :emphasize-lines: 4,5
+    :emphasize-lines: 16,17
 
-    ...
+    """
+    Galaxia Indie
+
+    Un juego indie minimalista de exploración espacial 
+    donde viajarás a través del cosmos.
+    Navega a través de misteriosos sistemas estelares,
+    descubriendo antiguos artefactos y desentrañando los 
+    misterios de una civilización olvidada.
+
+    Creado usando Python y la biblioteca Arcade.
+    """
+
+    # Importar la librería "arcade" para crear videojuegos.
     import arcade
 
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
@@ -102,13 +114,25 @@ Esta función run no necesita parámetros, pero aún así
 requiere paréntesis.
 
 .. code-block:: python
-    :emphasize-lines: 6,7
+    :emphasize-lines: 19,20
 
-    ...
+    """
+    Galaxia Indie
+
+    Un juego indie minimalista de exploración espacial 
+    donde viajarás a través del cosmos.
+    Navega a través de misteriosos sistemas estelares,
+    descubriendo antiguos artefactos y desentrañando los 
+    misterios de una civilización olvidada.
+
+    Creado usando Python y la biblioteca Arcade.
+    """
+
+    # Importar la librería "arcade" para crear videojuegos.
     import arcade
 
-    # ...
-    arcade.open_window( ... )   
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
+    arcade.open_window(600, 600, "Galaxia Indie")   
 
     # Iniciar el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
