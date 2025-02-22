@@ -157,7 +157,9 @@ como el fondo de nuestra pantalla.
 ¿Cómo podemos obtener un color diferente?
 
 Para cambiar el color de fondo, usamos el comando 
-**arcade.set_background_color()**. 
+**arcade.set_background_color( )**. Esta función
+necesita el nombre de un color, 
+por ejemplo: `arcade.color.BLUE_SAPPHIRE`.
 
 Antes de poder ver el color, necesitamos dos comandos 
 más. Estos comandos le dicen a la librería Arcade 
@@ -186,7 +188,7 @@ cuándo terminas de dibujar (**arcade.finish_render()**).
     arcade.open_window(600, 600, "Galaxia Indie")
 
     # Establecer el color de fondo de la ventana
-    arcade.set_background_color(arcade.color.BLUE_SAPPHIRE)
+    arcade.set_background_color( arcade.color.BLUE_SAPPHIRE )
 
     # Inicio del dibujo
     arcade.start_render()
@@ -198,6 +200,16 @@ cuándo terminas de dibujar (**arcade.finish_render()**).
 
     # Iniciar el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
+
+.. note::
+
+    Para especificar colores por nombre, puedes 
+    consultar la documentación de la API de colores 
+    y usar algo como `arcade.color.AQUAMARINE` en tu 
+    programa. Estos nombres de colores provienen de 
+    la tabla de colores de 
+    `ColorPicker <https://www.webfx.com/web-design/color-picker/color-chart/>`_.
+
 
 .. glossary::
 
