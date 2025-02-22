@@ -145,16 +145,16 @@ requiere paréntesis.
 Color de fondo y espacio de dibujo
 ------------------
 
-En este momento tenemos el blanco por defecto 
-como nuestro fondo. 
+En este momento tenemos el color blanco por defecto 
+como el fondo de nuestra pantalla. 
 
 ¿Cómo podemos obtener un color diferente? 
 Usamos el comando `arcade.set_background_color()`. 
 
 Antes de poder ver el color, necesitamos dos comandos 
 más. Estos comandos le dicen a la librería Arcade 
-cuándo vas a empezar a dibujar (`start_render`) y 
-cuándo has terminado de dibujar (`finish_render`).
+cuándo empiezas a dibujar (`arcade.start_render()`) y 
+cuándo terminas de dibujar (`arcade.finish_render()`).
 
 .. code-block:: python
     :emphasize-lines: 19,20,22,23,27,28
