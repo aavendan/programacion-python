@@ -1,4 +1,4 @@
-Estrellas ✨, Planetas 🪐 y Asteriodes ☄️
+Estrellas ✨ y Planetas 🪐
 ===================================
 
 Sistema de coordenadas
