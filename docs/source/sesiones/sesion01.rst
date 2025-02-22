@@ -18,7 +18,7 @@ comentarios al código en el lenguaje de programación
 Python:
 
 .. code-block:: python
-    :emphasize-lines: 1-11
+    :emphasize-lines: 1-11,13
 
     """
     Galaxia Indie
