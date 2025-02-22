@@ -35,8 +35,12 @@ Líneas
 ------------------
 
 Para dibujar una línea, se utiliza con la función :py:func:`arcade.draw_line()` 
-y con las coordenadas del punto de inicio y un punto final. 
-Opcionalmente, puedes especificar el ancho de la línea. 
+con los siguientes parámetros:
+
+1. La coordenada del punto inicial (posición en X, posición en Y), 
+2. La coordenada del punto final (posición en X, posición en Y).
+3. El color de la línea,
+4. El ancho de la línea. 
 
 En nuestra imagen de ejemplo, usaremos varias líneas para dibujar 
 rayos de una estrella:
