@@ -158,7 +158,7 @@ como el fondo de nuestra pantalla.
 
 Para cambiar el color de fondo, usamos el comando 
 **arcade.set_background_color( )**. Esta función
-necesita el nombre de un color, 
+necesita un parámetro: el nombre de un color, 
 por ejemplo: `arcade.color.BLUE_SAPPHIRE`.
 
 Antes de poder ver el color, necesitamos dos comandos 
