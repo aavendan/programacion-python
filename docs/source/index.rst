@@ -16,11 +16,10 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
 
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Contenido
+  :glob:
   
   presentacion
   configuracion
-  sesiones/galaxiaindie
-    sesiones/sesion01
-    sesiones/sesion02
+  sesiones/*
