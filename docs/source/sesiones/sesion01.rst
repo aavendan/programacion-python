@@ -49,7 +49,6 @@ Si queremos usar la librería Arcade solo debemos
 agregar `import arcade` al inicio de nuestro programa.
 
 .. code-block:: python
-
     :emphasize-lines: 14 
 
     """
@@ -80,7 +79,6 @@ La función `open_window`` requiere al menos tres parámetros:
 - El *texto* que aparecerá en la barra de título.
 
 .. code-block:: python
-
     :emphasize-lines: 16,17
 
     """
@@ -113,7 +111,6 @@ Esta función run no necesita parámetros, pero aún así
 requiere paréntesis.
 
 .. code-block:: python
-
     :emphasize-lines: 19,20
 
     """
