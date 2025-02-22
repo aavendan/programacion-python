@@ -1,13 +1,18 @@
 Un nuevo universo 🌌
 ===================================
 
+.. autofunction:: import.arcade
+.. autofunction:: arcade.open_window
+.. autofunction:: arcade.run
+.. autofunction:: arcade.set_background_color
+.. autofunction:: arcade.start_render
+.. autofunction:: arcade.finish_render
+
 Programa principal
 ------------------
 
 En Visual Studio Code, crea un archivo con 
 extensión ``.py``, como se muestra en la imagen:
-
-
 
 Ejecuta el código
 ------------------
@@ -52,8 +57,6 @@ comentarios al código escrito en Python.
 Librería Arcade
 ------------------
 
-.. autofunction:: import.arcade
-
 Antes de poder dibujar algo, necesitamos importar 
 una :term:`librería` de código que contiene comandos para 
 dibujar.
@@ -84,14 +87,14 @@ Ventana para dibujar
 ------------------
 
 La primera :term:`función` de Arcade que vamos a 
-aprender es `arcade.open_window()`. 
+aprender es :py:func:`arcade.open_window()`. 
 Esta función abre una ventana con un tamaño y título 
-específicos. La función **arcade.open_window** 
+específicos. La función *arcade.open_window* 
 requiere al menos tres :term:`parámetros`:
 
-- El *ancho* de la ventana en píxeles.
-- El *alto* de la ventana en píxeles.
-- El *texto* que aparecerá en la barra de título.
+- El **ancho** de la ventana en píxeles.
+- El **alto** de la ventana en píxeles.
+- El **texto** que aparecerá en la barra de título.
 
 .. code-block:: python
     :emphasize-lines: 16,17
@@ -122,7 +125,7 @@ una pausa hasta que el usuario presione el botón de
 cerrar. 
 
 Para hacer esto, usaremos la función 
-**arcade.run()** de la librería Arcade. 
+:py:func:`arcade.run()` de la librería Arcade. 
 Esta función run no necesita parámetros, pero aún 
 así requiere paréntesis.
 
@@ -159,14 +162,14 @@ como el fondo de nuestra pantalla.
 ¿Cómo podemos obtener un color diferente?
 
 Para cambiar el color de fondo, usamos el comando 
-**arcade.set_background_color( )**. Esta función
+:py:func:`arcade.set_background_color()`. Esta función
 necesita un parámetro: el nombre de un color, 
 por ejemplo: `arcade.color.BLUE_SAPPHIRE`.
 
 Antes de poder ver el color, necesitamos dos comandos 
 más. Estos comandos le dicen a la librería Arcade 
-cuándo empiezas a dibujar (**arcade.start_render()**) y 
-cuándo terminas de dibujar (**arcade.finish_render()**).
+cuándo empiezas a dibujar (:py:func:`arcade.start_render()`) y 
+cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
 
 .. code-block:: python
     :emphasize-lines: 19,20,22,23,27,28
