@@ -5,7 +5,7 @@ Programa principal
 ------------------
 
 En Visual Studio Code, crea un archivo con 
-extensión `.py`, como se muestra en la imagen:
+extensión ``.py``, como se muestra en la imagen:
 
 
 
@@ -13,7 +13,7 @@ Ejecuta el código
 ------------------
 
 En la parte superior de Visual Studio Code, haz clic 
-en el botón `Ejecutar Archivo de Python` para 
+en el botón ``Ejecutar Archivo de Python`` para 
 ejecutar el código, como se muestra en la imagen:
 
 
@@ -52,12 +52,14 @@ comentarios al código escrito en Python.
 Librería Arcade
 ------------------
 
+.. autofunction:: import.arcade
+
 Antes de poder dibujar algo, necesitamos importar 
 una :term:`librería` de código que contiene comandos para 
 dibujar.
 
 Si queremos usar la librería Arcade solo debemos 
-agregar **import arcade** al inicio de nuestro programa.
+agregar :py:func:`import arcade` al inicio de nuestro programa.
 
 .. code-block:: python
     :emphasize-lines: 14 
