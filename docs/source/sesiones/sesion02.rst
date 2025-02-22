@@ -69,6 +69,11 @@ rayos de una estrella:
     # Fin del dibujo
     ...
 
+.. hint::
+   :collapsible: closed
+
+   This hint is collapsible, but initially closed.
+
 Círculos
 ------------------
 
