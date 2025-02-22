@@ -12,6 +12,8 @@ coordenadas cartesiano, que se ve así:
 .. image:: ../img/cartesian_coordinate_system.svg
   :width: 400
   :alt: Sistema de coordenadas
+  
+  Source: `Wikipedia: Cartesian coordinate system <https://commons.wikimedia.org/wiki/File:Cartesian_coordinate_system_(comma).svg>`_
 
 Nuestros gráficos se dibujarán usando este mismo sistema. Pero 
 debemos tener en cuenta:
@@ -23,8 +25,12 @@ la pantalla.
 
 2. Cada "punto" será un píxel. Así que una ventana que tiene 600 
 píxeles de ancho, tendrá coordenadas x que van desde 0 hasta 599. 
-(El cero es uno de los píxeles, por lo que 0-599 son 600 píxeles.
- Los errores por diferencia de uno son muy comunes en programación.)
+
+.. warning::
+
+  Recuerda que los píxeles se cuentan desde el cero. El cero es uno 
+  de los píxeles, por lo que 0-599 son 600 píxeles.
+  Los errores por diferencia de uno son muy comunes en programación.
 
 Líneas
 ------------------
