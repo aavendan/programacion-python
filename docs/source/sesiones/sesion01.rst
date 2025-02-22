@@ -6,16 +6,13 @@ Comenta tu código
 
 Antes de empezar a escribir programas largos, 
 necesitamos aprender sobre los comentarios en el 
-código. Cuando escribimos código de computadora, 
-a veces queremos poder escribir cosas para nuestro 
-propio beneficio y para cualquier otra persona 
-que lea el código. Como esto no será código de 
-computadora, necesitamos decirle a la computadora 
-que lo ignore.
+código. 
+
+Cuando escribimos código, a veces queremos describir 
+lo que hace, para nosotros mismos o para otros. 
 
 A continuación se muestran dos formas de agregar 
-comentarios al código en el lenguaje de programación 
-Python:
+comentarios al código escrito en Python.
 
 .. code-block:: python
     :emphasize-lines: 1-11,13
@@ -39,14 +36,8 @@ Librería Arcade
 ------------------
 
 Antes de poder dibujar algo, necesitamos importar 
-una "librería" de código que contiene comandos para 
+una :term:`librería` de código que contiene comandos para 
 dibujar.
-
-Los lenguajes de programación vienen con un conjunto 
-de instrucciones básicas. La mayoría de los programas 
-requerirán más instrucciones especializadas. 
-A este conjunto de instrucciones especializadas se 
-llaman **librerías** o **módulos**.
 
 Si queremos usar la librería Arcade solo debemos 
 agregar `import arcade` al inicio de nuestro programa.
@@ -73,7 +64,7 @@ agregar `import arcade` al inicio de nuestro programa.
 Ventana para dibujar
 ------------------
 
-La primera **función** de Arcade que vamos a aprender es `arcade.open_window()`. 
+La primera :term:`función` de Arcade que vamos a aprender es `arcade.open_window()`. 
 Esta función abre una ventana con un tamaño y título específicos.
 La función `open_window`` requiere al menos tres parámetros:
 
@@ -136,3 +127,15 @@ requiere paréntesis.
 
     # Iniciar el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
+
+.. glossary::
+
+    librería
+        Un conjunto de instrucciones especializadas que
+        se pueden importar a un programa para realizar
+        tareas específicas. También se conocen como módulos.
+
+    función
+        Un bloque de código que realiza una tarea específica
+        y puede ser llamado desde cualquier parte del programa.
+        Las funciones pueden tener parámetros y devolver valores.
