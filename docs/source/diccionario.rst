@@ -1,4 +1,4 @@
-Glosario
+Diccionario de términos
 ===================================
 
 .. glossary::
