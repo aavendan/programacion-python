@@ -51,7 +51,7 @@ agregar `import arcade` al inicio de nuestro programa.
 .. code-block:: python
 
     """
-    Space Wanderer
+    Galaxia Indie
 
     Un juego indie minimalista de exploración espacial 
     donde navegas a través del vasto cosmos.
