@@ -203,11 +203,9 @@ cuándo terminas de dibujar (**arcade.finish_render()**).
 
 .. note::
 
-    Para especificar colores por nombre, puedes 
-    consultar la documentación de la API de colores 
-    y usar algo como `arcade.color.AQUAMARINE` en tu 
-    programa. Estos nombres de colores provienen de 
-    la tabla de colores de 
+    Para especificar colores por nombre ( por 
+    ejemplo `arcade.color.AQUAMARINE`), puedes 
+    consultar los nombres en la tabla de colores de 
     `ColorPicker <https://www.webfx.com/web-design/color-picker/color-chart/>`_.
 
 
