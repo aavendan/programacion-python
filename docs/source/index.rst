@@ -20,7 +20,7 @@ Contenido
 
 .. toctree::
   :numbered:
-  :maxdepth: 1
+  :maxdepth: 2
 
   presentacion
   configuracion
