@@ -23,4 +23,5 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
   
   presentacion
   configuracion
-  sesiones/*
+  galaxiaindie
+  sesiones/index
