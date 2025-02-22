@@ -142,6 +142,55 @@ requiere paréntesis.
     # Iniciar el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
+Color de fondo y espacio de dibujo
+------------------
+
+En este momento tenemos el blanco por defecto 
+como nuestro fondo. 
+
+¿Cómo podemos obtener un color diferente? 
+Usamos el comando `arcade.set_background_color()`. 
+
+Antes de poder ver el color, necesitamos dos comandos 
+más. Estos comandos le dicen a la librería Arcade 
+cuándo vas a empezar a dibujar (`start_render`) y 
+cuándo has terminado de dibujar (`finish_render`).
+
+.. code-block:: python
+    :emphasize-lines: 19,20,21,22,25,26
+
+    """
+    Galaxia Indie
+
+    Un juego indie minimalista de exploración espacial 
+    donde viajarás a través del cosmos.
+    Navega a través de misteriosos sistemas estelares,
+    descubriendo antiguos artefactos y desentrañando los 
+    misterios de una civilización olvidada.
+
+    Creado usando Python y la biblioteca Arcade.
+    """
+
+    # Importar la librería "arcade" para crear juegos.
+    import arcade
+
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
+    arcade.open_window(600, 600, "Galaxia Indie")
+
+    # Establecer el color de fondo de la ventana
+    arcade.set_background_color(arcade.csscolor.SKY_BLUE)
+
+    # Inicio del dibujo
+    arcade.start_render()
+
+    # (Aquí irá el código para dibujar)
+
+    # Fin del dibujo
+    arcade.finish_render()
+
+    # Iniciar el bucle principal del juego que mantiene la ventana abierta
+    arcade.run()
+
 .. glossary::
 
     librería
