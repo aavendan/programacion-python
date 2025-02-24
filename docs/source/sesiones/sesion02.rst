@@ -74,8 +74,8 @@ Reto
 
 Ahora, crea una estrella dentro de la ventana.
 
-.. hint::
-  :collapsible: closed
+.. hint:: Pista
+  :collapsible: open
   
   This hint is collapsible, but initially closed.
 
