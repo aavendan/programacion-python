@@ -70,6 +70,7 @@ rayos de una estrella:
     ...
 
 .. rubric:: Reto
+  :heading-level: 2
 
 Ahora, crea una estrella dentro de la ventana.
 
