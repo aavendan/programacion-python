@@ -69,8 +69,7 @@ rayos de una estrella:
     # Fin del dibujo
     ...
 
-Reto
-------------------
+.. rubric:: Reto
 
 Ahora, crea una estrella dentro de la ventana.
 
@@ -109,7 +108,7 @@ Para dibujar un círculo, se utiliza con la función
     Puedes consultar los nombres en la 
     tabla de colores de 
     `arcade.csscolor package <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
-    para especificar colores por nombre ( por 
+    para especificar colores por nombre (por 
     ejemplo `arcade.csscolor.PALE_TURQUOISE`), 
 
 Otras formas
