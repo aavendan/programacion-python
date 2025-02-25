@@ -142,7 +142,7 @@ así requiere paréntesis.
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     arcade.open_window(600, 600, "Galaxia Indie")   
 
-    # Iniciar el bucle principal del juego que mantiene la ventana abierta
+    # Inicia el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
 Color de fondo y espacio de dibujo
