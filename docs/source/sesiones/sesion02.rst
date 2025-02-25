@@ -31,7 +31,7 @@ píxeles de ancho.
   Recuerda que los píxeles se cuentan desde el cero (0). El cero es uno 
   de los píxeles, por lo que van desde el 0 hasta el 599 (600) píxeles.
 
-Líneas
+De líneas a estrellas
 ------------------
 
 Para dibujar una línea, se utiliza con la función :py:func:`arcade.draw_line()` 
@@ -81,7 +81,7 @@ el punto (100,100).
   en la estrella.
 
 
-Círculos
+De círculos a planetas
 ------------------
 
 Para dibujar un círculo, se utiliza con la función 
@@ -90,6 +90,8 @@ Para dibujar un círculo, se utiliza con la función
 1. La coordenada del centro (posición en X, posición en Y), 
 2. El radio del círculo,
 3. El color de la línea. 
+
+En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
 
 .. code-block:: python
     :emphasize-lines: 6,7
@@ -113,6 +115,12 @@ Para dibujar un círculo, se utiliza con la función
     para especificar colores por nombre (por 
     ejemplo `arcade.csscolor.PALE_TURQUOISE`), 
 
+De círculos a cráteres
+------------------
+
+En nuestra imagen de ejemplo, usaremos varios círculos para dibujar los 
+cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
+
 .. code-block:: python
     :emphasize-lines: 9-11
 
@@ -122,7 +130,7 @@ Para dibujar un círculo, se utiliza con la función
     ...
 
     # Círculo	
-    ...
+    arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.PALE_TURQUOISE)
 
     # Sombra
     arcade.draw_circle_filled(85, 360, 8, arcade.csscolor.BLACK)
