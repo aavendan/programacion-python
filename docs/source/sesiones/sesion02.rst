@@ -38,8 +38,8 @@ Para dibujar una línea, se utiliza con la función :py:func:`arcade.draw_line()
 con los siguientes parámetros:
 
 1. La coordenada del punto inicial (posición en X, posición en Y), 
-2. La coordenada del punto final (posición en X, posición en Y).
-3. El color de la línea,
+2. La coordenada del punto final (posición en X, posición en Y),
+3. El color de la línea, y
 4. El ancho de la línea. 
 
 En nuestra imagen de ejemplo, usaremos varias líneas para dibujar 
@@ -83,6 +83,26 @@ Ahora, crea una estrella dentro de la ventana.
 Círculos
 ------------------
 
+Para dibujar un círculo, se utiliza con la función 
+:py:func:`arcade.draw_circle_filled()` con los siguientes parámetros:
+
+1. La coordenada del centro (posición en X, posición en Y), 
+2. El radio del círculo,
+3. El color de la línea. 
+
+.. code-block:: python
+    :emphasize-lines: 6,7
+
+    ...
+
+    # Inicio del dibujo
+    ...
+
+    # Círculo	
+    arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.PALE_TURQUOISE)
+
+    # Fin del dibujo
+    ...
 
 Otras formas
 ------------------
