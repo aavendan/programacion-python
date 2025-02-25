@@ -74,10 +74,10 @@ Reto
 
 Ahora, crea una estrella dentro de la ventana.
 
-.. hint::
-  :collapsible:
+.. important::
   
-  This hint is collapsible, but initially closed.
+  Ubica la estrella con el centro (20,20). Tu escojes el tamaño, el grosor 
+  y el color de las líneas en la estrella.
 
 
 Círculos
