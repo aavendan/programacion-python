@@ -76,7 +76,7 @@ Ahora, crea una estrella dentro de la ventana.
 
 .. important::
   
-  Ubica la estrella con el centro (20,20). Tu escojes el tamaño, el grosor 
+  Ubica la estrella con el centro (100,100). Tu escojes el tamaño, el grosor 
   y el color de las líneas en la estrella.
 
 
