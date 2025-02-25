@@ -23,13 +23,13 @@ Por lo tanto, el punto 0,0 estará en la esquina inferior izquierda
 de la pantalla, y todas las coordenadas negativas estarán fuera de 
 la pantalla.
 
-2. Cada punto es un :term:`píxel`. Así que una ventana que tiene 600 
-píxeles de ancho, tendrá coordenadas x que van desde 0 hasta 599. 
+2. Cada punto es un :term:`píxel`. Así que tu ventana tiene 600 
+píxeles de ancho. 
 
 .. warning::
 
-  Recuerda que los píxeles se cuentan desde el cero. El cero es uno 
-  de los píxeles, por lo que 0-599 son 600 píxeles.
+  Recuerda que los píxeles se cuentan desde el cero (0). El cero es uno 
+  de los píxeles, por lo que van desde el 0 hasta el 599 (600) píxeles.
 
 Líneas
 ------------------
