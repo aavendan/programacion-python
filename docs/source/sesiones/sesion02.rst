@@ -72,12 +72,13 @@ rayos de una estrella:
 .. rubric:: Reto
   :heading-level: 2
 
-Ahora, crea una estrella dentro de la ventana.
+Ahora, crea tu propia estrella dentro de la ventana, tomando como centro 
+el punto (100,100).
 
 .. important::
   
-  Ubica la estrella con el centro (100,100). Tu escojes el tamaño, el grosor 
-  y el color de las líneas en la estrella.
+  Recuerda escoger el tamaño, el grosor y el color de las líneas 
+  en la estrella.
 
 
 Círculos
@@ -111,6 +112,25 @@ Para dibujar un círculo, se utiliza con la función
     `arcade.csscolor package <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
     para especificar colores por nombre (por 
     ejemplo `arcade.csscolor.PALE_TURQUOISE`), 
+
+.. code-block:: python
+    :emphasize-lines: 9-11
+
+    ...
+
+    # Inicio del dibujo
+    ...
+
+    # Círculo	
+    ...
+
+    # Sombra
+    arcade.draw_circle_filled(85, 360, 8, arcade.csscolor.BLACK)
+    arcade.draw_circle_filled(82, 360, 5, arcade.csscolor.GREY)
+
+    # Fin del dibujo
+    ...
+
 
 Otras formas
 ------------------
