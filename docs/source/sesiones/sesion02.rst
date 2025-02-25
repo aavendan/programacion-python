@@ -74,7 +74,7 @@ Reto
 
 Ahora, crea una estrella dentro de la ventana.
 
-.. admonition:: Importante
+.. important::
   
   Ubica la estrella con el centro (100,100). Tu escojes el tamaño, el grosor 
   y el color de las líneas en la estrella.
@@ -104,7 +104,7 @@ Para dibujar un círculo, se utiliza con la función
     # Fin del dibujo
     ...
 
-.. seealso::
+.. note::
 
     Puedes consultar los nombres en la 
     tabla de colores de 
