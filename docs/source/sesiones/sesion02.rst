@@ -102,7 +102,7 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     ...
 
     # Planeta	
-    arcade.draw_circle_filled(100, 350, 30, arcade.color.arcade.csscolor.DARK_VIOLET))
+    arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.DARK_VIOLET))
 
     # Fin del dibujo
     ...
@@ -113,7 +113,7 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     tabla de colores de 
     `arcade.csscolor package <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
     para especificar colores por nombre (por 
-    ejemplo `arcade.csscolor.PURPLE_MOUNTAIN_MAJESTY`), 
+    ejemplo `arcade.csscolor.DARK_VIOLET`), 
 
 De círculos a cráteres
 ------------------
