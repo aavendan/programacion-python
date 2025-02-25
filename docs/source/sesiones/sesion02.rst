@@ -101,8 +101,8 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     # Inicio del dibujo
     ...
 
-    # Círculo	
-    arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.PALE_TURQUOISE)
+    # Planeta	
+    arcade.draw_circle_filled(100, 350, 30, arcade.color.arcade.csscolor.DARK_VIOLET))
 
     # Fin del dibujo
     ...
@@ -113,7 +113,7 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     tabla de colores de 
     `arcade.csscolor package <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
     para especificar colores por nombre (por 
-    ejemplo `arcade.csscolor.PALE_TURQUOISE`), 
+    ejemplo `arcade.csscolor.PURPLE_MOUNTAIN_MAJESTY`), 
 
 De círculos a cráteres
 ------------------
@@ -122,19 +122,20 @@ En nuestra imagen de ejemplo, usaremos varios círculos para dibujar los
 cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 
 .. code-block:: python
-    :emphasize-lines: 9-11
+    :emphasize-lines: 9-12
 
     ...
 
     # Inicio del dibujo
     ...
 
-    # Círculo	
-    arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.PALE_TURQUOISE)
+    # Planeta	
+    arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.DARK_VIOLET)
 
-    # Sombra
-    arcade.draw_circle_filled(85, 360, 8, arcade.csscolor.BLACK)
-    arcade.draw_circle_filled(82, 360, 5, arcade.csscolor.GREY)
+    # Cráteres del planeta
+    arcade.draw_circle_filled(90, 360, 5, arcade.csscolor.DARK_SLATE_GRAY)
+    arcade.draw_circle_filled(110, 355, 4, arcade.csscolor.DARK_SLATE_GRAY)
+    arcade.draw_circle_filled(95, 340, 3, arcade.csscolor.DARK_SLATE_GRAY)
 
     # Fin del dibujo
     ...
