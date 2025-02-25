@@ -104,5 +104,13 @@ Para dibujar un círculo, se utiliza con la función
     # Fin del dibujo
     ...
 
+.. note::
+
+    Puedes consultar los nombres en la 
+    tabla de colores de 
+    `arcade.csscolor package <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
+    para especificar colores por nombre ( por 
+    ejemplo `arcade.color.DARK_IMPERIAL_BLUE`), 
+
 Otras formas
 ------------------

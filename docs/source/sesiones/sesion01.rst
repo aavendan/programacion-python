@@ -202,6 +202,6 @@ cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
 
     Puedes consultar los nombres en la 
     tabla de colores de 
-    `ColorPicker <https://www.webfx.com/web-design/color-picker/color-chart/>`_.
+    `arcade.color package <https://api.arcade.academy/en/latest/api_docs/arcade.color.html/>`_.
     para especificar colores por nombre ( por 
     ejemplo `arcade.color.DARK_IMPERIAL_BLUE`), 
