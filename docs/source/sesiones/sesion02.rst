@@ -69,6 +69,10 @@ rayos de una estrella:
     # Fin del dibujo
     ...
 
+.. image:: ../img/sesion02/estrella.png
+  :width: 200
+  :alt: Estrella
+
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
@@ -76,6 +80,21 @@ rayos de una estrella:
 Crea tu propia estrella dentro de la ventana, tomando como centro el 
 punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
 las líneas de la estrella.
+
+.. hint::
+  :collapsible: closed
+
+  .. code-block:: python
+
+    # Estrella en  (100,100)
+    # Línea horizontal
+    arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
+    # Línea vertical
+    arcade.draw_line(100, 75, 100, 125, arcade.color.HELIOTROPE, 1)
+
+    # Líneas diagonales
+    arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
+    arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
 
 De círculos a planetas
 ------------------
@@ -110,6 +129,10 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     `paquete arcade.csscolor <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
     para especificar colores por nombre (por 
     ejemplo `arcade.csscolor.DARK_VIOLET`), 
+
+.. image:: ../img/sesion02/planeta.png
+  :width: 200
+  :alt: planeta
 
 De círculos a cráteres
 ------------------
