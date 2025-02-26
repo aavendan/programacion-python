@@ -159,6 +159,10 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
     # Fin del dibujo
     ...
 
+.. image:: ../img/sesion02/crateres.png
+  :width: 300
+  :alt: crateres
+
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
