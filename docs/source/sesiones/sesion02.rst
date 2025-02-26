@@ -126,7 +126,7 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
 
     Puedes consultar los nombres en la 
     tabla de colores de 
-    `paquete arcade.csscolor <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
+    `arcade.csscolor <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
     para especificar colores por nombre (por 
     ejemplo `arcade.csscolor.DARK_VIOLET`), 
 
@@ -164,14 +164,14 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
   :class: mi-clase-css
 
 Crea tu propio planeta dentro de la ventana, tomando como centro el
-punto (150,30). Decide la cantidad y el color de los crácteres en el planeta.
+punto (200,200). Decide la cantidad y el color de los crácteres en el planeta.
 
 .. admonition:: Pista
   :collapsible: closed
 
   .. code-block:: python
 
-    # Reto
+    # Planeta en (200,200)
     # Planeta Gris
     arcade.draw_circle_filled(200, 200, 15, arcade.csscolor.GRAY)
     
