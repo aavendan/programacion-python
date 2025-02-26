@@ -1,3 +1,7 @@
 section:has(img) a:has(img) {
 	padding: 0 25%;
 }
+
+.mi-clase-css {
+	color: red;
+}

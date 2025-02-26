@@ -140,6 +140,7 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 
 .. rubric:: Reto
   :heading-level: 2
+  :class: mi-clase-css
 
 .. admonition:: Reto
 
