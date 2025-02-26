@@ -143,14 +143,16 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 Crea tu propio planeta dentro de la ventana, tomando como centro el
 punto (150,30). Decide la cantidad y el color de los crácteres en el planeta.
 
-.. seealso::
+.. admonition:: Pista
   :collapsible: closed
 
-  # Reto
-  # Planeta Gris
-  arcade.draw_circle_filled(200, 200, 15, arcade.csscolor.GRAY)
-  
-  # Cráteres del planeta
-  arcade.draw_circle_filled(190, 205, 3, arcade.csscolor.DARK_GRAY)
-  arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
-  arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
+  .. code-block:: python
+
+    # Reto
+    # Planeta Gris
+    arcade.draw_circle_filled(200, 200, 15, arcade.csscolor.GRAY)
+    
+    # Cráteres del planeta
+    arcade.draw_circle_filled(190, 205, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
