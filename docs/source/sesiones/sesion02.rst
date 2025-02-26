@@ -73,12 +73,8 @@ rayos de una estrella:
   :heading-level: 2
 
 Ahora, crea tu propia estrella dentro de la ventana, tomando como centro 
-el punto (100,100).
-
-.. important::
-  
-  Recuerda escoger el tamaño, el grosor y el color de las líneas 
-  en la estrella.
+el punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
+las líneas de la estrella.
 
 
 De círculos a planetas
@@ -144,8 +140,4 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
   :heading-level: 2
 
 Ahora, crea tu propio planeta dentro de la ventana, tomando como centro 
-el punto (150,30).
-
-.. important::
-  
-  Recuerda escoger colocar varios crácteres en el planeta.
+el punto (150,30). Coloca varios crácteres en el planeta.
