@@ -83,7 +83,6 @@ las líneas de la estrella.
 
 .. admonition:: Clic aquí para ver una pista
   :collapsible: closed
-
   .. code-block:: python
 
     # Estrella en  (100,100)
@@ -168,7 +167,6 @@ punto (200,200). Decide la cantidad y el color de los crácteres en el planeta.
 
 .. admonition:: Clic aquí para ver una pista
   :collapsible: closed
-
   .. code-block:: python
 
     # Planeta en (200,200)
