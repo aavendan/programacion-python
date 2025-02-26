@@ -77,12 +77,6 @@ Crea tu propia estrella dentro de la ventana, tomando como centro el
 punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
 las líneas de la estrella.
 
-.. hint::
-  :collapsible: closed
-
-  This hint is collapsible, but initially closed.
-
-
 De círculos a planetas
 ------------------
 
@@ -148,3 +142,15 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 
 Crea tu propio planeta dentro de la ventana, tomando como centro el
 punto (150,30). Decide la cantidad y el color de los crácteres en el planeta.
+
+.. admonition:: Pista
+  :collapsible: closed
+
+  # Reto
+  # Planeta Gris
+  arcade.draw_circle_filled(200, 200, 15, arcade.csscolor.GRAY)
+  
+  # Cráteres del planeta
+  arcade.draw_circle_filled(190, 205, 3, arcade.csscolor.DARK_GRAY)
+  arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
+  arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
