@@ -81,7 +81,7 @@ Crea tu propia estrella dentro de la ventana, tomando como centro el
 punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
 las líneas de la estrella.
 
-.. admonition:: Pista
+.. admonition:: Clic aquí para ver una pista
   :collapsible: closed
 
   .. code-block:: python
@@ -166,7 +166,7 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 Crea tu propio planeta dentro de la ventana, tomando como centro el
 punto (200,200). Decide la cantidad y el color de los crácteres en el planeta.
 
-.. admonition:: Pista
+.. admonition:: Clic aquí para ver una pista
   :collapsible: closed
 
   .. code-block:: python
