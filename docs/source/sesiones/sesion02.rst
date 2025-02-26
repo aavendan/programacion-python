@@ -70,7 +70,7 @@ rayos de una estrella:
     ...
 
 .. image:: ../img/sesion02/estrella.png
-  :width: 200
+  :width: 300
   :alt: Estrella
 
 .. rubric:: Reto
@@ -131,7 +131,7 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     ejemplo `arcade.csscolor.DARK_VIOLET`), 
 
 .. image:: ../img/sesion02/planeta.png
-  :width: 200
+  :width: 300
   :alt: planeta
 
 De círculos a cráteres
