@@ -1,4 +1,4 @@
-Estrellas, Planetas y Asteriodes ✨🌑☄️
+Estrellas✨ y Planetas🌑
 ===================================
 
 Sistema de coordenadas
@@ -185,3 +185,31 @@ punto (200,200). Decide la cantidad y el color de los crácteres en el planeta.
     arcade.draw_circle_filled(190, 205, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
+
+Texto
+------------------
+
+Para dibujar texto, se utiliza con la función :py:func:`arcade.draw_text()` 
+con los siguientes parámetros:
+
+1. El texto a dibujar,
+2. La coordenada del punto inicial (posición en X, posición en Y),
+3. El color del texto,
+4. El tamaño del texto.
+
+.. code-block:: python
+    :emphasize-lines: 9-10
+
+    ...
+
+    # Inicio del dibujo
+    ...
+
+    # Cráteres del planeta
+    ...
+
+    # Título en (300, 200), de tamaño 32 pts.
+    arcade.draw_text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32)
+
+    # Fin del dibujo
+    ...
