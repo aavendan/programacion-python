@@ -130,10 +130,6 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
     para especificar colores por nombre (por 
     ejemplo `arcade.csscolor.DARK_VIOLET`), 
 
-.. image:: ../img/sesion02/planeta.png
-  :width: 300
-  :alt: planeta
-
 De círculos a cráteres
 ------------------
 
@@ -159,9 +155,9 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
     # Fin del dibujo
     ...
 
-.. .. image:: ../img/sesion02/crateres.png
-..   :width: 300
-..   :alt: crateres
+.. image:: ../img/sesion02/crateres.png
+  :width: 300
+  :alt: crateres
 
 .. rubric:: Reto
   :heading-level: 2
