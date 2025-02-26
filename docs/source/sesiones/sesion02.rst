@@ -213,3 +213,7 @@ con los siguientes parámetros:
 
     # Fin del dibujo
     ...
+
+.. image:: ../img/sesion02/texto.png
+  :width: 300
+  :alt: texto
