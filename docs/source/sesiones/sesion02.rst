@@ -77,6 +77,11 @@ Crea tu propia estrella dentro de la ventana, tomando como centro el
 punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
 las líneas de la estrella.
 
+.. hint::
+  :collapsible: closed
+
+  This hint is collapsible, but initially closed.
+
 
 De círculos a planetas
 ------------------
