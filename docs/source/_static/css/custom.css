@@ -3,5 +3,6 @@ section:has(img) a:has(img) {
 }
 
 .mi-clase-css {
-	color: red;
+	/* color: red; */
+	text-decoration: underline;
 }
