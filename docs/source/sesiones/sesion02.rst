@@ -71,12 +71,11 @@ rayos de una estrella:
 
 .. rubric:: Reto
   :heading-level: 2
+  :class: mi-clase-css
 
-.. important::
-
-  Crea tu propia estrella dentro de la ventana, tomando como centro el 
-  punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
-  las líneas de la estrella.
+Crea tu propia estrella dentro de la ventana, tomando como centro el 
+punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
+las líneas de la estrella.
 
 
 De círculos a planetas
@@ -142,7 +141,5 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
   :heading-level: 2
   :class: mi-clase-css
 
-.. admonition:: Reto
-
-  Crea tu propio planeta dentro de la ventana, tomando como centro el
-  punto (150,30). Decide la cantidad y el color de los crácteres en el planeta.
+Crea tu propio planeta dentro de la ventana, tomando como centro el
+punto (150,30). Decide la cantidad y el color de los crácteres en el planeta.
