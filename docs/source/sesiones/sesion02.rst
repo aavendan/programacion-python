@@ -141,7 +141,7 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 .. rubric:: Reto
   :heading-level: 2
 
-.. important::
+.. admonition:: Reto
 
   Crea tu propio planeta dentro de la ventana, tomando como centro el
   punto (150,30). Decide la cantidad y el color de los crácteres en el planeta.
