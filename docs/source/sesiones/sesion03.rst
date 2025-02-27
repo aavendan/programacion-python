@@ -53,7 +53,8 @@ código más flexible.
 Constantes
 ------------------
 
-Una :term:`constante` es un valor que no cambia durante la ejecución del programa.
+Una :term:`constante` es un valor que no cambia durante la ejecución del 
+programa, por ejemplo el ancho, el alto y el título de la ventana.
 
 .. code-block:: python
     :emphasize-lines: 3-4
@@ -67,15 +68,17 @@ Una :term:`constante` es un valor que no cambia durante la ejecución del progra
 
     ...
 
-El código anterior crea una constante llamada ``ANCHO`` y le asigna el valor 
-de 600. Luego, en la línea 6, se utiliza la constante ``ANCHO`` en lugar del valor.
+El código anterior la constante ``ANCHO`` se asigna el valor 
+de 600. Luego, en la línea 6, se utiliza la constante ``ANCHO`` en lugar 
+del número.
 
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
 
-Crea la constante ``ALTO`` y asígnala el valor de 600. Luego, en la línea 6, 
-reemplaza el valor de 600 por la constante ``ALTO``.
+Crea las constantes ``ALTO`` y ``TITULO``. Asígnale a cada constante el valor
+correpondiente. Luego, en la línea 6, reemplaza los valores por el nombre 
+de la constante correspondiente.
 
 .. admonition:: Clic aquí para ver una pista
   :collapsible: closed
@@ -88,9 +91,10 @@ reemplaza el valor de 600 por la constante ``ALTO``.
 
     ANCHO = 600
     ALTO = 600
+    TITULO = "Misión 01: Listos para el despegue"
 
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window( ANCHO, ALTO, "Misión 01: Listos para el despegue")    
+    arcade.open_window( ANCHO, ALTO, TITULO )    
 
     ...
 
@@ -105,15 +109,17 @@ A continuación, realiza el siguien cambio en el código anterior:
 
 
 
-Hay nombres de variable que debes usar, nombres que no debes usar y nombres 
-que no puedes usar.
 
-Los nombres de las variables deben ser descriptivos, todos en minúscula y, 
-si tienes varias palabras, sepáralas con un guión bajo. Los nombres de las 
-variables no pueden comenzar con un número ni tener un espacio ni ningún 
-símbolo que no sea un guión bajo. A continuación, se muestran algunos ejemplos:
+Para identificar las variables y las constantes, hay nombres que debes usar, 
+nombres que no debes usar y nombres que no puedes usar.
 
-
+.. warning::
+    
+    1. Los nombres deben ser descriptivos, 
+    2. Todos en minúscula (variables) y en mayúscula (constantes), 
+    3. Si tienes varias palabras, sepáralas con un guión bajo, y 
+    4. Los nombres no pueden  comenzar con un número ni tener un 
+    espacio ni ningún símbolo que no sea un guión bajo. 
 
 Personajes
 ------------------
