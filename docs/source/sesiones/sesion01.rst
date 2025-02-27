@@ -1,11 +1,10 @@
 Un nuevo universo 🌌
 ===================================
 
-Programa principal
+Programa principal: intro.py
 ------------------
 
-En Visual Studio Code, crea un archivo con 
-extensión ``.py``, como se muestra en la imagen:
+En Visual Studio Code, crea el archivo ``intro.py``, como se muestra en la imagen:
 
 Ejecuta el código
 ------------------
