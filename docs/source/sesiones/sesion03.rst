@@ -54,10 +54,10 @@ Constantes
 ------------------
 
 Una :term:`constante` es un valor que no cambia durante la ejecución del 
-programa, por ejemplo el ancho, el alto y el título de la ventana.
+programa, por ejemplo el ancho y el alto de la ventana.
 
 .. code-block:: python
-    :emphasize-lines: 3-4
+    :emphasize-lines: 3,6
 
     ...
 
@@ -69,15 +69,16 @@ programa, por ejemplo el ancho, el alto y el título de la ventana.
     ...
 
 El código anterior, se asigna el valor de 600 la constante ``ANCHO``. 
-Luego, en la línea 6, se utiliza la constante ``ANCHO`` en lugar 
-del valor.
+Luego, en la función :py:func:`arcade.open_window()` reemplace el valor de 600 
+por el nombre de la constante ``ANCHO``.
 
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
 
-Crea la constante ``ALTO`` y asígnale el valor de 600. Luego, en la línea 6, 
-reemplace el valor por el nombre de la constante.
+Crea laS constanteS ``ALTO`` y ``TITULO``. Asigna a cada constan el valor 
+correspondiente. Luego, en la función :py:func:`arcade.open_window()` reemplace 
+los valores por la constante correspondiente.
 
 .. admonition:: Clic aquí para ver una pista
   :collapsible: closed
@@ -85,14 +86,16 @@ reemplace el valor por el nombre de la constante.
   A continuación, la solución al reto anterior.
 
   .. code-block:: python
+    :emphasize-lines: 4,5,8
 
     ...
 
     ANCHO = 600
     ALTO = 600
+    TITULO = "Misión 01: Listos para el despegue"
     
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window( ANCHO, ALTO, "Misión 01: Listos para el despegue" )    
+    arcade.open_window( ANCHO, ALTO, TITULO )    
 
     ...
 
@@ -116,12 +119,9 @@ A continuación, realiza el siguiente cambio en el código anterior:
 
     ...
 
-    ANCHO = 600
-    ALTO = 600
-    titulo = "Misión 01: Listos para el despegue"
-    
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window( ANCHO, ALTO, titulo ) 
+    arcade.open_window( ANCHO, ALTO, TITULO ) 
+
 
 Para identificar las variables y las constantes, hay nombres que debes usar, 
 nombres que no debes usar y nombres que no puedes usar.
