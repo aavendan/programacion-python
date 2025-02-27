@@ -68,17 +68,16 @@ programa, por ejemplo el ancho, el alto y el título de la ventana.
 
     ...
 
-El código anterior la constante ``ANCHO`` se asigna el valor 
-de 600. Luego, en la línea 6, se utiliza la constante ``ANCHO`` en lugar 
-del número.
+El código anterior, se asigna el valor de 600 la constante ``ANCHO``. 
+Luego, en la línea 6, se utiliza la constante ``ANCHO`` en lugar 
+del valor.
 
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
 
-Crea las constantes ``ALTO`` y ``TITULO``. Asígnale a cada constante el valor
-correpondiente. Luego, en la línea 6, reemplaza los valores por el nombre 
-de la constante correspondiente.
+Crea la constante ``ALTO`` y asígnale el valor de 600. Luego, en la línea 6, 
+reemplace el valor por el nombre de la constante.
 
 .. admonition:: Clic aquí para ver una pista
   :collapsible: closed
@@ -91,24 +90,38 @@ de la constante correspondiente.
 
     ANCHO = 600
     ALTO = 600
-    TITULO = "Misión 01: Listos para el despegue"
-
+    
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window( ANCHO, ALTO, TITULO )    
+    arcade.open_window( ANCHO, ALTO, "Misión 01: Listos para el despegue" )    
 
     ...
+
+.. warning::
+    
+    1. Los nombres deben ser descriptivos, 
+    2. Todas las letras en **mayúscula**, 
+    3. Si tienes varias palabras, sepáralas con un guión bajo, y 
+    4. Los nombres no pueden  comenzar con un número ni tener un 
+    espacio ni ningún símbolo que no sea un guión bajo. 
 
 Variables
 ------------------
 
 Una :term:`variable` es un valor que la computadora almacena en la memoria y 
-que puede cambiar (variar) y que puede ser utilizada en otra partes del 
-programa. 
+que puede cambiar (variar) en otra parte del programa. 
 
-A continuación, realiza el siguien cambio en el código anterior:
+A continuación, realiza el siguiente cambio en el código anterior:
 
+  .. code-block:: python
 
+    ...
 
+    ANCHO = 600
+    ALTO = 600
+    titulo = "Misión 01: Listos para el despegue"
+    
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window( ANCHO, ALTO, titulo ) 
 
 Para identificar las variables y las constantes, hay nombres que debes usar, 
 nombres que no debes usar y nombres que no puedes usar.
@@ -116,7 +129,7 @@ nombres que no debes usar y nombres que no puedes usar.
 .. warning::
     
     1. Los nombres deben ser descriptivos, 
-    2. Todos en minúscula (variables) y en mayúscula (constantes), 
+    2. Todas las letras en **minúscula**, 
     3. Si tienes varias palabras, sepáralas con un guión bajo, y 
     4. Los nombres no pueden  comenzar con un número ni tener un 
     espacio ni ningún símbolo que no sea un guión bajo. 
