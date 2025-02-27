@@ -50,15 +50,37 @@ Hasta ahora, hemos aprendido cómo importar **Arcade** y cómo llamar a ciertas
 funciones para dibujar figuras geométricas. El siguiente paso es hacer nuestro 
 código más flexible.
 
-Variables
+Constantes
 ------------------
-
-Una :term:`variable` es un valor que la computadora almacena en la memoria y 
-que puede cambiar (variar) y que puede ser utilizada en otra partes del 
-programa. A continuación, se muestra un ejemplo rápido:
 
 .. code-block:: python
     :emphasize-lines: 3-4
+
+    ...
+
+    ANCHO = 600
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window( ANCHO, 600, "Misión 01: Listos para el despegue")    
+
+    ...
+
+El código anterior crea una constante llamada ``ANCHO`` y le asigna el valor 
+de 600. Luego, en la línea 6, se utiliza la constante ``ANCHO`` en lugar del valor.
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Crea la constante ``ALTO`` y asígnala el valor de 600. Luego, en la línea 6, 
+reemplaza el valor de 600 por la constante ``ALTO``.
+
+.. admonition:: Clic aquí para ver una pista
+  :collapsible: closed
+
+  A continuación, la solución al reto anterior.
+
+  .. code-block:: python
 
     ...
 
@@ -69,6 +91,15 @@ programa. A continuación, se muestra un ejemplo rápido:
     arcade.open_window( ANCHO, ALTO, "Misión 01: Listos para el despegue")    
 
     ...
+
+Variables
+------------------
+
+Una :term:`variable` es un valor que la computadora almacena en la memoria y 
+que puede cambiar (variar) y que puede ser utilizada en otra partes del 
+programa. 
+
+A continuación, realiza el siguien cambio en el código anterior:
 
 
 
