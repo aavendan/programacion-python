@@ -72,6 +72,14 @@ El código anterior, se asigna el valor de 600 la constante ``ANCHO``.
 Luego, en la función :py:func:`arcade.open_window()` reemplace el valor de 600 
 por el nombre de la constante ``ANCHO``.
 
+.. warning::
+    
+    1. Los nombres deben ser descriptivos, 
+    2. Todas las letras en **mayúscula**, 
+    3. Si tienes varias palabras, sepáralas con un guión bajo, y 
+    4. Los nombres no pueden  comenzar con un número ni tener un 
+    espacio ni ningún símbolo que no sea un guión bajo. 
+
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
@@ -98,14 +106,6 @@ los valores por la constante correspondiente.
     arcade.open_window( ANCHO, ALTO, TITULO )    
 
     ...
-
-.. warning::
-    
-    1. Los nombres deben ser descriptivos, 
-    2. Todas las letras en **mayúscula**, 
-    3. Si tienes varias palabras, sepáralas con un guión bajo, y 
-    4. Los nombres no pueden  comenzar con un número ni tener un 
-    espacio ni ningún símbolo que no sea un guión bajo. 
 
 Variables
 ------------------
