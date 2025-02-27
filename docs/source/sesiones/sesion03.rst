@@ -76,7 +76,7 @@ por el nombre de la constante ``ANCHO``.
   :heading-level: 2
   :class: mi-clase-css
 
-Crea laS constanteS ``ALTO`` y ``TITULO``. Asigna a cada constan el valor 
+Crea las constantes ``ALTO`` y ``TITULO``. Asigna a cada constan el valor 
 correspondiente. Luego, en la función :py:func:`arcade.open_window()` reemplace 
 los valores por la constante correspondiente.
 
