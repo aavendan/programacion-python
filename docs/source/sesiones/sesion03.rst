@@ -53,6 +53,8 @@ código más flexible.
 Constantes
 ------------------
 
+Una :term:`constante` es un valor que no cambia durante la ejecución del programa.
+
 .. code-block:: python
     :emphasize-lines: 3-4
 
