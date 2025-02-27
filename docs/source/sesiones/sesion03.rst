@@ -44,11 +44,43 @@ código básico:
 Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
 se muestra en la siguente imagen. 
 
-Constantes
-------------------
+.. imagen
+
+Hasta ahora, hemos aprendido cómo importar **Arcade** y cómo llamar a ciertas 
+funciones para dibujar figuras geométricas. El siguiente paso es hacer nuestro 
+código más flexible.
 
 Variables
 ------------------
+
+Una :term:`variable` es un valor que la computadora almacena en la memoria y 
+que puede cambiar (variar) y que puede ser utilizada en otra partes del 
+programa. A continuación, se muestra un ejemplo rápido:
+
+.. code-block:: python
+    :emphasize-lines: 3-4
+
+    ...
+
+    ANCHO = 600
+    ALTO = 600
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window( ANCHO, ALTO, "Misión 01: Listos para el despegue")    
+
+    ...
+
+
+
+Hay nombres de variable que debes usar, nombres que no debes usar y nombres 
+que no puedes usar.
+
+Los nombres de las variables deben ser descriptivos, todos en minúscula y, 
+si tienes varias palabras, sepáralas con un guión bajo. Los nombres de las 
+variables no pueden comenzar con un número ni tener un espacio ni ningún 
+símbolo que no sea un guión bajo. A continuación, se muestran algunos ejemplos:
+
+
 
 Personajes
 ------------------

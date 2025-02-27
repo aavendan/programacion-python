@@ -19,3 +19,13 @@ Diccionario de términos
 
     píxel
         Un punto individual en una imagen digital.
+
+    variable
+        Un espacio de memoria en el programa que puede almacenar
+        un valor. Las variables pueden cambiar su valor a lo largo
+        del programa.
+    
+    constante
+        Un valor que no cambia durante la ejecución del programa.
+        Las constantes se definen una vez y se utilizan en todo
+        el programa.
