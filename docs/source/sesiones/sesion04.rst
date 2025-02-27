@@ -1,2 +1,2 @@
-Misión 02: Navegando por el espacio 🚀🌌🛸
+Misión 02: Navegando por el espacio 🌌🛸
 ===================================
