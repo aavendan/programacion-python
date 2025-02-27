@@ -41,7 +41,7 @@ comentarios al código escrito en Python.
     descubriendo antiguos artefactos y desentrañando los 
     misterios de una civilización olvidada.
 
-    Creado usando Python y la biblioteca Arcade.
+    Creado con Python y con Arcade.
     """
 
     # Importar la librería "arcade" para crear videojuegos.
@@ -69,7 +69,7 @@ agregar :py:data:`import arcade` al inicio de nuestro programa.
     descubriendo antiguos artefactos y desentrañando los 
     misterios de una civilización olvidada.
 
-    Creado usando Python y la biblioteca Arcade.
+    Creado con Python y con Arcade.
     """
 
     # Importar la librería "arcade" para crear videojuegos.
