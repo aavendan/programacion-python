@@ -77,8 +77,7 @@ por el nombre de la constante ``ANCHO``.
     1. Los nombres deben ser descriptivos, 
     2. Todas las letras en **mayúscula**, 
     3. Si tienes varias palabras, sepáralas con un guión bajo, y 
-    4. Los nombres no pueden  comenzar con un número ni tener un 
-    espacio ni ningún símbolo que no sea un guión bajo. 
+    4. Los nombres no pueden  comenzar con un número ni tener un espacio ni ningún símbolo que no sea un guión bajo. 
 
 .. rubric:: Reto
   :heading-level: 2
@@ -131,8 +130,7 @@ nombres que no debes usar y nombres que no puedes usar.
     1. Los nombres deben ser descriptivos, 
     2. Todas las letras en **minúscula**, 
     3. Si tienes varias palabras, sepáralas con un guión bajo, y 
-    4. Los nombres no pueden  comenzar con un número ni tener un 
-    espacio ni ningún símbolo que no sea un guión bajo. 
+    4. Los nombres no pueden  comenzar con un número ni tener un espacio ni ningún símbolo que no sea un guión bajo. 
 
 Personajes
 ------------------
