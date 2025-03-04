@@ -54,7 +54,7 @@ Constantes
 ------------------
 
 Una :term:`constante` es un valor que no cambia durante la ejecución del 
-programa, por ejemplo el ancho y el alto de la ventana.
+programa, por ejemplo el título, el ancho y el alto de la ventana.
 
 .. code-block:: python
     :emphasize-lines: 3,6
