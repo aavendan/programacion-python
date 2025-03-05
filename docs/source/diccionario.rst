@@ -29,3 +29,11 @@ Diccionario de términos
         Un valor que no cambia durante la ejecución del programa.
         Las constantes se definen una vez y se utilizan en todo
         el programa.
+
+    sprites
+        Un objeto gráfico que se puede representar en una pantalla.
+        Los sprites pueden tener propiedades como posición, tamaño
+        y color.
+
+    bidimensional
+        Una elemento que se compone de filas y columnas.
