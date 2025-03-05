@@ -49,6 +49,16 @@ se muestra en la siguente imagen.
 Personajes
 ------------------
 
+Nuestros juegos necesitan soporte para manejar objetos que colisionan. 
+Pelotas que rebotan en paletas, rayos láser que golpean a extraterrestres 
+o nuestro personaje favorito que recoge una moneda. Todos estos ejemplos 
+requieren detección de colisiones.
+
+La biblioteca Arcade tiene soporte para sprites. Un sprite es una imagen 
+bidimensional que forma parte de una escena gráfica más grande. Por lo 
+general, un sprite será algún tipo de objeto en la escena con el que se 
+interactuará, como un automóvil, una rana o un pequeño fontanero.
+
   .. code-block:: python
     :emphasize-lines: 11-14
 
