@@ -1,4 +1,4 @@
-section#galaxia-indie:has(img) a:has(img) {
+.aligned {
 	padding: 0 25%;
 }
 

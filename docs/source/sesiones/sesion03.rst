@@ -90,9 +90,11 @@ como un planeta, un extraterrestre o una nave.
       # (Aquí irá el código para dibujar)
       planetas = arcade.SpriteList()
 
-      planeta1 = arcade.Sprite("sprites/planet01.png", 0.08)
+      planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
       planeta1.center_x = 150
       planeta1.center_y = 450
       planetas.append(planeta1)
 
       planetas.draw()
+
+      ...
