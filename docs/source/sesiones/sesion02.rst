@@ -209,7 +209,7 @@ con los siguientes parámetros:
     ...
 
     # Título en (300, 200), de tamaño 32 pts.
-    arcade.draw_text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32)
+    arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
 
     # Fin del dibujo
     ...
@@ -236,7 +236,7 @@ programa, por ejemplo el ancho de la ventana.
     ANCHO = 600
 
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window( ANCHO, 600, "Misión 01: Listos para el despegue")    
+    arcade.open_window( ANCHO, 600, "Galaxia Indie")    
 
     ...
 
@@ -271,7 +271,7 @@ los valores por la constante correspondiente.
 
     ANCHO = 600
     ALTO = 600
-    TITULO = "Misión 01: Listos para el despegue"
+    TITULO = "Galaxia Indie"
     
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
     arcade.open_window( ANCHO, ALTO, TITULO )    
@@ -291,7 +291,21 @@ A continuación, agrega las siguientes instrucciones al código anterior:
 
     ...
 
-    # (Aquí irá el código para dibujar)
+    # Planeta en (200,200)
+    planeta_centrox = 200
+    planeta_centroy = 200
+    radio = 15
+
+    # Planeta Gris
+    arcade.draw_circle_filled(planeta_centrox, planeta_centroy, radio, arcade.csscolor.GRAY)
+    
+    # Cráteres del planeta
+    crater1_centrox = planeta_centrox - 10
+    crater1_centroy = planeta_centroy + 5
+
+    arcade.draw_circle_filled(centro_x1, crater1_centroy, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
     
 
     ...
