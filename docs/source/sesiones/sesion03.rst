@@ -88,14 +88,19 @@ como un planeta, un extraterrestre o una nave.
     ...
 
     # (Aquí irá el código para dibujar)
+
+    # Creamos una lista de sprites
     planetas = arcade.SpriteList()
 
+    # Creamos un sprite y establecemos la posición
     planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
     planeta1.center_x = 150
     planeta1.center_y = 450
 
+    # Agregamos el sprite a la lista de sprites
     planetas.append(planeta1)
 
+    # Dibujamos la lista de sprites
     planetas.draw()
 
     ...
@@ -106,22 +111,41 @@ para almacenar nuestros sprites en una :term:`lista`
 
 .. code-block:: python
 
-    # Crear una lista de sprites
+    ...
+    # Creamos una lista de sprites
     planetas = arcade.SpriteList()
 
 
 Luego, usamos la variable ``planeta1`` 
-para almacenar un sprite :py:func:`arcade.Sprite()`, con los siguientes parámetros:
+para almacenar un sprite :py:func:`arcade.Sprite()`, con los p
+arámetros 1. ruta a la imagen, y  2. la escala.
 
-1. Ruta a la imagen, y 
-2. La escala.
-
-Además de esto, establecemos la posición del sprite en la pantalla mediante 
-:py:func:`center_x` y :py:func:`center_y`
+Usamos la variable ``planeta1`` para colocar la posición del sprite 
+en la ventana al asignar el valor en :py:func:`planeta1.center_x` y en 
+:py:func:`planeta1.center_y`
 
 .. code-block:: python
 
-    # Crear un sprite
+    ...
+    # Creamos un sprite y establecemos la posición
     planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
     planeta1.center_x = 150
     planeta1.center_y = 450
+
+Luego, agregamos el sprite ``planeta1`` a la lista de sprites ``planetas`` 
+mediante la función :py:func:`planetas.append()`.
+
+.. code-block:: python
+
+    ...
+    # Agregamos el sprite a la lista de sprites
+    planetas.append(planeta1)
+
+Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
+
+
+.. code-block:: python
+
+    ...
+    # Dibujamos la lista de sprites
+    planetas.draw()
