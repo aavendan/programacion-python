@@ -16,3 +16,9 @@ misterios de una civilización olvidada.
 .. image:: img/universe.png
   :width: 400
   :alt: Galaxia indie
+
+
+.. figure:: img/universe.png
+   :width: 400
+   :figclass: align-center
+   :alt: Galaxia Indie
