@@ -13,11 +13,6 @@ misterios de una civilización olvidada.
 
   sesiones/*
 
-.. image:: img/universe.png
-  :width: 400
-  :alt: Galaxia indie
-
-
 .. figure:: img/universe.png
    :width: 400
    :figclass: align-center

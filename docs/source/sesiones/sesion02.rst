@@ -9,9 +9,10 @@ siguiente que necesitamos aprender es cómo ubicarlos. En tus clases
 de matemáticas, probablemente has aprendido sobre el sistema de 
 coordenadas cartesiano, que se ve así:
 
-.. image:: ../img/cartesian_coordinate_system.svg
-  :width: 400
-  :alt: Sistema de coordenadas
+.. figure:: ../img/cartesian_coordinate_system.svg
+   :width: 400
+   :figclass: align-center
+   :alt: Sistema de coordenadas
 
 Fuente: `Wikipedia: Cartesian coordinate system <https://commons.wikimedia.org/wiki/File:Cartesian_coordinate_system_(comma).svg>`_
 
@@ -69,9 +70,11 @@ rayos de una estrella:
     # Fin del dibujo
     ...
 
-.. image:: ../img/sesion02/estrella.png
-  :width: 300
-  :alt: Estrella
+.. figure:: ../img/sesion02/estrella.png
+   :width: 300
+   :figclass: align-center
+   :alt: Estrella
+  
 
 .. rubric:: Reto
   :heading-level: 2
@@ -158,9 +161,10 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
     # Fin del dibujo
     ...
 
-.. image:: ../img/sesion02/crateres.png
-  :width: 300
-  :alt: crateres
+.. figure:: ../img/sesion02/crateres.png
+   :width: 300
+   :figclass: align-center
+   :alt: Cráteres
 
 .. rubric:: Reto
   :heading-level: 2
@@ -219,9 +223,10 @@ con los siguientes parámetros:
     # Fin del dibujo
     ...
 
-.. image:: ../img/sesion02/texto.png
-  :width: 300
-  :alt: texto
+.. figure:: ../img/sesion02/texto.png
+   :width: 300
+   :figclass: align-center
+   :alt: Texto
 
 Hasta ahora, hemos aprendido cómo importar **Arcade** y cómo llamar a ciertas 
 funciones para dibujar figuras geométricas. El siguiente paso es hacer nuestro 
