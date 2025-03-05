@@ -69,7 +69,6 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
    sprites/nave01.png
 
 .. figure:: ../img/sesion03/alien01.png
-   :align: left
    :alt: Alien
 
    sprites/alien01.png
