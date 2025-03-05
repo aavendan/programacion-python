@@ -297,28 +297,29 @@ A continuación, modifica las siguientes instrucciones al código anterior:
     ...
 
     # Planeta en (200,200)
-    planeta_centrox = 200
-    planeta_centroy = 200
+    planeta_centro_x = 200
+    planeta_centro_y = 200
     radio = 15
 
     # Planeta Gris
-    arcade.draw_circle_filled(planeta_centrox, planeta_centroy, radio, arcade.csscolor.GRAY)
+    arcade.draw_circle_filled( planeta_centro_x, planeta_centro_y, radio, arcade.csscolor.GRAY)
     
     # Cráteres del planeta
-    crater1_centrox = planeta_centrox - 10
-    crater1_centroy = planeta_centroy + 5
+    crater1_centro_x = planeta_centro_x - 10
+    crater1_centro_y = planeta_centro_y + 5
 
-    arcade.draw_circle_filled(centro_x1, crater1_centroy, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
     
 
     ...
 
-
-
-Para identificar las variables y las constantes, hay nombres que debes usar, 
-nombres que no debes usar y nombres que no puedes usar.
+El código anterior, se asignan el valor de 200 para cada una de 
+las variables ``planeta_centro_x`` y ``planeta_centro_y``. 
+Luego, en la función :py:func:`arcade.draw_circle_filled()` 
+reemplace los valores por los nombres de las variables ``planeta_centro_x`` 
+y ``planeta_centro_y``. 
 
 .. warning::
     
