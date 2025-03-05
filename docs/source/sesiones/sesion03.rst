@@ -74,7 +74,7 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
 
    sprites/alien01.png
 
-Personajes
+Sprites
 ------------------
 
 Un :term:`sprite` es una imagen :term:`bidimensional` que forma 
@@ -82,19 +82,44 @@ parte de una escena gráfica más grande. Por lo general, un sprite
 será algún tipo de objeto en la escena con el que se interactuará, 
 como un planeta, un extraterrestre o una nave.
 
-  .. code-block:: python
-    :emphasize-lines: 11-14
+.. code-block:: python
+  :emphasize-lines: 11-14
 
-      ...
+    ...
 
-      # (Aquí irá el código para dibujar)
-      planetas = arcade.SpriteList()
+    # (Aquí irá el código para dibujar)
+    planetas = arcade.SpriteList()
 
-      planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
-      planeta1.center_x = 150
-      planeta1.center_y = 450
-      planetas.append(planeta1)
+    planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
+    planeta1.center_x = 150
+    planeta1.center_y = 450
 
-      planetas.draw()
+    planetas.append(planeta1)
 
-      ...
+    planetas.draw()
+
+    ...
+
+Antes de empezar, utilizaremos la variable ``planetas`` 
+para almacenar nuestros sprites en una :term:`lista` 
+(:py:func:`arcade.SpriteList()`).
+
+.. code-block::python
+
+  planetas = arcade.SpriteList()
+
+
+Luego, usamos la variable ``planeta1`` 
+para almacenar un sprite :py:func:`arcade.Sprite()`, con los siguientes parámetros:
+
+1. Ruta a la imagen, y 
+2. La escala.
+
+Además de esto, establecemos la posición del sprite en la pantalla mediante 
+:py:func:`center_x` y :py:func:`center_y`
+
+.. code-block::python
+
+  planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
+  planeta1.center_x = 150
+  planeta1.center_y = 450

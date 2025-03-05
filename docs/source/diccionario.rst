@@ -37,3 +37,7 @@ Diccionario de términos
 
     bidimensional
         Una elemento que se compone de filas y columnas.
+
+    lista
+        Una colección ordenada de elementos que pueden ser de
+        diferentes tipos.
