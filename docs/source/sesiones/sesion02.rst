@@ -167,7 +167,12 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
   :class: mi-clase-css
 
 Crea tu propio planeta dentro de la ventana, tomando como centro el
-punto (200,200). Decide la cantidad y el color de los crácteres en el planeta.
+punto (200,200), con radio 15 y color `arcade.csscolor.GRAY`. 
+Agrega los cráteres con las siguientes características:
+
+1. Con el centro (190, 205), radio 3 y color `arcade.csscolor.DARK_GRAY`
+2. Con el centro (210, 195), radio 3 y color `arcade.csscolor.DARK_GRAY`
+3. Con el centro (205, 210), radio 2 y color `arcade.csscolor.DARK_GRAY`
 
 .. admonition:: Clic aquí para ver una pista
   :collapsible: closed
