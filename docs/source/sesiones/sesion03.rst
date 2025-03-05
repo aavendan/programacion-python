@@ -1,4 +1,4 @@
-Misión 01: Listos para el despegue 🚀
+Misión 01: Despegue 🚀
 ===================================
 
 Programa principal: mision01.py
@@ -56,15 +56,15 @@ Para empezar, veamos descargar imágenes a utilizar, que son
 de `kenney.nl <https://kenney.nl/>`_.
 
 .. image:: ../img/sesion03/planeta01.png
-  :width: 200
+  :width: 80
   :alt: Planeta
 
 .. image:: ../img/sesion03/alien01.png
-  :width: 200
+  :width: 80
   :alt: Alien
 
 .. image:: ../img/sesion03/nave01.png
-  :width: 200
+  :width: 80
   :alt: Nave
 
 
