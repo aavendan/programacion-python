@@ -72,12 +72,9 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
 
 .. figure:: ../img/sesion03/alien01.png
    :figwidth: 30%
-   :align: left
    :alt: Alien
 
    sprites/alien01.png
-
-
 
 Personajes
 ------------------
