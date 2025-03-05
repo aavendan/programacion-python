@@ -55,9 +55,11 @@ Configuración
 Para empezar, veamos descargar imágenes a utilizar, que son 
 de `kenney.nl <https://kenney.nl/>`_.
 
-.. image:: ../img/sesion03/planeta01.png
-  :width: 80
-  :alt: Planeta
+.. figure:: ../img/sesion03/planeta01.png
+   :scale: 50 %
+   :alt: Planeta
+
+   Descargar y guardar en sprites/planeta01.png
 
 .. image:: ../img/sesion03/alien01.png
   :width: 80
@@ -71,7 +73,7 @@ de `kenney.nl <https://kenney.nl/>`_.
 Personajes
 ------------------
 
-Un :term:`sprites` es una imagen :term:`bidimensional` que forma 
+Un :term:`sprite` es una imagen :term:`bidimensional` que forma 
 parte de una escena gráfica más grande. Por lo general, un sprite 
 será algún tipo de objeto en la escena con el que se interactuará, 
 como un planeta, un extraterrestre o una nave.
@@ -88,10 +90,5 @@ como un planeta, un extraterrestre o una nave.
       planeta1.center_x = 150
       planeta1.center_y = 450
       planetas.append(planeta1)
-
-      planeta2 = arcade.Sprite("sprites/planet02.png", 0.05)
-      planeta2.center_x = 150
-      planeta2.center_y = 450
-      planetas.append(planeta2)
 
       planetas.draw()
