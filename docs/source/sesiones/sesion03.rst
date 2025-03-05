@@ -25,7 +25,10 @@ código básico:
     import arcade
 
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window(600, 600, "Misión 01: Listos para el despegue")    
+    ALTO = 600
+    ANCHO = 600
+    TITULO = "Misión 01: Listos para el despegue"
+    arcade.open_window(ANCHO, ALTO, TITULO)    
 
     # Establecer el color de fondo de la ventana
     arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
@@ -46,18 +49,32 @@ se muestra en la siguente imagen.
 
 .. imagen
 
+Configuración
+------------------
+
+Para empezar, veamos descargar imágenes a utilizar, que son 
+de `kenney.nl <https://kenney.nl/>`_.
+
+.. image:: ../img/sesion03/planeta01.png
+  :width: 200
+  :alt: Planeta
+
+.. image:: ../img/sesion03/alien01.png
+  :width: 200
+  :alt: Alien
+
+.. image:: ../img/sesion03/nave01.png
+  :width: 200
+  :alt: Nave
+
+
 Personajes
 ------------------
 
-Nuestros juegos necesitan soporte para manejar objetos que colisionan. 
-Pelotas que rebotan en paletas, rayos láser que golpean a extraterrestres 
-o nuestro personaje favorito que recoge una moneda. Todos estos ejemplos 
-requieren detección de colisiones.
-
-La biblioteca Arcade tiene soporte para sprites. Un sprite es una imagen 
-bidimensional que forma parte de una escena gráfica más grande. Por lo 
-general, un sprite será algún tipo de objeto en la escena con el que se 
-interactuará, como un automóvil, una rana o un pequeño fontanero.
+Un :term:`sprites` es una imagen :term:`bidimensional` que forma 
+parte de una escena gráfica más grande. Por lo general, un sprite 
+será algún tipo de objeto en la escena con el que se interactuará, 
+como un planeta, un extraterrestre o una nave.
 
   .. code-block:: python
     :emphasize-lines: 11-14
