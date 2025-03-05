@@ -112,14 +112,25 @@ Variables
 Una :term:`variable` es un valor que la computadora almacena en la memoria y 
 que puede cambiar (variar) en otra parte del programa. 
 
-A continuación, realiza el siguiente cambio en el código anterior:
+A continuación, agrega las siguientes instrucciones al código anterior:
 
   .. code-block:: python
+    :emphasize-lines: 4,6-9,11
 
     ...
 
-    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window( ANCHO, ALTO, TITULO ) 
+    # (Aquí irá el código para dibujar)
+    planetas = arcade.SpriteList()
+
+    planeta1 = arcade.Sprite("sprites/planet01.png", 0.08)
+    planeta1.center_x = 150
+    planeta1.center_y = 450
+    planetas.append(planeta1)
+
+    planetas.draw()
+
+    ...
+
 
 
 Para identificar las variables y las constantes, hay nombres que debes usar, 
@@ -135,13 +146,22 @@ nombres que no debes usar y nombres que no puedes usar.
 Personajes
 ------------------
 
-.. code-block:: python
+  .. code-block:: python
+    :emphasize-lines: 11-14
 
-    player_list = arcade.SpriteList()
+      ...
 
-    # Crear sprite del astronauta
-    astronaut = arcade.Sprite("astronautA_SE.png", 1.0)  # 1.0 is the scaling factor
-    astronaut.center_x = 300  # Position X
-    astronaut.center_y = 300  # Position Y
-    player_list.append(astronaut)
-    player_list.draw()
+      # (Aquí irá el código para dibujar)
+      planetas = arcade.SpriteList()
+
+      planeta1 = arcade.Sprite("sprites/planet01.png", 0.08)
+      planeta1.center_x = 150
+      planeta1.center_y = 450
+      planetas.append(planeta1)
+
+      planeta2 = arcade.Sprite("sprites/planet02.png", 0.05)
+      planeta2.center_x = 150
+      planeta2.center_y = 450
+      planetas.append(planeta2)
+
+      planetas.draw()
