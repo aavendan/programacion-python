@@ -58,21 +58,18 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
 .. figure:: ../img/sesion03/planeta01.png
    :scale: 12.5 %
    :alt: Planeta
-   :align: left
 
    sprites/planeta01.png
 
 .. figure:: ../img/sesion03/nave01.png
    :scale: 12.5 %
    :alt: Nave
-   :align: left
 
    sprites/nave01.png
 
 .. figure:: ../img/sesion03/alien01.png
    :scale: 12.5 %
    :alt: Alien
-   :align: left
 
    sprites/alien01.png
 
