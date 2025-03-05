@@ -189,7 +189,7 @@ punto (200,200). Decide la cantidad y el color de los crácteres en el planeta.
 Texto
 ------------------
 
-Para dibujar texto, se utiliza con la función :py:func:`arcade.draw_text()` 
+Para dibujar texto, se utiliza con la función :py:func:`arcade.Text()` 
 con los siguientes parámetros:
 
 1. El texto a dibujar,
@@ -235,7 +235,7 @@ programa, por ejemplo el ancho de la ventana.
 
     ANCHO = 600
 
-    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     arcade.open_window( ANCHO, 600, "Galaxia Indie")    
 
     ...
@@ -273,7 +273,7 @@ los valores por la constante correspondiente.
     ALTO = 600
     TITULO = "Galaxia Indie"
     
-    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     arcade.open_window( ANCHO, ALTO, TITULO )    
 
     ...
