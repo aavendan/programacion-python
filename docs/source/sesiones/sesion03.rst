@@ -52,22 +52,30 @@ se muestra en la siguente imagen.
 Configuración
 ------------------
 
-Para empezar, veamos descargar imágenes a utilizar, que son 
-de `kenney.nl <https://kenney.nl/>`_.
+Para empezar, veamos descargar las siguientes imágenes a utilizar en 
+la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
 
 .. figure:: ../img/sesion03/planeta01.png
-   :scale: 50 %
+   :scale: 12.5 %
    :alt: Planeta
+   :align: left
 
-   Descargar y guardar en sprites/planeta01.png
+   sprites/planeta01.png
 
-.. image:: ../img/sesion03/alien01.png
-  :width: 80
-  :alt: Alien
+.. figure:: ../img/sesion03/nave01.png
+   :scale: 12.5 %
+   :alt: Nave
+   :align: left
 
-.. image:: ../img/sesion03/nave01.png
-  :width: 80
-  :alt: Nave
+   sprites/nave01.png
+
+.. figure:: ../img/sesion03/alien01.png
+   :scale: 12.5 %
+   :alt: Alien
+   :align: left
+
+   sprites/alien01.png
+
 
 
 Personajes
