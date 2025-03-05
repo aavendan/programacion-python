@@ -106,6 +106,7 @@ para almacenar nuestros sprites en una :term:`lista`
 
 .. code-block::python
 
+    # Crear una lista de sprites
     planetas = arcade.SpriteList()
 
 
@@ -120,6 +121,7 @@ Además de esto, establecemos la posición del sprite en la pantalla mediante
 
 .. code-block::python
 
+    # Crear un sprite
     planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
     planeta1.center_x = 150
     planeta1.center_y = 450
