@@ -260,7 +260,7 @@ por el nombre de la constante ``ANCHO``.
   :heading-level: 2
   :class: mi-clase-css
 
-Crea las constantes ``ALTO`` y ``TITULO``. Asigna a cada constan el valor 
+Crea las constantes ``ALTO`` y ``TITULO``. Asigna a cada constante el valor 
 correspondiente. Luego, en la función :py:func:`arcade.open_window()` reemplace 
 los valores por la constante correspondiente.
 
@@ -321,9 +321,37 @@ Luego, en la función :py:func:`arcade.draw_circle_filled()`
 reemplace los valores por los nombres de las variables ``planeta_centro_x`` 
 y ``planeta_centro_y``. 
 
+Calculamos el valor ``crater1_centro_x`` restando 10 a la variable 
+``planeta_centro_x``. Además, calculamos el valor ``crater1_centro_y`` sumando 5
+a la variable ``planeta_centro_y``.
+Finalmente, en :py:func:`arcade.draw_circle_filled()` reemplazamos el valor 
+de 190 por la variable ``crater1_centro_x`` y reemplazamos el valor de 205 por 
+la variable ``crater1_centro_y``.
+
 .. warning::
     
     1. Los nombres deben ser descriptivos, 
     2. Todas las letras en **minúscula**, 
     3. Si tienes varias palabras, sepáralas con un guión bajo, y 
     4. Los nombres no pueden  comenzar con un número ni tener un espacio ni ningún símbolo que no sea un guión bajo. 
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Crea las variables ``crater2_centro_x``, ``crater2_centro_y``, 
+``crater3_centro_x`` y ``crater3_centro_y`` y asigna el valor calculado 
+correspondiente considerando las coordenadas centro del 
+planeta (``planeta_centro_x`` y ``planeta_centro_y``).
+Luego, reemplaza las variables correspondientes en las funciones 
+:py:func:`arcade.draw_circle_filled()`.
+
+.. admonition:: Clic aquí para ver una pista
+  :collapsible: closed
+
+  A continuación, la solución al reto anterior.
+
+  .. code-block:: python
+
+    ...
+    ...
