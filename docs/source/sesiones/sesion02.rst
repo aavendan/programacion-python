@@ -217,3 +217,93 @@ con los siguientes parámetros:
 .. image:: ../img/sesion02/texto.png
   :width: 300
   :alt: texto
+
+Hasta ahora, hemos aprendido cómo importar **Arcade** y cómo llamar a ciertas 
+funciones para dibujar figuras geométricas. El siguiente paso es hacer nuestro 
+código más flexible.
+
+Constantes
+------------------
+
+Una :term:`constante` es un valor que no cambia durante la ejecución del 
+programa, por ejemplo el ancho de la ventana.
+
+.. code-block:: python
+    :emphasize-lines: 3,6
+
+    ...
+
+    ANCHO = 600
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window( ANCHO, 600, "Misión 01: Listos para el despegue")    
+
+    ...
+
+El código anterior, se asigna el valor de 600 la constante ``ANCHO``. 
+Luego, en la función :py:func:`arcade.open_window()` reemplace el valor de 600 
+por el nombre de la constante ``ANCHO``.
+
+.. warning::
+    
+    1. Los nombres deben ser descriptivos, 
+    2. Todas las letras en **mayúscula**, 
+    3. Si tienes varias palabras, sepáralas con un guión bajo, y 
+    4. Los nombres no pueden  comenzar con un número ni tener un espacio ni ningún símbolo que no sea un guión bajo. 
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Crea las constantes ``ALTO`` y ``TITULO``. Asigna a cada constan el valor 
+correspondiente. Luego, en la función :py:func:`arcade.open_window()` reemplace 
+los valores por la constante correspondiente.
+
+.. admonition:: Clic aquí para ver una pista
+  :collapsible: closed
+
+  A continuación, la solución al reto anterior.
+
+  .. code-block:: python
+    :emphasize-lines: 4,5,8
+
+    ...
+
+    ANCHO = 600
+    ALTO = 600
+    TITULO = "Misión 01: Listos para el despegue"
+    
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window( ANCHO, ALTO, TITULO )    
+
+    ...
+
+Variables
+------------------
+
+Una :term:`variable` es un valor que la computadora almacena en la memoria y 
+que puede cambiar (variar) en otra parte del programa. 
+
+A continuación, agrega las siguientes instrucciones al código anterior:
+
+  .. code-block:: python
+    :emphasize-lines: 1
+
+    ...
+
+    # (Aquí irá el código para dibujar)
+    
+
+    ...
+
+
+
+Para identificar las variables y las constantes, hay nombres que debes usar, 
+nombres que no debes usar y nombres que no puedes usar.
+
+.. warning::
+    
+    1. Los nombres deben ser descriptivos, 
+    2. Todas las letras en **minúscula**, 
+    3. Si tienes varias palabras, sepáralas con un guión bajo, y 
+    4. Los nombres no pueden  comenzar con un número ni tener un espacio ni ningún símbolo que no sea un guión bajo. 
