@@ -56,19 +56,19 @@ Para empezar, veamos descargar las siguientes imágenes a utilizar en
 la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
 
 .. figure:: ../img/sesion03/planeta01.png
-   :scale: 12.5 %
+   :scale: 12 %
    :alt: Planeta
 
    sprites/planeta01.png
 
 .. figure:: ../img/sesion03/nave01.png
-   :scale: 12.5 %
+   :scale: 12 %
    :alt: Nave
 
    sprites/nave01.png
 
 .. figure:: ../img/sesion03/alien01.png
-   :scale: 12.5 %
+   :scale: 12 %
    :alt: Alien
 
    sprites/alien01.png
