@@ -289,10 +289,10 @@ Variables
 Una :term:`variable` es un valor que la computadora almacena en la memoria y 
 que puede cambiar (variar) en otra parte del programa. 
 
-A continuación, agrega las siguientes instrucciones al código anterior:
+A continuación, modifica las siguientes instrucciones al código anterior:
 
   .. code-block:: python
-    :emphasize-lines: 1
+    :emphasize-lines: 4-6,8,10-11,13
 
     ...
 
