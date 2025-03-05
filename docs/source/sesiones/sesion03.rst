@@ -104,7 +104,7 @@ Antes de empezar, utilizaremos la variable ``planetas``
 para almacenar nuestros sprites en una :term:`lista` 
 (:py:func:`arcade.SpriteList()`).
 
-.. code-block::python
+.. code-block:: python
 
     # Crear una lista de sprites
     planetas = arcade.SpriteList()
@@ -119,7 +119,7 @@ para almacenar un sprite :py:func:`arcade.Sprite()`, con los siguientes parámet
 Además de esto, establecemos la posición del sprite en la pantalla mediante 
 :py:func:`center_x` y :py:func:`center_y`
 
-.. code-block::python
+.. code-block:: python
 
     # Crear un sprite
     planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
