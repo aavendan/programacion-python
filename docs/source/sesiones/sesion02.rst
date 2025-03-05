@@ -352,6 +352,20 @@ Luego, reemplaza las variables correspondientes en las funciones
   A continuación, la solución al reto anterior.
 
   .. code-block:: python
+    :emphasize-lines: 6-9,12-13
 
     ...
+
+    # Cráteres del planeta
+    crater1_centro_x = planeta_centro_x - 10
+    crater1_centro_y = planeta_centro_y + 5
+    crater2_centro_x = planeta_centro_x + 10
+    crater2_centro_y = planeta_centro_y - 5
+    crater3_centro_x = planeta_centro_x + 5
+    crater3_centro_y = planeta_centro_y + 10
+
+    arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(crater2_centro_x, crater2_centro_y, 3, arcade.csscolor.DARK_GRAY)
+    arcade.draw_circle_filled(crater3_centro_x, crater3_centro_y, 2, arcade.csscolor.DARK_GRAY)
+
     ...
