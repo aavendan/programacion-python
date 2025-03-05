@@ -117,8 +117,8 @@ para almacenar nuestros sprites en una :term:`lista`
 
 
 Luego, usamos la variable ``planeta1`` 
-para almacenar un sprite :py:func:`arcade.Sprite()`, con los p
-arámetros 1. ruta a la imagen, y  2. la escala.
+para almacenar un sprite :py:func:`arcade.Sprite()`, con los 
+parámetros 1. ruta a la imagen, y  2. la escala.
 
 Usamos la variable ``planeta1`` para colocar la posición del sprite 
 en la ventana al asignar el valor en :py:func:`planeta1.center_x` y en 
@@ -149,3 +149,9 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
     ...
     # Dibujamos la lista de sprites
     planetas.draw()
+
+
+.. figure:: ../img/sesion03/planetaenventana.png
+   :width: 300
+   :figclass: align-center
+   :alt: Planeta en la ventana
