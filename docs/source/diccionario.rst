@@ -30,7 +30,7 @@ Diccionario de términos
         Las constantes se definen una vez y se utilizan en todo
         el programa.
 
-    sprites
+    sprite
         Un objeto gráfico que se puede representar en una pantalla.
         Los sprites pueden tener propiedades como posición, tamaño
         y color.
