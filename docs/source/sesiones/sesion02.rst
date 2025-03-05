@@ -292,7 +292,7 @@ que puede cambiar (variar) en otra parte del programa.
 A continuación, modifica las siguientes instrucciones al código anterior:
 
   .. code-block:: python
-    :emphasize-lines: 4-6,9,11-13,15
+    :emphasize-lines: 4-6,9,12-13,15
 
     ...
 
