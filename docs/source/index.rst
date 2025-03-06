@@ -27,3 +27,4 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
   galaxiaindie
   diccionario
   referencias
+  talleres/*
