@@ -84,7 +84,7 @@ Crea tu propia estrella dentro de la ventana, tomando como centro el
 punto (100,100). Decide y escoge el tamaño, el grosor y el color de 
 las líneas de la estrella.
 
-.. admonition:: Clic aquí para ver una pista
+.. admonition:: Clic aquí para ver la respuesta
   :collapsible: closed
 
   A continuación un ejemplo de código para dibujar una estrella en 
@@ -178,7 +178,7 @@ Agrega los cráteres con las siguientes características:
 2. Con el centro (210, 195), radio 3 y color `arcade.csscolor.DARK_GRAY`
 3. Con el centro (205, 210), radio 2 y color `arcade.csscolor.DARK_GRAY`
 
-.. admonition:: Clic aquí para ver una pista
+.. admonition:: Clic aquí para ver la respuesta
   :collapsible: closed
 
   A continuación un ejemplo de código para dibujar un planeta en el 
@@ -269,7 +269,7 @@ Crea las constantes ``ALTO`` y ``TITULO``. Asigna a cada constante el valor
 correspondiente. Luego, en la función :py:func:`arcade.open_window()` reemplace 
 los valores por la constante correspondiente.
 
-.. admonition:: Clic aquí para ver una pista
+.. admonition:: Clic aquí para ver la respuesta
   :collapsible: closed
 
   A continuación, la solución al reto anterior.
@@ -351,7 +351,7 @@ planeta (``planeta_centro_x`` y ``planeta_centro_y``).
 Luego, reemplaza las variables correspondientes en las funciones 
 :py:func:`arcade.draw_circle_filled()`.
 
-.. admonition:: Clic aquí para ver una pista
+.. admonition:: Clic aquí para ver la respuesta
   :collapsible: closed
 
   A continuación, la solución al reto anterior.
