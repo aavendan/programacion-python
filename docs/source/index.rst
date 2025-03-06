@@ -22,4 +22,8 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
   :caption: Contenido
   :glob:
   
-  general/*
+  presentacion
+  configuracion
+  galaxiaindie
+  diccionario
+  referencias
