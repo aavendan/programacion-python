@@ -63,6 +63,11 @@ hacer clic en el botón Instalar (2).
 Arcade
 ------------------
 
-En la misma línea de comando, 
+En la misma terminal, instale la biblioteca **Arcade** mediante el 
+siguiente comando:
+
+.. attention::
+    
+    python -m pip install arcade
 
 Puedes consultar la documentación de Arcade en el `sitio oficial <https://api.arcade.academy/en/latest/>`_
