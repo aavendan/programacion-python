@@ -14,6 +14,11 @@ Diccionario de términos
         estructuras de datos que se utilizan para escribir programas
         informáticos.
 
+    terminal
+    línea de comandos
+        Una interfaz de línea de comandos que permite ejecutar
+        comandos en un sistema operativo.
+
     librería
         Un conjunto de instrucciones especializadas que
         se pueden importar a un programa para realizar

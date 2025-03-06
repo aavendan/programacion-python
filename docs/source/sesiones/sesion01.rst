@@ -38,6 +38,15 @@ en la subopción ``Run Without Debugging``, como se muestra en la image:
     :figclass: align-center
     :alt: Ejecutar sin depurar 
 
+En la parte inferior de Visual Studio Code, aparecerá el :term:`terminal`, 
+o :term:`línea de comandos`, con el que se ejecutará tu programa.
+
+.. figure:: ../img/sesion01/outputterminal.png
+    :figclass: align-center
+    :alt: Terminal
+
+
+
 Comenta tu código
 ------------------
 
