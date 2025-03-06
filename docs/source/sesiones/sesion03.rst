@@ -174,6 +174,14 @@ un **tercio de la vertical** de la ventana.
 
 3. Agrega cada uno de los sprites a la lista de sprites.
 
+Al ejecutar el código, deberías ver los tres planetas en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion03/tresplanetas.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetas
+
 .. admonition:: Haga click aquí para ver la solución
   :collapsible: closed
 
@@ -198,7 +206,3 @@ un **tercio de la vertical** de la ventana.
     planetas.draw()
 
 
-.. figure:: ../img/sesion03/tresplanetas.png
-    :scale: 50%
-    :figclass: align-center
-    :alt: tresplanetas
