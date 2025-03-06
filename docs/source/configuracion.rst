@@ -12,7 +12,7 @@ Computadora
 ------------------
 
 .. figure:: img/laptop.svg
-   :scale: 50%
+   :width: 100
    :align: left 
    :alt: laptop
    
