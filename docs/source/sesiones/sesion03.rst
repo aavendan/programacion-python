@@ -82,8 +82,9 @@ parte de una escena gráfica más grande. Por lo general, un sprite
 será algún tipo de objeto en la escena con el que se interactuará, 
 como un planeta, un extraterrestre o una nave.
 
+Copia el siguiente código y colócalo en la ubicación indicada.
+
 .. code-block:: python
-  :emphasize-lines: 11-14
 
     ...
 
@@ -117,10 +118,10 @@ para almacenar nuestros sprites en una :term:`lista`
 
 
 Luego, usamos la variable ``planeta1`` 
-para almacenar un sprite :py:func:`arcade.Sprite()`, con los 
-parámetros 1. ruta a la imagen, y  2. la escala.
+para almacenar un sprite :py:func:`arcade.Sprite()`, con la ruta a la imagen, y  
+la escala. 
 
-Usamos la variable ``planeta1`` para colocar la posición del sprite 
+Además, usamos la variable ``planeta1`` para colocar el sprite 
 en la ventana al asignar el valor en :py:func:`planeta1.center_x` y en 
 :py:func:`planeta1.center_y`
 
