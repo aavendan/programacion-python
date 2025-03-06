@@ -10,7 +10,7 @@ Programa principal: intro.py
         :figclass: align-center
         :alt: Creación de archivo
 
-#. De tipo Python
+#. Selecciona el tipo de archivo Python
 
     .. figure:: ../img/sesion01/pythonextension.png
         :figclass: align-center
@@ -18,9 +18,13 @@ Programa principal: intro.py
 
 #. Guarda el archivo con el nombre ``intro.py``
 
-    .. figure::../img/sesion01/intropy.png
+    .. figure:: ../img/sesion01/intropy.png
         :figclass: align-center
         :alt: Intro.py
+
+    .. figure:: ../img/sesion01/intropyready.png
+        :figclass: align-center
+        :alt: Intro.py ready   
 
 Ejecuta el código
 ------------------
