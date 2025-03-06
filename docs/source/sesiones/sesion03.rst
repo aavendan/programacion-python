@@ -196,3 +196,9 @@ un **tercio de la vertical** de la ventana.
     planetas.append(planeta3)
 
     planetas.draw()
+
+
+.. figure:: ../img/sesion03/tresplanetas.png
+    :scale: 50%
+    :figclass: align-center
+    :alt: tresplanetas
