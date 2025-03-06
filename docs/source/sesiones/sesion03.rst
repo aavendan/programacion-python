@@ -171,10 +171,8 @@ un **tercio de la vertical** de la ventana.
 
 3. Agrega cada uno de los sprites a la lista de sprites.
 
-.. hint:: Clic aquí para ver la respuesta
+.. admonition:: Solución
   :collapsible: closed
-
-  A continuación, la solución al reto anterior.
 
   .. code-block:: python
     :emphasize-lines: 4-7,9-12
