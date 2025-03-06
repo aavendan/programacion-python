@@ -24,10 +24,9 @@ que necesites configurar tu propio sistema en el futuro.
 
 ¿Qué necesitas?
 
-#. Instalar un :term:`IDE` para escribir tus programas. (Usaremos un programa 
-llamado Visual Studio Code. 
-#. Instalar el :term:`lenguaje de programación` Python.
-#. Un pequeño ajuste de configuración para que podamos ver las extensiones 
+1. Instalar un :term:`IDE` para escribir tus programas. (Usaremos un programa llamado Visual Studio Code. 
+2. Instalar el :term:`lenguaje de programación` Python.
+3. Un pequeño ajuste de configuración para que podamos ver las extensiones 
 de archivo.
 
 Visual Studio Code
