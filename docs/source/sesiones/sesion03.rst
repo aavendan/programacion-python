@@ -76,7 +76,7 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
 
    sprites/planeta03.png
 
-Sprites
+Sprite y SpriteList
 ------------------
 
 Un :term:`sprite` es una imagen :term:`bidimensional` que forma 
@@ -175,16 +175,18 @@ un **tercio de la vertical** de la ventana.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4-7,9-12
+    :emphasize-lines: 4-8,9-13
 
     ...
     planetas.append(planeta1)
 
+    # Sprite 2
     planeta2 = arcade.Sprite("sprites/planeta02.png", 0.02)
     planeta2.center_x = ANCHO - 100 
     planeta2.center_y = ALTO / 2
     planetas.append(planeta2)
 
+    # Sprite 2
     planeta3 = arcade.Sprite("sprites/planeta03.png", 0.05)
     planeta3.center_x = 100
     planeta3.center_y = ALTO / 3
