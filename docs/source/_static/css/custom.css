@@ -2,6 +2,10 @@
 	padding: 0 25%;
 }
 
+.toctree-l1 {
+	list-style: none !important;
+}
+
 .mi-clase-css {
 	/* color: red; */
 	text-decoration: underline;
