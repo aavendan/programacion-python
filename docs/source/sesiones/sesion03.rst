@@ -120,12 +120,10 @@ para almacenar nuestros sprites en una :term:`lista`
 
 
 Luego, usamos la variable ``planeta1`` 
-para almacenar un sprite :py:func:`arcade.Sprite()`, con la ruta a la imagen, y  
-la escala. 
-
-Además, usamos la variable ``planeta1`` para colocar el sprite 
-en la ventana al asignar el valor en ``planeta1.center_x`` y en 
-``planeta1.center_y``.
+para almacenar un sprite :py:func:`arcade.Sprite()`, con la ruta a la imagen y  
+la :term:`escala`. Además, usamos la variable ``planeta1`` para 
+colocar el sprite en la ventana al asignar el valor en 
+``planeta1.center_x = 150`` y en ``planeta1.center_y = 450``.
 
 .. code-block:: python
 
@@ -136,7 +134,7 @@ en la ventana al asignar el valor en ``planeta1.center_x`` y en
     planeta1.center_y = 450
 
 Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``planetas``) 
-mediante la función :py:func:`elementos.append()`.
+mediante la función :py:func:`planetas.append()`.
 
 .. code-block:: python
 
@@ -145,7 +143,6 @@ mediante la función :py:func:`elementos.append()`.
     planetas.append(planeta1)
 
 Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
-
 
 .. code-block:: python
 
@@ -164,3 +161,12 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
   :heading-level: 2
   :class: mi-clase-css
 
+1. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala 
+de **0.02**. El centro se encuentra a **100 píxeles del borde derecho** y 
+**mitad vertical** de la ventana.
+
+2. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala 
+de **0.05**. El centro se encuentra a **100 píxeles del borde izquierdo** y a 
+un **tercio de la vertical** de la ventana.
+
+3. Agrega cada uno de los sprites a la lista de sprites.
