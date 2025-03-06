@@ -7,11 +7,11 @@
 	text-decoration: underline;
 }
 
-.admonition-haga-click-aqui-para-ver-la-solucion .admonition {
-	background-color: #FCFCFC;
-	cursor: pointer;
+details.admonition-haga-click-aqui-para-ver-la-solucion {
+	background-color: #FCFCFC !important;
+	cursor: pointer !important;
 }
 
-.admonition-title {
-	background: #07cb79;
+summary.admonition-title {
+	background: #07cb79 !important;
 }
