@@ -18,8 +18,11 @@ Computadora
    
 Antes de comenzar a programar, necesitamos instalar algunas cosas. 
 ¿Usas una computadora en tu casa o en el colegio? ¡Genial! Es posible que 
-ya tengas todo esto instalado. De todos modos, lee esta parte, ya que es posible 
+ya tengas todo esto instalado. 
+
+De todos modos, lee esta parte, ya que es posible 
 que necesites configurar tu propio sistema en el futuro.
+
 
 ¿Qué necesitas?
 
@@ -57,8 +60,9 @@ Descarga Python desde el `sitio web oficial de Python https://www.python.org/dow
 Al instalar Python, asegúrate de agregar Python a la ruta (1) antes de 
 hacer clic en el botón Instalar (2).
 
-.. figure:: img/setup_windows_1.png
-   :width: 200
+.. figure:: img/setup_windows_1.webp
+   :width: 300
+   :figclass: align-center
    :alt: Python Setup
 
 Arcade
