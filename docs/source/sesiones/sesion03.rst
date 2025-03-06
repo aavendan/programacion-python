@@ -91,7 +91,7 @@ Copia el siguiente código y colócalo en la ubicación indicada.
     # (Aquí irá el código para dibujar)
 
     # Creamos una lista de sprites
-    planetas = arcade.SpriteList()
+    elementos = arcade.SpriteList()
 
     # Creamos un sprite y establecemos la posición
     planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
@@ -99,14 +99,14 @@ Copia el siguiente código y colócalo en la ubicación indicada.
     planeta1.center_y = 450
 
     # Agregamos el sprite a la lista de sprites
-    planetas.append(planeta1)
+    elementos.append(planeta1)
 
     # Dibujamos la lista de sprites
-    planetas.draw()
+    elementos.draw()
 
     ...
 
-Antes de empezar, utilizaremos la variable ``planetas`` 
+Antes de empezar, utilizaremos la variable ``elementos`` 
 para almacenar nuestros sprites en una :term:`lista` 
 (:py:func:`arcade.SpriteList()`).
 
@@ -114,7 +114,7 @@ para almacenar nuestros sprites en una :term:`lista`
 
     ...
     # Creamos una lista de sprites
-    planetas = arcade.SpriteList()
+    elementos = arcade.SpriteList()
 
 
 Luego, usamos la variable ``planeta1`` 
@@ -133,26 +133,36 @@ en la ventana al asignar el valor en ``planeta1.center_x`` y en
     planeta1.center_x = 150
     planeta1.center_y = 450
 
-Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``planetas``) 
-mediante la función :py:func:`planetas.append()`.
+Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``elementos``) 
+mediante la función :py:func:`elementos.append()`.
 
 .. code-block:: python
 
     ...
     # Agregamos el sprite a la lista de sprites
-    planetas.append(planeta1)
+    elementos.append(planeta1)
 
-Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
+Finalmente, dibujamos la lista de sprites ``elementos`` en la ventana.
 
 
 .. code-block:: python
 
     ...
     # Dibujamos la lista de sprites
-    planetas.draw()
+    elementos.draw()
 
 
 .. figure:: ../img/sesion03/planetaenventana.png
    :width: 300
    :figclass: align-center
    :alt: Planeta en la ventana
+
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Crea un segundo sprite, con la ruta ``sprites/alien01.png`` y con una escala 
+de 1. Calcula y asigna la ubicación del sprite en la mitad del alto de la 
+ventana y a 100 pixeles del ancho de la ventana.
+Agrega el sprite a la lista de sprites.
