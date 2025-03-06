@@ -52,7 +52,7 @@ se muestra en la siguente imagen.
 Configuración
 ------------------
 
-Para empezar, veamos descargar las siguientes imágenes a utilizar en 
+Para empezar, descarga las siguientes imágenes y colócalas en 
 la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
 
 .. figure:: ../img/sesion03/planeta01.png
@@ -122,8 +122,8 @@ para almacenar un sprite :py:func:`arcade.Sprite()`, con la ruta a la imagen, y
 la escala. 
 
 Además, usamos la variable ``planeta1`` para colocar el sprite 
-en la ventana al asignar el valor en :py:func:`planeta1.center_x` y en 
-:py:func:`planeta1.center_y`
+en la ventana al asignar el valor en ``planeta1.center_x`` y en 
+``planeta1.center_y``.
 
 .. code-block:: python
 
@@ -133,7 +133,7 @@ en la ventana al asignar el valor en :py:func:`planeta1.center_x` y en
     planeta1.center_x = 150
     planeta1.center_y = 450
 
-Luego, agregamos el sprite ``planeta1`` a la lista de sprites ``planetas`` 
+Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``planetas``) 
 mediante la función :py:func:`planetas.append()`.
 
 .. code-block:: python
