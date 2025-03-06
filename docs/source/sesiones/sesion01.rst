@@ -4,21 +4,23 @@ Un nuevo universo 🌌
 Programa principal: intro.py
 ------------------
 
-#. En Visual Studio Code, crea un nuevo archivo de Python, como se muestra en la imagen:
+#. En Visual Studio Code, crea un nuevo archivo
 
-.. figure:: ../img/sesion01/creacionarchivo.png
-   :figclass: align-center
-   :alt: Creación de archivo
+    .. figure:: ../img/sesion01/creacionarchivo.png
+        :figclass: align-center
+        :alt: Creación de archivo
 
-.. figure:: ../img/sesion01/pythonextension.png
-   :figclass: align-center
-   :alt: Extension Python
+#. De tipo Python
+
+    .. figure:: ../img/sesion01/pythonextension.png
+        :figclass: align-center
+        :alt: Extension Python
 
 #. Guarda el archivo con el nombre ``intro.py``
 
-.. figure::../img/sesion01/intropy.png
-   :figclass: align-center
-   :alt: Intro.py
+    .. figure::../img/sesion01/intropy.png
+        :figclass: align-center
+        :alt: Intro.py
 
 Ejecuta el código
 ------------------
