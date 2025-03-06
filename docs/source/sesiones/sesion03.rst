@@ -162,11 +162,34 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
   :class: mi-clase-css
 
 1. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala 
-de **0.02**. El centro se encuentra a **100 píxeles del borde derecho** y 
-**mitad vertical** de la ventana.
+de **0.02**. El centro se encuentra a **100 píxeles del ancho** de la ventana 
+y a la **mitad vertical** de la ventana.
 
 2. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala 
 de **0.05**. El centro se encuentra a **100 píxeles del borde izquierdo** y a 
 un **tercio de la vertical** de la ventana.
 
 3. Agrega cada uno de los sprites a la lista de sprites.
+
+.. admonition:: Clic aquí para ver la respuesta
+  :collapsible: closed
+
+  A continuación, la solución al reto anterior.
+
+  .. code-block:: python
+    :emphasize-lines: 4-7,8-11
+
+    ...
+    planetas.append(planeta1)
+
+    planeta2 = arcade.Sprite("sprites/planeta02.png", 0.02)
+    planeta2.center_x = ANCHO - 100 
+    planeta2.center_y = ALTO / 2
+    planetas.append(planeta2)
+
+    planeta3 = arcade.Sprite("sprites/planeta03.png", 0.05)
+    planeta3.center_x = 100
+    planeta3.center_y = ALTO / 3
+    planetas.append(planeta3)
+
+    planetas.draw()
