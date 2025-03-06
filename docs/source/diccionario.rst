@@ -3,6 +3,17 @@ Diccionario de términos
 
 .. glossary::
 
+    IDE
+        Un entorno de desarrollo integrado (IDE) es un software
+        que proporciona una serie de herramientas para el desarrollo
+        de software, como un editor de texto, un compilador, un depurador,
+        entre otras.
+
+    lenguaje de programación
+        Un lenguaje de programación es un conjunto de reglas y
+        estructuras de datos que se utilizan para escribir programas
+        informáticos.
+
     librería
         Un conjunto de instrucciones especializadas que
         se pueden importar a un programa para realizar
