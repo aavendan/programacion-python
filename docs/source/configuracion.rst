@@ -63,7 +63,14 @@ hacer clic en el botón Instalar (2).
 Arcade
 ------------------
 
-En la misma terminal, instale la biblioteca **Arcade** mediante el 
+#. Abre la terminal, como se muestra en la siguiente imagen:
+
+.. figure:: img/cmd.png
+   :width: 200
+   :figclass: align-center
+   :alt: cmd
+
+#. En la misma terminal, instale la biblioteca **Arcade** mediante el 
 siguiente comando:
 
 .. attention::
