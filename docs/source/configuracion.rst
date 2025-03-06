@@ -77,4 +77,11 @@ siguiente comando:
     
     python -m pip install arcade
 
+#. Al final, debe aparecer un mensaje como el siguiente
+
+.. figure:: img/installed.png
+   :width: 200
+   :figclass: align-center
+   :alt: installed arcade
+
 Puedes consultar la documentación de Arcade en el `sitio oficial <https://api.arcade.academy/en/latest/>`_
