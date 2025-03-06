@@ -31,10 +31,12 @@ Programa principal: intro.py
 Ejecuta el código
 ------------------
 
-En la parte superior de Visual Studio Code, haz clic 
-en el botón ``Ejecutar Archivo de Python`` para 
-ejecutar el código, como se muestra en la imagen:
+En la parte superior de Visual Studio Code, haz clic en la opción ``Run``, 
+en la subopción ``Run Without Debugging``, como se muestra en la image:
 
+.. figure:: ../img/sesion01/runwithoutdebugging.png
+    :figclass: align-center
+    :alt: Ejecutar sin depurar 
 
 Comenta tu código
 ------------------
