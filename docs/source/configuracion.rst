@@ -63,21 +63,21 @@ hacer clic en el botón Instalar (2).
 Arcade
 ------------------
 
-#. Abre la terminal, como se muestra en la siguiente imagen:
+1. Abre la terminal, como se muestra en la siguiente imagen:
 
    .. figure:: img/cmd.png
       :width: 400
       :figclass: align-center
       :alt: cmd
 
-#. En la misma terminal, instale la biblioteca **Arcade** mediante el 
+2. En la misma terminal, instale la biblioteca **Arcade** mediante el 
 siguiente comando:
 
    .. attention::
         
       python -m pip install arcade
 
-#. Al final, debe aparecer un mensaje como el siguiente
+3. Al final, debe aparecer un mensaje como el siguiente
 
    .. figure:: img/installed.png
       :width: 400
