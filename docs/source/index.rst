@@ -10,13 +10,14 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
 * A manejar eventos para que el juego responda a las acciones del jugador,
 * A ponerle sonido y efectos para que tu juego sea una experiencia inmersiva y emocionante.
 
-.. image:: img/index.jpeg
-  :width: 400
-  :alt: Imagen principal
+.. figure:: img/index.jpeg
+   :width: 400
+   :figclass: align-center
+   :alt: Imagen principal
 
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :numbered:
   :caption: Contenido
   :glob:
