@@ -58,21 +58,21 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
 .. figure:: ../img/sesion03/planeta01.png
    :scale: 10%
    :figwidth: 30%
-   :alt: Planeta
+   :alt: Planeta01
 
    sprites/planeta01.png
 
-.. figure:: ../img/sesion03/nave01.png
+.. figure:: ../img/sesion03/planeta02.png
    :figwidth: 30%
-   :alt: Nave
+   :alt: Planeta02
 
-   sprites/nave01.png
+   sprites/planeta02.png
 
-.. figure:: ../img/sesion03/alien01.png
+.. figure:: ../img/sesion03/planeta03.png
    :figwidth: 30%
-   :alt: Alien
+   :alt: Planeta03
 
-   sprites/alien01.png
+   sprites/planeta03.png
 
 Sprites
 ------------------
@@ -91,7 +91,7 @@ Copia el siguiente código y colócalo en la ubicación indicada.
     # (Aquí irá el código para dibujar)
 
     # Creamos una lista de sprites
-    elementos = arcade.SpriteList()
+    planetas = arcade.SpriteList()
 
     # Creamos un sprite y establecemos la posición
     planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
@@ -99,14 +99,14 @@ Copia el siguiente código y colócalo en la ubicación indicada.
     planeta1.center_y = 450
 
     # Agregamos el sprite a la lista de sprites
-    elementos.append(planeta1)
+    planetas.append(planeta1)
 
     # Dibujamos la lista de sprites
-    elementos.draw()
+    planetas.draw()
 
     ...
 
-Antes de empezar, utilizaremos la variable ``elementos`` 
+Antes de empezar, utilizaremos la variable ``planetas`` 
 para almacenar nuestros sprites en una :term:`lista` 
 (:py:func:`arcade.SpriteList()`).
 
@@ -114,7 +114,7 @@ para almacenar nuestros sprites en una :term:`lista`
 
     ...
     # Creamos una lista de sprites
-    elementos = arcade.SpriteList()
+    planetas = arcade.SpriteList()
 
 
 Luego, usamos la variable ``planeta1`` 
@@ -133,23 +133,23 @@ en la ventana al asignar el valor en ``planeta1.center_x`` y en
     planeta1.center_x = 150
     planeta1.center_y = 450
 
-Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``elementos``) 
+Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``planetas``) 
 mediante la función :py:func:`elementos.append()`.
 
 .. code-block:: python
 
     ...
     # Agregamos el sprite a la lista de sprites
-    elementos.append(planeta1)
+    planetas.append(planeta1)
 
-Finalmente, dibujamos la lista de sprites ``elementos`` en la ventana.
+Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
 
 
 .. code-block:: python
 
     ...
     # Dibujamos la lista de sprites
-    elementos.draw()
+    planetas.draw()
 
 
 .. figure:: ../img/sesion03/planetaenventana.png
@@ -162,7 +162,3 @@ Finalmente, dibujamos la lista de sprites ``elementos`` en la ventana.
   :heading-level: 2
   :class: mi-clase-css
 
-Crea un segundo sprite, con la ruta ``sprites/alien01.png`` y con una escala 
-de 1. Calcula y asigna la ubicación del sprite en la mitad del alto de la 
-ventana y a 100 pixeles del ancho de la ventana.
-Agrega el sprite a la lista de sprites.
