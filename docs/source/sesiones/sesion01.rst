@@ -16,11 +16,13 @@ Programa principal: intro.py
         :figclass: align-center
         :alt: Extension Python
 
-#. Guarda el archivo con el nombre ``intro.py``
+#. Selecciona una carpeta para guardar el archivo con el nombre ``intro.py``
 
     .. figure:: ../img/sesion01/intropy.png
         :figclass: align-center
         :alt: Intro.py
+
+#. Ahora estamos listos para comenzar a programar
 
     .. figure:: ../img/sesion01/intropyready.png
         :figclass: align-center
