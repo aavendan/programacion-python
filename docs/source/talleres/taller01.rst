@@ -19,7 +19,7 @@ y divertidas que puedan ir mejorando poco a poco.
 ¡Creatividad ante todo!
 
 
-.. figure:: ../img/tallers/taller01.png
+.. figure:: ../img/tallers/taller01.jpeg
    :width: 300
    :figclass: align-center
    :alt: Thinking
