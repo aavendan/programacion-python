@@ -41,3 +41,6 @@ Diccionario de términos
     lista
         Una colección ordenada de elementos que pueden ser de
         diferentes tipos.
+
+    escala
+        Un valor que se utiliza para aumentar o disminuir el tamaño.
