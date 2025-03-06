@@ -63,12 +63,14 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
    sprites/planeta01.png
 
 .. figure:: ../img/sesion03/planeta02.png
+   :scale: 10%
    :figwidth: 30%
    :alt: Planeta02
 
    sprites/planeta02.png
 
 .. figure:: ../img/sesion03/planeta03.png
+   :scale: 10%
    :figwidth: 30%
    :alt: Planeta03
 
