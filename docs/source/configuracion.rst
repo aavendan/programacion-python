@@ -12,15 +12,13 @@ Computadora
 ------------------
 
 .. figure:: img/laptop.svg
-   :width: 150
+   :width: 100
    :align: left 
    :alt: laptop
    
 Antes de comenzar a programar, necesitamos instalar algunas cosas. 
 ¿Usas una computadora en tu casa o en el colegio? ¡Genial! Es posible que 
-ya tengas todo esto instalado. 
-
-De todos modos, lee esta parte, ya que es posible 
+ya tengas todo esto instalado. De todos modos, lee esta parte, ya que es posible 
 que necesites configurar tu propio sistema en el futuro.
 
 
@@ -53,15 +51,14 @@ Descarga e instala `Visual Studio Code <https://code.visualstudio.com/>`_.
 Python 
 ------------------
 
-Usaremos el lenguaje de programación de computadoras “Python”. 
-
-Descarga Python desde el `sitio web oficial de Python https://www.python.org/downloads/>`_
+Usaremos el lenguaje de programación de computadoras “Python” que puedes 
+descargar del `sitio web oficial de Python <https://www.python.org/downloads/>`_.
 
 Al instalar Python, asegúrate de agregar Python a la ruta (1) antes de 
 hacer clic en el botón Instalar (2).
 
 .. figure:: img/setup_windows_1.webp
-   :width: 300
+   :width: 400
    :figclass: align-center
    :alt: Python Setup
 
