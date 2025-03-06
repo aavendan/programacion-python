@@ -171,13 +171,13 @@ un **tercio de la vertical** de la ventana.
 
 3. Agrega cada uno de los sprites a la lista de sprites.
 
-.. admonition:: Clic aquí para ver la respuesta
+.. hint:: Clic aquí para ver la respuesta
   :collapsible: closed
 
   A continuación, la solución al reto anterior.
 
   .. code-block:: python
-    :emphasize-lines: 4-7,8-11
+    :emphasize-lines: 4-7,9-12
 
     ...
     planetas.append(planeta1)
