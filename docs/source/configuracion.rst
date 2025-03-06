@@ -25,16 +25,27 @@ que necesites configurar tu propio sistema en el futuro.
 
 1. Instalar un “IDE” para escribir tus programas. (Usaremos un programa 
 llamado VSCode. 
-
 2. Instalar el lenguaje de programación Python.
-
 3. Un pequeño ajuste de configuración para que podamos ver las extensiones 
 de archivo.
 
-VSCode
+Visual Studio Code
 ------------------
 
+Necesitamos un editor. Python viene con un editor llamado IDLE, pero es horrible 
+y no vale la pena usarlo. Usaremos un editor llamado **Visual Studio Code**.
 
+.. figure:: img/vscode.png
+   :width: 200
+   :align: right 
+   :alt: Visual Studio Code
+
+Visual Studio Code es un programa poderoso que te permite hacer más que 
+simplemente editar el programa, también incluye un gran conjunto de herramientas 
+que los programadores necesitan. 
+
+Este tipo de entorno se llama Entorno de Desarrollo Integrado, o IDE para abreviar.
+Descarga e instala `Visual Studio Code <https://code.visualstudio.com/>`_.
 
 Python 
 ------------------
