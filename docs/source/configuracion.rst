@@ -63,4 +63,6 @@ hacer clic en el botón Instalar (2).
 Arcade
 ------------------
 
-`Documentación de Arcade <https://api.arcade.academy/en/latest/>`_
+En la misma línea de comando, 
+
+Puedes consultar la documentación de Arcade en el `sitio oficial <https://api.arcade.academy/en/latest/>`_
