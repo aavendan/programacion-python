@@ -47,7 +47,9 @@ código básico:
 Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
 se muestra en la siguente imagen. 
 
-.. imagen
+.. figure:: ../img/sesion03/base.png
+   :figclass: align-center
+   :alt: base
 
 Configuración
 ------------------
