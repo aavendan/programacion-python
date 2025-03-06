@@ -25,6 +25,7 @@ Aprenderás a programar mientras das vida a tu videojuego, desde la idea inicial
   presentacion
   configuracion
   galaxiaindie
+  talleres
   diccionario
   referencias
-  talleres
+ 
