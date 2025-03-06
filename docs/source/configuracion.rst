@@ -65,23 +65,25 @@ Arcade
 
 #. Abre la terminal, como se muestra en la siguiente imagen:
 
-    .. figure:: img/cmd.png
-       :width: 400
-       :figclass: align-center
-       :alt: cmd
+   .. figure:: img/cmd.png
+      :width: 400
+      :figclass: align-center
+      :alt: cmd
 
 #. En la misma terminal, instale la biblioteca **Arcade** mediante el 
 siguiente comando:
 
-    .. attention::
+   .. attention::
         
-        python -m pip install arcade
+      python -m pip install arcade
 
 #. Al final, debe aparecer un mensaje como el siguiente
 
-    .. figure:: img/installed.png
-       :width: 400
-       :figclass: align-center
-       :alt: installed arcade
+   .. figure:: img/installed.png
+      :width: 400
+      :figclass: align-center
+      :alt: installed arcade
 
-Puedes consultar la documentación de Arcade en el `sitio oficial <https://api.arcade.academy/en/latest/>`_
+Puedes consultar la documentación de Arcade en el 
+`sitio oficial <https://api.arcade.academy/en/latest/>`_ con más 
+`formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_. 
