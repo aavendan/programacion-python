@@ -50,7 +50,16 @@ Descarga e instala `Visual Studio Code <https://code.visualstudio.com/>`_.
 Python 
 ------------------
 
-`Documentación de Python <https://www.python.org/>`_
+Usaremos el lenguaje de programación de computadoras “Python”. 
+
+Descarga Python desde el `sitio web oficial de Python https://www.python.org/downloads/>`_
+
+Al instalar Python, asegúrate de agregar Python a la ruta (1) antes de 
+hacer clic en el botón Instalar (2).
+
+.. figure:: img/setup_windows_1.png
+   :width: 200
+   :alt: Python Setup
 
 Arcade
 ------------------
