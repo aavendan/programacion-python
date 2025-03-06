@@ -1,11 +1,39 @@
 Configuración
 ======================
 
+Configurar un sistema y prepararlo para programar puede ser un poco frustrante. 
+No te rindas. Una vez que tengas un sistema configurado para programar, 
+no necesitas pensar en ello nuevamente. 
+
+Puedes concentrarte en la parte de programación. Es normal quedarse atascado 
+durante la configuración, así que no dudes en pedir ayuda.
+
 Computadora
 ------------------
 
+.. figure:: img/laptop.svg
+   :align: left 
+   :alt: laptop
+   
+Antes de comenzar a programar, necesitamos instalar algunas cosas. 
+¿Usas una computadora en tu casa o en el colegio? ¡Genial! Es posible que 
+ya tengas todo esto instalado. De todos modos, lee esta parte, ya que es posible 
+que necesites configurar tu propio sistema en el futuro.
+
+¿Qué necesitas?
+
+1. Instalar un “IDE” para escribir tus programas. (Usaremos un programa 
+llamado VSCode. 
+
+2. Instalar el lenguaje de programación Python.
+
+3. Un pequeño ajuste de configuración para que podamos ver las extensiones 
+de archivo.
+
 VSCode
 ------------------
+
+
 
 Python 
 ------------------
