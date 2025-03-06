@@ -66,7 +66,7 @@ Arcade
 #. Abre la terminal, como se muestra en la siguiente imagen:
 
 .. figure:: img/cmd.png
-   :width: 200
+   :width: 400
    :figclass: align-center
    :alt: cmd
 
@@ -80,7 +80,7 @@ siguiente comando:
 #. Al final, debe aparecer un mensaje como el siguiente
 
 .. figure:: img/installed.png
-   :width: 200
+   :width: 400
    :figclass: align-center
    :alt: installed arcade
 
