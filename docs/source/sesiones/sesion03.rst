@@ -175,7 +175,7 @@ un **tercio de la vertical** de la ventana.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4-8,9-13
+    :emphasize-lines: 4-8,10-14
 
     ...
     planetas.append(planeta1)
@@ -186,7 +186,7 @@ un **tercio de la vertical** de la ventana.
     planeta2.center_y = ALTO / 2
     planetas.append(planeta2)
 
-    # Sprite 2
+    # Sprite 3
     planeta3 = arcade.Sprite("sprites/planeta03.png", 0.05)
     planeta3.center_x = 100
     planeta3.center_y = ALTO / 3
