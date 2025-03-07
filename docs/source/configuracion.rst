@@ -89,6 +89,3 @@ siguiente comando:
       :figclass: align-center
       :alt: installed arcade
 
-Puedes consultar la documentación de Arcade en el 
-`sitio oficial <https://api.arcade.academy/en/latest/>`_ con más 
-`formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_. 
