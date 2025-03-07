@@ -19,3 +19,7 @@ details.admonition-haga-click-aqui-para-ver-la-solucion {
 summary.admonition-title {
 	background: #07cb79 !important;
 }
+
+figure.aligned-center {
+	margin-bottom: 1rem;
+}
