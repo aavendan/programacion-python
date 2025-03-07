@@ -63,8 +63,7 @@ Arcade
 ------------------
 
 #. Abra la terminal, como se muestra en la siguiente imagen:
-#. En la terminal, instale la biblioteca **Arcade** mediante el 
-siguiente comando:
+#. En la terminal, instale la biblioteca **Arcade** mediante el siguiente comando:
 #. Al final, debe aparecer un mensaje como el siguiente:
 
    .. figure:: img/launcher.png
