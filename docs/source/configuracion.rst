@@ -69,15 +69,15 @@ Arcade
       :figclass: align-center
       :alt: launcher
 
-#. En la terminal, instale la biblioteca **Arcade** mediante el siguiente comando:
-
    .. figure:: img/cmd.png
       :width: 400
       :figclass: align-center
       :alt: cmd
 
+#. En la terminal, instale la biblioteca **Arcade** mediante el siguiente comando:
+
    .. attention::
-        
+
       python -m pip install arcade
 
 #. Al final, debe aparecer un mensaje como el siguiente:
