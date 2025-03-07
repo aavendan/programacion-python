@@ -20,6 +20,6 @@ summary.admonition-title {
 	background: #07cb79 !important;
 }
 
-figure.aligned-center {
-	margin-bottom: 1rem;
+.admonition  {
+	padding: 1rem 0!important;
 }
