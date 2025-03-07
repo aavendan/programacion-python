@@ -16,8 +16,8 @@ instrucción sencilla, como "Presiona una tecla para comenzar".
 Recuerden que esta es la primera impresión que tendrá el jugador, 
 así que aprovechen para demostrar su creatividad.
 
-En en el sitio oficial de `Arcade <https://api.arcade.academy/en/latest/>`_ 
-puedes encontrar más información sobre cómo dibujar otras formas y figuras.
+Puedes consultar la documentación de Arcade en el sitio oficial con más 
+`formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_. 
 
 Acá, dos ejemplos de pantallas de introducción para videojuegos:
 
