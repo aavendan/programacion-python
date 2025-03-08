@@ -62,19 +62,21 @@ hacer clic en el botón Instalar (2).
 Arcade
 ------------------
 
-#. Abra la terminal, como se muestra en la siguiente imagen:
+#. Desde el menú de Windows, escribe **simbolo** para abrir la terminal
 
    .. figure:: img/launcher.png
       :width: 400
       :figclass: align-center
       :alt: launcher
 
+#. La terminal es la siguiente:
+
    .. figure:: img/cmd.png
       :width: 400
       :figclass: align-center
       :alt: cmd
 
-#. En la terminal, instale la biblioteca **Arcade** mediante el siguiente comando:
+#. En la terminal, instale la biblioteca **Arcade** con el siguiente comando:
 
    .. attention::
 
@@ -83,7 +85,6 @@ Arcade
 #. Al final, debe aparecer un mensaje como el siguiente:
 
    .. figure:: img/installed.png
-      :width: 400
       :figclass: align-center
       :alt: installed arcade
 
