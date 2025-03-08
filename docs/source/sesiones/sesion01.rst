@@ -196,7 +196,7 @@ cuándo empiezas a dibujar (:py:func:`arcade.start_render()`) y
 cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
 
 .. code-block:: python
-    :emphasize-lines: 19,20,22,23,27,28
+    :emphasize-lines: 19-20,22-23,25,27-28
 
     """
     Galaxia Indie
