@@ -54,6 +54,9 @@ se muestra en la siguente imagen.
     :figclass: align-center
     :alt: base
 
+Sprite y SpriteList
+------------------
+
 .. rubric:: Imágenes de los planetas
   :heading-level: 2
 
@@ -84,9 +87,6 @@ se muestra en la siguente imagen.
 .. note::
     
     Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
-
-Sprite y SpriteList
-------------------
 
 Un :term:`sprite` es una imagen :term:`bidimensional` que forma 
 parte de una escena gráfica más grande. Por lo general, un sprite 
@@ -218,5 +218,5 @@ se muestra a continuación.
 .. rubric:: Imágenes de los aliens y la nave
   :heading-level: 2
 
-#. Descarga y descomprime las siguientes imágenes de los :download:`extraterrestres <../img/sesion03/aliens.zip>`  y la :download:`nave <../img/sesion03/nave.zip>`.
+#. Descarga y descomprime las siguientes imágenes de los :download:`aliens <../img/sesion03/aliens.zip>`  y la :download:`nave <../img/sesion03/nave.zip>`.
 #. Guárdalas en la carpeta ``sprites``.
