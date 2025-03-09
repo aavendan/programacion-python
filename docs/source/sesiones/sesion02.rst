@@ -292,7 +292,7 @@ los valores por la constante correspondiente.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4-5,6-7
+    :emphasize-lines: 4-5,7-8
 
     ...
     # Constantes
@@ -314,7 +314,7 @@ que puede cambiar (variar) en otra parte del programa.
 A continuación, modifica las siguientes instrucciones al código anterior:
 
   .. code-block:: python
-    :emphasize-lines: 4-7,9,13,16-17,19
+    :emphasize-lines: 4-7,14,17-18,20
 
     # Constantes
     ...
@@ -324,6 +324,7 @@ A continuación, modifica las siguientes instrucciones al código anterior:
     planeta_centro_y = 200
     radio = 15
 
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     ...
 
     # Planeta en (200,200)
