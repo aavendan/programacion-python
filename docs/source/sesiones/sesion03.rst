@@ -197,8 +197,8 @@ se muestra a continuación.
   .. code-block:: python
     :emphasize-lines: 4-8,10-14
 
+    # Variables 
     ...
-    planetas.append(planeta1)
 
     # Sprite 2
     planeta2 = arcade.Sprite("sprites/planeta02.png", 0.02)
@@ -212,6 +212,7 @@ se muestra a continuación.
     planeta3.center_y = ALTO / 3
     planetas.append(planeta3)
 
-    planetas.draw()
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    ...
 
 
