@@ -122,11 +122,14 @@ Para dibujar un círculo, se utiliza con la función
 En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
 
 .. code-block:: python
-    :emphasize-lines: 6,7
+    :emphasize-lines: 9-10
 
     ...
 
     # Inicio del dibujo
+    ...
+
+    # Estrella en  (100,100)
     ...
 
     # Planeta	
@@ -150,11 +153,14 @@ En nuestra imagen de ejemplo, usaremos varios círculos para dibujar los
 cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 
 .. code-block:: python
-    :emphasize-lines: 9-12
+    :emphasize-lines: 12-15
 
     ...
 
     # Inicio del dibujo
+    ...
+
+    # Estrella en  (100,100)
     ...
 
     # Planeta	
@@ -190,6 +196,15 @@ Agrega los cráteres con las siguientes características:
 
   .. code-block:: python
 
+    # Inicio del dibujo
+    ...
+
+    # Planeta	
+    ...
+
+    # Cráteres del planeta
+    ...
+
     # Planeta en (200,200)
     # Planeta Gris
     arcade.draw_circle_filled(200, 200, 15, arcade.csscolor.GRAY)
@@ -198,6 +213,9 @@ Agrega los cráteres con las siguientes características:
     arcade.draw_circle_filled(190, 205, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
+
+    # Fin del dibujo
+    ...
 
 Texto
 ------------------
