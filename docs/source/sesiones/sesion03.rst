@@ -172,8 +172,8 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
   :heading-level: 2
   :class: mi-clase-css
 
-#. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala de **0.02**. El centro se encuentra a **100 píxeles del ancho** de la ventana y a la **mitad vertical** de la ventana.
-#. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala de **0.05**. El centro se encuentra a **100 píxeles del borde izquierdo** y a un **tercio de la vertical** de la ventana.
+#. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala de **0.02**. El centro se encuentra a **100 píxeles** menos del ancho de la ventana y a la **mitad vertical** de la ventana.
+#. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala de **0.05**. El centro se encuentra a **100 píxeles** respecto con el borde izquierdo y a un **tercio de la vertical** de la ventana.
 #. Agrega cada uno de los sprites a la lista de sprites.
 
 Al ejecutar el código, deberías ver los tres planetas en la ventana como 
