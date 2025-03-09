@@ -94,6 +94,7 @@ como un planeta, un extraterrestre o una nave.
 Copia el siguiente código y colócalo en la ubicación indicada.
 
 .. code-block:: python
+    :emphasize-lines: 5-6, 8-11, 12-13, 14-15
 
     ...
 
@@ -113,6 +114,7 @@ Copia el siguiente código y colócalo en la ubicación indicada.
     # Dibujamos la lista de sprites
     planetas.draw()
 
+    # Fin del dibujo
     ...
 
 Antes de empezar, utilizaremos la variable ``planetas`` 
