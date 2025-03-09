@@ -55,8 +55,8 @@ se muestra en la siguente imagen.
 Configuración
 ------------------
 
-Para empezar, descarga las siguientes imágenes y colócalas en 
-la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
+#. Para empezar, crea la carpeta `sprites` en tu proyecto.
+#. Descarga las siguientes imágenes y colócalas en la carpeta `sprites`. 
 
 .. figure:: ../img/sesion03/planeta01.png
    :scale: 10%
@@ -78,6 +78,10 @@ la carpeta `sprites`. Puedes obtener más imágenes en `kenney.nl <https://kenne
    :alt: Planeta03
 
    sprites/planeta03.png
+
+.. note::
+    
+    Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
 
 Sprite y SpriteList
 ------------------
