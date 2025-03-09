@@ -24,10 +24,12 @@ código básico:
     # Importar la librería "arcade" para crear videojuegos.
     import arcade
 
-    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    # Constantes
     ALTO = 600
     ANCHO = 600
     TITULO = "Misión 01: Listos para el despegue"
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
     arcade.open_window(ANCHO, ALTO, TITULO)    
 
     # Establecer el color de fondo de la ventana
@@ -94,12 +96,12 @@ como un planeta, un extraterrestre o una nave.
 Copia el siguiente código y colócalo en la ubicación indicada.
 
 .. code-block:: python
-    :emphasize-lines: 5-6, 8-11, 13-14, 16-17
+    :emphasize-lines: 4-6, 8-11, 13-14, 20-21
 
+    # Constantes
     ...
 
-    # (Aquí irá el código para dibujar)
-
+    # Variables 
     # Creamos una lista de sprites
     planetas = arcade.SpriteList()
 
@@ -110,6 +112,10 @@ Copia el siguiente código y colócalo en la ubicación indicada.
 
     # Agregamos el sprite a la lista de sprites
     planetas.append(planeta1)
+
+    ...
+
+    # (Aquí irá el código para dibujar)
 
     # Dibujamos la lista de sprites
     planetas.draw()
