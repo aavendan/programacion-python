@@ -47,13 +47,9 @@ En nuestra imagen de ejemplo, usaremos varias líneas para dibujar
 rayos de una estrella:
 
 .. code-block:: python
-    :emphasize-lines: 8-12, 14-17
+    :emphasize-lines: 4-8, 10-13
 
     ...
-
-    # Inicio del dibujo
-    ...
-
     # (Aquí irá el código para dibujar)
 
     # Rayos de luz
@@ -93,7 +89,7 @@ las líneas de la estrella.
     # (Aquí irá el código para dibujar)
     ...
 
-    # Rayos de luz
+    # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
     ...
 
     # Estrella en  (100,100)
@@ -126,10 +122,10 @@ En nuestra imagen de ejemplo, usaremos un círculo para dibujar un planeta:
 
     ...
 
-    # Inicio del dibujo
+    # (Aquí irá el código para dibujar)
     ...
 
-    # Estrella en  (100,100)
+    # Líneas diagonales
     ...
 
     # Planeta	
@@ -157,10 +153,10 @@ cráteres en el planeta al sobreponer círculos de diferentes formas y colores:
 
     ...
 
-    # Inicio del dibujo
+    # (Aquí irá el código para dibujar)
     ...
 
-    # Estrella en  (100,100)
+    # Líneas diagonales
     ...
 
     # Planeta	
@@ -196,10 +192,7 @@ Agrega los cráteres con las siguientes características:
 
   .. code-block:: python
 
-    # Inicio del dibujo
-    ...
-
-    # Planeta	
+    # (Aquí irá el código para dibujar)
     ...
 
     # Cráteres del planeta
@@ -233,7 +226,7 @@ con los siguientes parámetros:
 
     ...
 
-    # Inicio del dibujo
+    # (Aquí irá el código para dibujar)
     ...
 
     # Cráteres del planeta
