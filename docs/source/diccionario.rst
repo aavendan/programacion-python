@@ -60,3 +60,6 @@ Diccionario de términos
 
     escala
         Un valor que se utiliza para aumentar o disminuir el tamaño.
+
+    ruta
+        La ubicación de un archivo en el sistema de archivos.

@@ -129,9 +129,11 @@ para almacenar nuestros sprites en una :term:`lista`
 
 
 Luego, usamos la variable ``planeta1`` 
-para almacenar un sprite :py:func:`arcade.Sprite()`, con la ruta a la imagen y  
-la :term:`escala`. Además, usamos la variable ``planeta1`` para 
-colocar el sprite en la ventana al asignar el valor en 
+para almacenar un sprite :py:func:`arcade.Sprite()`, 
+con la :term:`ruta` a la imagen y la :term:`escala`. 
+
+Además, usamos la variable ``planeta1`` para 
+colocar el sprite en la ventana cuyo centro es (``x``, ``y``), con 
 ``planeta1.center_x = 150`` y en ``planeta1.center_y = 450``.
 
 .. code-block:: python
@@ -142,8 +144,8 @@ colocar el sprite en la ventana al asignar el valor en
     planeta1.center_x = 150
     planeta1.center_y = 450
 
-Luego, agregamos el sprite (``planeta1``) a la lista de sprites (``planetas``) 
-mediante la función :py:func:`planetas.append()`.
+Luego, con :py:func:`planetas.append()` agregamos el sprite 
+(``planeta1``) a la lista de sprites (``planetas``).
 
 .. code-block:: python
 
@@ -170,12 +172,8 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
   :heading-level: 2
   :class: mi-clase-css
 
-#. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala 
-de **0.02**. El centro se encuentra a **100 píxeles del ancho** de la ventana 
-y a la **mitad vertical** de la ventana.
-#. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala 
-de **0.05**. El centro se encuentra a **100 píxeles del borde izquierdo** y a 
-un **tercio de la vertical** de la ventana.
+#. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala de **0.02**. El centro se encuentra a **100 píxeles del ancho** de la ventana y a la **mitad vertical** de la ventana.
+#. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala de **0.05**. El centro se encuentra a **100 píxeles del borde izquierdo** y a un **tercio de la vertical** de la ventana.
 #. Agrega cada uno de los sprites a la lista de sprites.
 
 Al ejecutar el código, deberías ver los tres planetas en la ventana como 
