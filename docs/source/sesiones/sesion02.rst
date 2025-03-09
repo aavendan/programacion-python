@@ -314,7 +314,7 @@ que puede cambiar (variar) en otra parte del programa.
 A continuación, modifica las siguientes instrucciones al código anterior:
 
   .. code-block:: python
-    :emphasize-lines: 4-7,14,17-18,20
+    :emphasize-lines: 4-7,9-10,17,20
 
     # Constantes
     ...
@@ -324,6 +324,9 @@ A continuación, modifica las siguientes instrucciones al código anterior:
     planeta_centro_y = 200
     radio = 15
 
+    crater1_centro_x = planeta_centro_x - 10
+    crater1_centro_y = planeta_centro_y + 5
+
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     ...
 
@@ -332,9 +335,6 @@ A continuación, modifica las siguientes instrucciones al código anterior:
     arcade.draw_circle_filled( planeta_centro_x, planeta_centro_y, radio, arcade.csscolor.GRAY)
     
     # Cráteres del planeta
-    crater1_centro_x = planeta_centro_x - 10
-    crater1_centro_y = planeta_centro_y + 5
-
     arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(210, 195, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(205, 210, 2, arcade.csscolor.DARK_GRAY)
@@ -377,11 +377,10 @@ Luego, reemplaza las variables correspondientes en las funciones
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 6-9,12-13
+    :emphasize-lines: 5-8,14-15
 
     ...
 
-    # Cráteres del planeta
     crater1_centro_x = planeta_centro_x - 10
     crater1_centro_y = planeta_centro_y + 5
     crater2_centro_x = planeta_centro_x + 10
@@ -389,6 +388,9 @@ Luego, reemplaza las variables correspondientes en las funciones
     crater3_centro_x = planeta_centro_x + 5
     crater3_centro_y = planeta_centro_y + 10
 
+    ...
+
+    # Cráteres del planeta
     arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(crater2_centro_x, crater2_centro_y, 3, arcade.csscolor.DARK_GRAY)
     arcade.draw_circle_filled(crater3_centro_x, crater3_centro_y, 2, arcade.csscolor.DARK_GRAY)
