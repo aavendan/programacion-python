@@ -54,8 +54,8 @@ se muestra en la siguente imagen.
     :figclass: align-center
     :alt: base
 
-Configuración
-------------------
+.. rubric:: Imágenes de los planetas
+  :heading-level: 2
 
 #. Para empezar, crea la carpeta `sprites` en tu proyecto.
 #. Descarga las siguientes imágenes y colócalas en la carpeta `sprites`. 
@@ -215,4 +215,8 @@ se muestra a continuación.
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
     ...
 
+.. rubric:: Imágenes de los aliens y la nave
+  :heading-level: 2
 
+#. Descarga y descomprime las siguientes imágenes de los :download:`extraterrestres <../img/sesion03/aliens.zip>`  y la :download:`nave <../img/sesion03/nave.zip>`.
+#. Guárdalas en la carpeta ``sprites``.
