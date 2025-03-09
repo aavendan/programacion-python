@@ -94,7 +94,7 @@ como un planeta, un extraterrestre o una nave.
 Copia el siguiente código y colócalo en la ubicación indicada.
 
 .. code-block:: python
-    :emphasize-lines: 5-6, 8-11, 12-13, 14-15
+    :emphasize-lines: 5-6, 8-11, 13-14, 16-17
 
     ...
 
