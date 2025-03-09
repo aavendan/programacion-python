@@ -89,6 +89,13 @@ las líneas de la estrella.
 
   .. code-block:: python
 
+    ...
+    # (Aquí irá el código para dibujar)
+    ...
+
+    # Rayos de luz
+    ...
+
     # Estrella en  (100,100)
     # Línea horizontal
     arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
@@ -98,6 +105,9 @@ las líneas de la estrella.
     # Líneas diagonales
     arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
     arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
+
+    # Fin del dibujo
+    ...
 
 De círculos a planetas
 ------------------
