@@ -84,6 +84,7 @@ las líneas de la estrella.
   :collapsible: closed
 
   .. code-block:: python
+    :emphasize-lines: 8-12, 14-16
 
     ...
     # (Aquí irá el código para dibujar)
@@ -191,6 +192,7 @@ Agrega los cráteres con las siguientes características:
   :collapsible: closed
 
   .. code-block:: python
+    :emphasize-lines: 7-9, 11-14
 
     # (Aquí irá el código para dibujar)
     ...
