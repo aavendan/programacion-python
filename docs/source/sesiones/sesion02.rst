@@ -256,10 +256,12 @@ Una :term:`constante` es un valor que no cambia durante la ejecución del
 programa, por ejemplo el ancho de la ventana.
 
 .. code-block:: python
-    :emphasize-lines: 3,6
+    :emphasize-lines: 4-5,7-8
 
+    # Importar la librería "arcade" para crear videojuegos.
     ...
 
+    # Constantes
     ANCHO = 600
 
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
@@ -290,10 +292,10 @@ los valores por la constante correspondiente.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4,5,8
+    :emphasize-lines: 4-5,6-7
 
     ...
-
+    # Constantes
     ANCHO = 600
     ALTO = 600
     TITULO = "Galaxia Indie"
@@ -312,15 +314,19 @@ que puede cambiar (variar) en otra parte del programa.
 A continuación, modifica las siguientes instrucciones al código anterior:
 
   .. code-block:: python
-    :emphasize-lines: 4-6,9,12-13,15
+    :emphasize-lines: 4-7,9,13,16-17,19
 
+    # Constantes
     ...
-
-    # Planeta en (200,200)
+    
+    # Variables
     planeta_centro_x = 200
     planeta_centro_y = 200
     radio = 15
 
+    ...
+
+    # Planeta en (200,200)
     # Planeta Gris
     arcade.draw_circle_filled( planeta_centro_x, planeta_centro_y, radio, arcade.csscolor.GRAY)
     
