@@ -49,7 +49,7 @@ código básico:
 Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
 se muestra en la siguente imagen. 
 
-.. figure:: ../img/sesion03/base.png
+.. figure:: ../img/sesion04/base.png
     :scale: 50%
     :figclass: align-center
     :alt: base
@@ -63,21 +63,21 @@ Sprite y SpriteList
 #. Para empezar, crea la carpeta `sprites` en tu proyecto.
 #. Descarga las siguientes imágenes y colócalas en la carpeta `sprites`. 
 
-.. figure:: ../img/sesion03/planeta01.png
+.. figure:: ../img/sesion04/planeta01.png
    :scale: 10%
    :figwidth: 30%
    :alt: Planeta01
 
    sprites/planeta01.png
 
-.. figure:: ../img/sesion03/planeta02.png
+.. figure:: ../img/sesion04/planeta02.png
    :scale: 10%
    :figwidth: 30%
    :alt: Planeta02
 
    sprites/planeta02.png
 
-.. figure:: ../img/sesion03/planeta03.png
+.. figure:: ../img/sesion04/planeta03.png
    :scale: 10%
    :figwidth: 30%
    :alt: Planeta03
@@ -173,7 +173,7 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
     planetas.draw()
 
 
-.. figure:: ../img/sesion03/planetaenventana.png
+.. figure:: ../img/sesion04/planetaenventana.png
    :width: 300
    :figclass: align-center
    :alt: Planeta en la ventana
@@ -190,7 +190,7 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
 Al ejecutar el código, deberías ver los tres planetas en la ventana como 
 se muestra a continuación.
 
-.. figure:: ../img/sesion03/tresplanetas.png
+.. figure:: ../img/sesion04/tresplanetas.png
     :width: 300
     :figclass: align-center
     :alt: tresplanetas
@@ -223,7 +223,7 @@ se muestra a continuación.
 .. rubric:: Imagen de la nave
   :heading-level: 2
 
-#. Descarga y descomprime la imagen de la :download:`nave <../img/sesion03/nave.png>`.
+#. Descarga y descomprime la imagen de la :download:`nave <../img/sesion04/nave.png>`.
 #. Guárdalas en la carpeta ``sprites``.
 
 .. rubric:: Nave
