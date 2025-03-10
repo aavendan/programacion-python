@@ -236,4 +236,29 @@ cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
     tabla de colores en 
     `arcade.color <https://api.arcade.academy/en/latest/api_docs/arcade.color.html>`_.
     para especificar colores por nombre (por 
-    ejemplo `arcade.color.DARK_IMPERIAL_BLUE`), 
+    ejemplo `arcade.color.DARK_IMPERIAL_BLUE`)
+
+
+.. rubric:: En resumen
+  :heading-level: 2
+
+Al finalizar esta sesión, tu código debería verse así:
+
+.. code-block:: python
+    """
+    Galaxia Indie
+
+    Un juego indie minimalista de exploración espacial
+    donde viajarás a través del cosmos.
+    Navega a través de misteriosos sistemas estelares,
+    descubriendo antiguos artefactos y desentrañando los
+    misterios de una civilización olvidada.
+
+    Creado usando Python y la biblioteca Arcade.
+    """
+
+    # Importar la librería "arcade" para crear juegos.
+    import arcade
+
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
+    arcade.open_window(600, 600, "Galaxia Indie")
