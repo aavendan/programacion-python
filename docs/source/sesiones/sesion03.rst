@@ -56,20 +56,21 @@ Función: Dibujar una estrella
 
 .. admonition:: Haga click aquí para ver la solución
   :collapsible: closed
+  
+  .. code-block:: python
+  :caption: Ejemplo de la función dibujar_estrella() en Python 
+    
+    def dibujar_estrella():
+    
+        """ Esta función dibuja una estrella en la pantalla. """
 
-    .. code-block:: python
-    :caption: Ejemplo de la función dibujar_estrella() en Python 
+        # Rayos de luz
+        # Horizontal, de izquierda (400, 450) a derecha (500, 450)
+        arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
+        # Vertical, de arriba (450, 500) a abajo (450, 400)
+        arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
 
-        def dibujar_estrella():
-            """ Esta función dibuja una estrella en la pantalla. """
-
-            # Rayos de luz
-            # Horizontal, de izquierda (400, 450) a derecha (500, 450)
-            arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
-            # Vertical, de arriba (450, 500) a abajo (450, 400)
-            arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
-
-            # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
-            arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
-            # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
-            arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
+        # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
+        arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
+        # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
+        arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
