@@ -82,6 +82,9 @@ Reemplaza o comenta el código por la llamada a la función:
    # arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
    titulo_juego()
 
+   # Fin del dibujo
+   ...
+
 
 Función: Dibujar una estrella
 ------------------
