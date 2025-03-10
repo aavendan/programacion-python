@@ -22,10 +22,6 @@ Completa la siguiente tabla en tu cuaderno:
    * - Mecánicas del Juego
      - Controles, colisiones, sistema de puntaje, vidas y reintentos, power-ups o bonificaciones
    * - Elementos Visuales
-     - Sprites, animaciones, interfaz de usuario (UI)
+     - Sprites, animaciones
    * - Elementos Sonoros
      - Música de fondo, efectos de sonido
-   * - Aspectos Técnicos
-     - Optimización del rendimiento, estructura del código, uso de clases y funciones
-   * - Extras para Mejorar la Experiencia
-     - Menú principal, sistema de logros, personalización
