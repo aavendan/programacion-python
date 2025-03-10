@@ -8,7 +8,7 @@ muestre el nombre del juego.
 En esta pantalla, puedes utilizar líneas, circunferencias, rectángulos y otras 
 formas geométricas para decorar y hacerla más atractiva. Puedes consultar la 
 documentación de Arcade en el sitio oficial con más 
-`formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_. 
+`formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_ y el `índice de instrucciones de formas básicas <https://api.arcade.academy/en/latest/api_docs/quick_index.html#quick-index>`_. 
 
 Acá, dos ejemplos de pantallas de introducción para videojuegos:
 
