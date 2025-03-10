@@ -3,9 +3,9 @@ Misión 03: Galaxias 🌌
 
 En la misión anterior aprendimos a usar funciones, crear variables y a usar las variables en expresiones. 
 
-Ahora, vamos a aprovechar este conocimiento para crear funciones. Una :term:`función` es un grupo de comandos que le damos a la computadora. 
+Ahora, vamos a aprovechar este conocimiento para crear funciones y así agrupar varias instrucciones relacionadas entre sí.  Una :term:`función` es un grupo de comandos que le damos a la computadora.
 
-.. figure:: ../img/sesion03/ordenes.jpeg
+.. figure:: ../img/sesion03/istockphoto-1845480259-612x612.jpg
     :scale: 40%
     :figclass: align-center
     :alt: ordenes
@@ -14,9 +14,6 @@ Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()`
 
 Función: Título del juego
 ------------------
-
-.. rubric:: Estructura de la función
-  :heading-level: 2
 
 .. code-block:: python
    :caption: Función titulo_juego
@@ -45,10 +42,10 @@ Para escribir una función:
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
 #. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una :term:`sangría` o :term:`indentación`. 
 
-.. rubric:: Definir la función
+.. rubric:: Crea la función
   :heading-level: 2
 
-Para escribir la función en tu programa, copia y pega el código de la función en tu programa.
+Para escribir la función en tu programa, define la función :py:func:`titulo_juego()` al inicio de tu programa. Copia y pega el código de la función en tu programa.
 
 .. code-block:: python
    :caption: Función titulo_juego
@@ -67,7 +64,7 @@ Para escribir la función en tu programa, copia y pega el código de la función
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     ...
 
-.. rubric:: Llamada a la función
+.. rubric:: Llama a la función
   :heading-level: 2
 
 Reemplaza o comenta el código por la llamada a la función:
