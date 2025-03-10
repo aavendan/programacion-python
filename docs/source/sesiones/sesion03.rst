@@ -6,7 +6,7 @@ En la misión anterior aprendimos a usar funciones, crear variables y a usar las
 Ahora, vamos a aprovechar este conocimiento para crear funciones. Una :term:`función` es un grupo de comandos que le damos a la computadora. 
 
 .. figure:: ../img/sesion03/ordenes.jpeg
-    :scale: 50%
+    :scale: 40%
     :figclass: align-center
     :alt: ordenes
 
@@ -58,7 +58,7 @@ Función: Dibujar una estrella
   :collapsible: closed
   
   .. code-block:: python
-  :caption: Ejemplo de la función dibujar_estrella() en Python 
+    :caption: Ejemplo de la función dibujar_estrella() en Python 
     
     def dibujar_estrella():
     
