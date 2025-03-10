@@ -12,24 +12,20 @@ Ahora, vamos a aprovechar este conocimiento para crear funciones. Una :term:`fun
 
 Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()` o la función :py:func:`arcade.Text()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
-Función: Mostrar un texto
+Función: titulo_juego
 ------------------
 
-.. code-block:: python
-   :caption: Ejemplo de la función con el título del juego 
+.. rubric:: Estructura de una función
+  :heading-level: 2
 
-    # Variables
-    ...
+.. code-block:: python
+   :caption: Función titulo_juego
 
     def titulo_juego():
-        """ Esta es una función que muestra un texto en la pantalla. """
+        """ Esta función muestra el título del juego. """
 
         # Título en (300, 200), de tamaño 32 pts.
         arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
-
-    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
-    ...
-
         
 Para escribir una función:
 
@@ -49,7 +45,11 @@ Para escribir una función:
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
 #. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una sangría de cuatro espacios. La primera línea que no tiene sangría significa que la función está lista.
 
+.. rubric:: Usar la función
+  :heading-level: 2
 
+.. rubric:: Llamar a la función
+  :heading-level: 2
 
 Función: Dibujar una estrella
 ------------------
@@ -58,7 +58,10 @@ Función: Dibujar una estrella
   :collapsible: closed
   
   .. code-block:: python
-    :caption: Ejemplo de la función dibujar_estrella() en Python 
+    :caption: Función dibujar_estrella
+
+    # Variables
+    ...
     
     def dibujar_estrella():
     
