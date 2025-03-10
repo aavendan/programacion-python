@@ -12,14 +12,23 @@ Ahora, vamos a aprovechar este conocimiento para crear funciones. Una :term:`fun
 
 Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()` o la función :py:func:`arcade.Text()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
-Función básica
+Función: Mostrar un texto
 ------------------
 
 .. code-block:: python
-   :caption: Ejemplo de una función básica 
+   :caption: Ejemplo de la función con el título del juego 
 
-    def dibujar_estrella():
-        """ Esta función dibuja una estrella en la pantalla. """
+    # Variables
+    ...
+
+    def titulo_juego():
+        """ Esta es una función que muestra un texto en la pantalla. """
+
+        # Título en (300, 200), de tamaño 32 pts.
+        arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
+
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
+    ...
 
         
 Para escribir una función:
@@ -37,4 +46,30 @@ Para escribir una función:
 
 #. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los parámetros (Los veremos después).
 #. A continuación, dos puntos.
+#. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
+#. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una sangría de cuatro espacios. La primera línea que no tiene sangría significa que la función está lista.
 
+
+
+Función: Dibujar una estrella
+------------------
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+    .. code-block:: python
+    :caption: Ejemplo de la función dibujar_estrella() en Python 
+
+        def dibujar_estrella():
+            """ Esta función dibuja una estrella en la pantalla. """
+
+            # Rayos de luz
+            # Horizontal, de izquierda (400, 450) a derecha (500, 450)
+            arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
+            # Vertical, de arriba (450, 500) a abajo (450, 400)
+            arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
+
+            # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
+            arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
+            # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
+            arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
