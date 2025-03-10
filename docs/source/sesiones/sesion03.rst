@@ -228,6 +228,32 @@ se muestra a continuación.
   :heading-level: 2
 
 #. Crea una lista de sprites llamada ``naves``.
-#. Crea un sprite para la imagen ``sprites/nave01.png``, con una escala de **0.6**. El centro se encuentra a la **mitad horizontal** de la ventana  y a un **100 píxeles** del borde inferior de la ventana.
+#. Crea un variable ``nave01`` para el sprite con la imagen ``sprites/nave01.png``, con una escala de **0.6**. El centro se encuentra a la **mitad horizontal** de la ventana  y a un **40 píxeles** del borde inferior de la ventana.
 #. Agrega cada el sprite de la nave a la lista de sprites ``naves``.
 #. Dibuja la lista de sprites ``naves`` en la ventana.
+
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 4,10-14,18
+
+    ...
+    # Creamos una lista de sprites
+    ...
+    naves = arcade.SpriteList()
+    ...
+
+    # Sprite 3
+    ...
+
+    # Sprite 4
+    nave01 = arcade.Sprite("sprites/nave01.png", 0.6)
+    nave01.center_x = ANCHO / 2
+    nave01.center_y = 40
+    naves.append(nave01)
+
+    # (Aquí irá el código para dibujar)
+    ...
+    naves.draw()
