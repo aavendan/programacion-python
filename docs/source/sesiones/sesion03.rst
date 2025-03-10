@@ -12,33 +12,29 @@ Ahora, vamos a aprovechar este conocimiento para crear funciones. Una :term:`fun
 
 Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()` o la función :py:func:`arcade.Text()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
-Función basica
+Función básica
 ------------------
 
 .. code-block:: python
-   :caption: Ejemplo de función
+   :caption: Ejemplo de una función básica 
 
     def dibujar_estrella():
         """ Esta función dibuja una estrella en la pantalla. """
 
-        # Rayos de luz
-        # Horizontal, de izquierda (400, 450) a derecha (500, 450)
-        arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
-
+        
 Para escribir una función:
 
-#. Comienza con la palabra clave def, que es la abreviatura de “define”.
-#. A continuación, dale un nombre a la función. 
+#. Comienza con la palabra clave ``def``, que es la abreviatura de *define*.
+#. A continuación, escribe el nombre de la función. 
 
     .. warning::
         Los nombres de funciones siguen las mismas reglas que los nombres de variables. Deben:
 
-            1. Comenzar con una letra minúscula. (O en casos especiales, un guión bajo).
+            1. Comenzar con una letra minúscula.
             2. Después de la primera letra, solo usa letras, números y guiones bajos.
             3. No se permiten espacios. Usa guiones bajos en su lugar.
             4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
 
-#. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los parámetros. Los explicaremos en breve.
+#. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los parámetros (Los veremos después).
 #. A continuación, dos puntos.
-#. 
 
