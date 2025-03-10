@@ -15,13 +15,13 @@ Completa la siguiente tabla en tu cuaderno:
    :widths: 25 75
    :header-rows: 1
 
-   * - Categoría
-     - Características
-   * - Diseño del Juego
-     - Historia o temática, personajes, escenarios, objetivo del juego, nivel de dificultad
-   * - Mecánicas del Juego
-     - Controles, colisiones, sistema de puntaje, vidas y reintentos, power-ups o bonificaciones
-   * - Elementos Visuales
-     - Sprites, animaciones
-   * - Elementos Sonoros
-     - Música de fondo, efectos de sonido
+   * - Características
+     - Respuesta
+   * - Historia o temática, personajes, escenarios, objetivo del juego, nivel de dificultad
+     - 
+   * - Controles, colisiones, sistema de puntaje, vidas y reintentos, power-ups o bonificaciones
+     - 
+   * - Sprites, animaciones
+     - 
+   * - Música de fondo, efectos de sonido
+     - 
