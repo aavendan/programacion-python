@@ -12,16 +12,16 @@ de su videojuego.
 Completa la siguiente tabla en tu cuaderno: 
 
 .. list-table:: Características para crear un juego en Python con Arcade
-   :widths: 25 75
+   :widths: 10 90
    :header-rows: 1
 
    * - Características
-     - Respuesta
-   * - Historia o temática, personajes, escenarios, objetivo del juego, nivel de dificultad
-     - 
-   * - Controles, colisiones, sistema de puntaje, vidas y reintentos, power-ups o bonificaciones
-     - 
-   * - Sprites, animaciones
-     - 
-   * - Música de fondo, efectos de sonido
-     - 
+     - Descripción
+   * - Diseño del Juego
+     - Historia o temática, personajes, escenarios, objetivo del juego, nivel de dificultad
+   * - Mecánicas del Juego
+     - Controles, colisiones, sistema de puntaje, vidas y reintentos, power-ups o bonificaciones
+   * - Elementos Visuales
+     - Sprites, animaciones
+   * - Elementos Sonoros
+     - Música de fondo, efectos de sonido
