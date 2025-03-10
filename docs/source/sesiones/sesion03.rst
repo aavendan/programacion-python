@@ -88,6 +88,9 @@ Sprite y SpriteList
     
     Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
 
+.. rubric:: Planetas
+  :heading-level: 2
+
 Un :term:`sprite` es una imagen :term:`bidimensional` que forma 
 parte de una escena gráfica más grande. Por lo general, un sprite 
 será algún tipo de objeto en la escena con el que se interactuará, 
@@ -215,8 +218,16 @@ se muestra a continuación.
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
     ...
 
-.. rubric:: Imágenes de los aliens y la nave
+.. rubric:: Imagen de la nave
   :heading-level: 2
 
-#. Descarga y descomprime las siguientes imágenes de los :download:`aliens <../img/sesion03/aliens.zip>`  y la :download:`nave <../img/sesion03/nave.zip>`.
+#. Descarga y descomprime la imagen de la :download:`nave <../img/sesion03/nave.png>`.
 #. Guárdalas en la carpeta ``sprites``.
+
+.. rubric:: Nave
+  :heading-level: 2
+
+#. Crea una lista de sprites llamada ``naves``.
+#. Crea un sprite para la imagen ``sprites/nave01.png``, con una escala de **0.6**. El centro se encuentra a la **mitad horizontal** de la ventana  y a un **100 píxeles** del borde inferior de la ventana.
+#. Agrega cada el sprite de la nave a la lista de sprites ``naves``.
+#. Dibuja la lista de sprites ``naves`` en la ventana.
