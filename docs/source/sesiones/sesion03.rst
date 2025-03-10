@@ -200,7 +200,7 @@ se muestra a continuación.
   .. code-block:: python
     :emphasize-lines: 4-8,10-14
 
-    # Variables 
+    # Agregamos el sprite a la lista de sprites
     ...
 
     # Sprite 2
