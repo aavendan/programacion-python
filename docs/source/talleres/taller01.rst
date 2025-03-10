@@ -2,25 +2,30 @@ Taller 01
 ===================================
 
 Antes de empezar a programar, es importante que planifiques la idea 
-de su videojuego. Piensen en qué tipo de juego quieres crear: 
-
-¿Será de plataformas, aventuras, carreras o algún otro género? 
-
-Define el objetivo principal del juego, los personajes o elementos 
-que van a aparecer y el entorno o escenario donde ocurrirá. También 
-piensa en las reglas básicas, como cuántas vidas tiene el jugador o 
-qué sucede cuando gana o pierde. 
-
-Anoten sus ideas en un documento o en tu cuaderno, usando dibujos o 
-esquemas si lo prefieren. Recuerden que el juego lo programaremos en 
-Python usando la librería Arcade, así que es mejor que pienses en ideas 
-simples y divertidas que puedan ir mejorando poco a poco. 
-
-
-¡Creatividad ante todo!
-
+de su videojuego.
 
 .. figure:: ../img/talleres/taller01.jpeg
    :width: 300
    :figclass: align-center
    :alt: Thinking
+
+Completa la siguiente tabla en tu cuaderno: 
+
+.. list-table:: Características para crear un juego en Python con Arcade
+   :widths: 25 75
+   :header-rows: 1
+
+   * - Categoría
+     - Características
+   * - Diseño del Juego
+     - Historia o temática, personajes, escenarios, objetivo del juego, nivel de dificultad
+   * - Mecánicas del Juego
+     - Controles, colisiones, sistema de puntaje, vidas y reintentos, power-ups o bonificaciones
+   * - Elementos Visuales
+     - Sprites, animaciones, interfaz de usuario (UI)
+   * - Elementos Sonoros
+     - Música de fondo, efectos de sonido
+   * - Aspectos Técnicos
+     - Optimización del rendimiento, estructura del código, uso de clases y funciones
+   * - Extras para Mejorar la Experiencia
+     - Menú principal, sistema de logros, personalización
