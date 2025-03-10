@@ -239,7 +239,7 @@ se muestra a continuación.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4,10-14,18
+    :emphasize-lines: 4,10-14,19
 
     ...
     # Creamos una lista de sprites
@@ -255,6 +255,8 @@ se muestra a continuación.
     nave01.center_x = ANCHO / 2
     nave01.center_y = 40
     naves.append(nave01)
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
 
     # (Aquí irá el código para dibujar)
     ...
