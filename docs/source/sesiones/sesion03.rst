@@ -239,7 +239,7 @@ se muestra a continuación.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4,10-14,19
+    :emphasize-lines: 4,10-14,20
 
     ...
     # Creamos una lista de sprites
