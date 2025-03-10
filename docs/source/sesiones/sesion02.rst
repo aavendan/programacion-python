@@ -1,4 +1,4 @@
-Estrellas✨ y Planetas🌑
+Misión 02: Estrellas✨ y Planetas🌑
 ===================================
 
 Sistema de coordenadas
