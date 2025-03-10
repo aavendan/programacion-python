@@ -43,9 +43,9 @@ Para escribir una función:
 #. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los parámetros (Los veremos después).
 #. A continuación, dos puntos.
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
-#. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una sangría de cuatro espacios. La primera línea que no tiene sangría significa que la función está lista.
+#. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una :term:`sangría` o :term:`indentación`. 
 
-.. rubric:: Escribir la función
+.. rubric:: Definir la función
   :heading-level: 2
 
 Para escribir la función en tu programa, copia y pega el código de la función en tu programa.
@@ -67,7 +67,7 @@ Para escribir la función en tu programa, copia y pega el código de la función
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     ...
 
-.. rubric:: Llamar a la función
+.. rubric:: Llamada a la función
   :heading-level: 2
 
 Reemplaza o comenta el código por la llamada a la función:

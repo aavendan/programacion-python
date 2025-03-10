@@ -63,3 +63,9 @@ Diccionario de términos
 
     ruta
         La ubicación de un archivo en el sistema de archivos.
+
+    sangría
+    indentación
+        Es el desplazamiento de un bloque de texto hacia la derecha. 
+        Se utiliza para separar el texto del margen izquierdo y distinguirlo 
+        del texto que le precede. 
