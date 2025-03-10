@@ -396,3 +396,101 @@ Luego, reemplaza las variables correspondientes en las funciones
     arcade.draw_circle_filled(crater3_centro_x, crater3_centro_y, 2, arcade.csscolor.DARK_GRAY)
 
     ...
+
+
+.. rubric:: En resumen
+  :heading-level: 2
+
+Al finalizar esta sesión, tu código debería verse así:
+
+.. code-block:: python
+
+  """
+  Galaxia Indie
+
+  Un juego indie minimalista de exploración espacial
+  donde viajarás a través del cosmos.
+  Navega a través de misteriosos sistemas estelares,
+  descubriendo antiguos artefactos y desentrañando los
+  misterios de una civilización olvidada.
+
+  Creado con Python y con Arcade.
+  """
+
+  # Importar la librería "arcade" para crear videojuegos.
+  import arcade
+
+  # Constantes
+  ANCHO = 600
+  ALTO = 600
+  TITULO = "Galaxia Indie"
+
+  # Variables
+  planeta_centro_x = 200
+  planeta_centro_y = 200
+  radio = 15
+
+  crater1_centro_x = planeta_centro_x - 10
+  crater1_centro_y = planeta_centro_y + 5
+  crater2_centro_x = planeta_centro_x + 10
+  crater2_centro_y = planeta_centro_y - 5
+  crater3_centro_x = planeta_centro_x + 5
+  crater3_centro_y = planeta_centro_y + 10
+
+  # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
+  arcade.open_window( ANCHO, ALTO, TITULO )
+
+  # Establecer el color de fondo de la ventana
+  arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+  # Inicio del dibujo
+  arcade.start_render()
+
+  # (Aquí irá el código para dibujar)
+
+  # Rayos de luz
+  # Horizontal, de izquierda (400, 450) a derecha (500, 450)
+  arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
+  # Vertical, de arriba (450, 500) a abajo (450, 400)
+  arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
+
+  # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
+  arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
+  # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
+  arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
+
+  # Estrella en  (100,100)
+  # Línea horizontal
+  arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
+  # Línea vertical
+  arcade.draw_line(100, 75, 100, 125, arcade.color.HELIOTROPE, 1)
+
+  # Líneas diagonales
+  arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
+  arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
+
+  # Planeta
+  arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.DARK_VIOLET)
+
+  # Cráteres del planeta
+  arcade.draw_circle_filled(90, 360, 5, arcade.csscolor.DARK_SLATE_GRAY)
+  arcade.draw_circle_filled(110, 355, 4, arcade.csscolor.DARK_SLATE_GRAY)
+  arcade.draw_circle_filled(95, 340, 3, arcade.csscolor.DARK_SLATE_GRAY)
+
+  # Planeta en (200,200)
+  # Planeta Gris
+  arcade.draw_circle_filled( planeta_centro_x, planeta_centro_y, radio, arcade.csscolor.GRAY)
+
+  # Cráteres del planeta
+  arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
+  arcade.draw_circle_filled(crater2_centro_x, crater2_centro_y, 3, arcade.csscolor.DARK_GRAY)
+  arcade.draw_circle_filled(crater3_centro_x, crater3_centro_y, 2, arcade.csscolor.DARK_GRAY)
+
+  # Título en (300, 200), de tamaño 32 pts.
+  arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
+
+  # Fin del dibujo
+  arcade.finish_render()
+
+  # Inicia el bucle principal del juego que mantiene la ventana abierta
+  arcade.run()
