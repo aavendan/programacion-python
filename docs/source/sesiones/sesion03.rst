@@ -59,7 +59,7 @@ Identifica el comando que se encuentra en la función :py:func:`titulo_juego()`,
 .. rubric:: 2. Crea la función
   :heading-level: 2
 
-Para escribir la función en tu programa, define la función :py:func:`titulo_juego()` al inicio de tu programa. Copia y pega el código de la función en tu programa.
+Para escribir la función en tu programa, define la función :py:func:`titulo_juego()` al inicio de tu programa. Mueve el código dentro de la función en tu programa.
 
 .. code-block:: python
    :caption: Función titulo_juego
@@ -81,7 +81,7 @@ Para escribir la función en tu programa, define la función :py:func:`titulo_ju
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-Coloca el nombre de la función junto a un par de paréntesis ``()`` al final de la línea.
+Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de las instrucciones.
 
 .. code-block:: python
    :caption: Llamada a la función titulo_juego
@@ -187,3 +187,44 @@ Llama a la función :py:func:`dibujar_estrella()` en lugar donde se encontraban 
 
     # Planeta
     ...
+
+Función: Dibujar los planetas
+------------------
+
+#. Ahora, identifica las instrucciones para dibujar los planetas.
+#. Crea la función al inicio del programa y pega el código dentro de la función.
+#. Llama a la función en lugar donde se encontraban las instrucciones anteriores.
+
+Galaxia
+------------------
+
+Ahora, tu código lucirá como el siguiente:
+
+.. code-block:: python
+
+    #Funciones
+    def titulo_juego():
+        ...
+
+    def dibujar_estrellas():
+       ...
+
+    def dibujar_planetas():
+      ...
+
+    ...
+    # (Aquí irá el código para dibujar)
+
+    dibujar_estrellas()
+    dibujar_planetas()
+    titulo_juego()
+
+    # Fin del dibujo
+    ...
+
+Y tu programa se seguirá viendo de la misma manera:
+
+.. figure:: ../img/sesion02/texto.png
+   :width: 300
+   :figclass: align-center
+   :alt: Texto
