@@ -99,7 +99,7 @@ como un planeta, un extraterrestre o una nave.
 Copia el siguiente código y colócalo en la ubicación indicada.
 
 .. code-block:: python
-    :emphasize-lines: 4-6, 8-11, 13-14, 20-21
+    :emphasize-lines: 4-6, 8-11, 13-14, 23
 
     # Constantes
     ...
@@ -115,6 +115,8 @@ Copia el siguiente código y colócalo en la ubicación indicada.
 
     # Agregamos el sprite a la lista de sprites
     planetas.append(planeta1)
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
 
     ...
 
