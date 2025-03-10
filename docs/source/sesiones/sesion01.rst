@@ -245,6 +245,7 @@ cuándo terminas de dibujar (:py:func:`arcade.finish_render()`).
 Al finalizar esta sesión, tu código debería verse así:
 
 .. code-block:: python
+    
     """
     Galaxia Indie
 
@@ -254,11 +255,25 @@ Al finalizar esta sesión, tu código debería verse así:
     descubriendo antiguos artefactos y desentrañando los
     misterios de una civilización olvidada.
 
-    Creado usando Python y la biblioteca Arcade.
+    Creado con Python y con Arcade.
     """
 
-    # Importar la librería "arcade" para crear juegos.
+    # Importar la librería "arcade" para crear videojuegos.
     import arcade
 
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     arcade.open_window(600, 600, "Galaxia Indie")
+
+    # Establecer el color de fondo de la ventana
+    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+    # Inicio del dibujo
+    arcade.start_render()
+
+    # (Aquí irá el código para dibujar)
+
+    # Fin del dibujo
+    arcade.finish_render()
+
+    # Inicia el bucle principal del juego que mantiene la ventana abierta
+    arcade.run()
