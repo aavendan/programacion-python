@@ -24,6 +24,7 @@ Diccionario de términos
         se pueden importar a un programa para realizar
         tareas específicas. También se conocen como módulos.
 
+    funciones
     función
         Un bloque de código que realiza una tarea específica
         y puede ser llamado desde cualquier parte del programa.
