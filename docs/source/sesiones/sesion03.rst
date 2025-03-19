@@ -1,14 +1,22 @@
 Misión 03: Galaxias 🌌
 ===================================
 
+.. figure:: ../img/sesion03/istockphoto-1845480259-612x612.jpg
+    :scale: 40%
+    :figclass: align-center
+    :alt: ordenes
+
 En la misión anterior aprendimos a usar instrucciones, crear variables y a crear en expresiones matemáticas. 
 
 En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para dar un instrucciones a la computadora.
 
+Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()` o la función :py:func:`arcade.Text()`. Ahora vamos a aprender a crear nuestras propias funciones.
+
+
 .. rubric:: En resumen
   :heading-level: 2
 
-Utiliza o crea el archivo **intro.py** con el siguiente código:
+Utiliza, o crea, el archivo **intro.py** con el siguiente código:
 
 .. code-block:: python
 
@@ -101,13 +109,6 @@ Utiliza o crea el archivo **intro.py** con el siguiente código:
 
   # Inicia el bucle principal del juego que mantiene la ventana abierta
   arcade.run()
-
-.. figure:: ../img/sesion03/istockphoto-1845480259-612x612.jpg
-    :scale: 40%
-    :figclass: align-center
-    :alt: ordenes
-
-Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()` o la función :py:func:`arcade.Text()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
 Función: Título del juego
 ------------------
