@@ -87,13 +87,23 @@ Sprite y SpriteList
    sprites/planeta03.png
    :download:`nave <../img/sesion04/planeta03.png>`
 
-.. raw:: html
+Galería de imágenes
+====================
 
-  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <img src="_static/planeta01.png" alt="Imagen 1" style="width: 30%;">
-      <img src="_static/planeta02.png" alt="Imagen 2" style="width: 30%;">
-      <img src="../img/sesion04/planeta03.png" alt="Imagen 3" style="width: 30%;">
-  </div>
+.. container:: gallery
+
+  .. image:: ../img/sesion04/planeta03.png
+    :width: 30%
+    :alt: Imagen 1
+
+  .. image:: ../img/sesion04/planeta03.png
+    :width: 30%
+    :alt: Imagen 2
+
+  .. image:: ../img/sesion04/planeta03.png
+    :width: 30%
+    :alt: Imagen 3
+
 
 .. note::
     
