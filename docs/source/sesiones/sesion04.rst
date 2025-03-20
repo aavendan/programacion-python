@@ -81,23 +81,18 @@ Sprite y SpriteList
 .. rubric:: Imágenes de los planetas
   :heading-level: 2
 
-.. container:: gallery
-
-    .. image:: ../img/sesion04/planeta01.png
-      :width: 30%
-      :alt: Planeta01
-
-    .. image:: ../img/sesion04/planeta02.png
-      :width: 30%
-      :alt: Planeta02
-
-    .. image:: ../img/sesion04/planeta03.png
-      :width: 30%
-      :alt: Planeta03
-
 #. Crea la carpeta `sprites` junto a tu archivo **mision01.py**.
+
+    .. figure:: ../img/sesion04/crearsprites.png
+        :figclass: align-center
+        :alt: Crear el archivo sprites
+
 #. Descarga las imágenes de :download:`planeta01 <../img/sesion04/planeta01.png>`, :download:`planeta02 <../img/sesion04/planeta02.png>` y :download:`planeta03 <../img/sesion04/planeta03.png>`
 #. Coloca las imágenes en la carpeta `sprites`. 
+
+    .. figure:: ../img/sesion04/imagenesplanetas.png
+        :figclass: align-center
+        :alt: Guardar imagenes de planetas
 
 .. note::
     
