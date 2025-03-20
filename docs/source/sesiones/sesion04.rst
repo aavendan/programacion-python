@@ -67,13 +67,13 @@ Programa principal: mision01.py
         # Inicia el bucle principal del juego que mantiene la ventana abierta
         arcade.run()
 
-#. Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
+Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
 se muestra en la siguente imagen. 
 
-    .. figure:: ../img/sesion04/base.png
-        :scale: 50%
-        :figclass: align-center
-        :alt: base
+  .. figure:: ../img/sesion04/base.png
+      :scale: 50%
+      :figclass: align-center
+      :alt: base
 
 Sprite y SpriteList
 ------------------
