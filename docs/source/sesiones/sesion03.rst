@@ -123,19 +123,19 @@ Reglas para escribir una función:
 
 #. Comienza con la palabra clave ``def``, que es la abreviatura de *define*.
 #. A continuación, escribe el nombre de la función. 
-
-    .. warning::
-        Los nombres de funciones siguen las mismas reglas que los nombres de variables. Deben:
-
-            1. Comenzar con una letra minúscula.
-            2. Después de la primera letra, solo usa letras, números y guiones bajos.
-            3. No se permiten espacios. Usa guiones bajos en su lugar.
-            4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
-
 #. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
 #. A continuación, dos puntos.
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
 #. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una :term:`sangría` o :term:`indentación`. 
+
+
+.. warning::
+    Los nombres de funciones siguen las mismas reglas que los nombres de variables. Deben:
+
+        1. Comenzar con una letra minúscula.
+        2. Después de la primera letra, solo usa letras, números y guiones bajos.
+        3. No se permiten espacios. Usa guiones bajos en su lugar.
+        4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
 
 .. rubric:: 1. Identifica las instrucciones a colocar en la función
   :heading-level: 2
