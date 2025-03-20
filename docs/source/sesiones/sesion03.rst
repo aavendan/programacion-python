@@ -191,7 +191,7 @@ Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de
 
 .. code-block:: python
    :caption: Llamada a la función titulo_juego
-   :emphasize-lines: 3-4
+   :emphasize-lines: 4
 
    ...
    
