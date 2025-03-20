@@ -129,7 +129,12 @@ Reglas para escribir una función:
 #. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
 #. A continuación, dos puntos.
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
-#. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. 
+#. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. Utiliza la tecla **TAB** para indentar.el código. 
+
+.. figure:: ../img/sesion03/tab.jpg
+   :width: 200
+   :figclass: align-center
+   :alt: Tecla TAB
 
 .. warning::
     El nombre de una función sigue las mismas reglas que los nombres de variables. Deben:
@@ -138,6 +143,8 @@ Reglas para escribir una función:
         2. Después de la primera letra, solo usa letras, números y guiones bajos.
         3. No se permiten espacios. Usa guiones bajos en su lugar.
         4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
+
+
 
 .. rubric:: 1. Identifica las instrucciones a colocar en la función
   :heading-level: 2
