@@ -59,3 +59,16 @@ Utiliza el siguente código como base para comenzar:
 Para las formas básicas puedes consultar la 
 documentación de Arcade en el sitio oficial con más 
 `formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_ y el `índice de instrucciones de formas básicas <https://api.arcade.academy/en/latest/api_docs/quick_index.html#quick-index>`_.
+
+.. rubric:: ChatGPT o Gemini
+  :heading-level: 2
+
+Puedes utilizar ChatGPT o Gemini para generar el código y para resolver tus dudas. Un prompt sugerido es:
+
+.. code-block:: python
+   
+      """
+      Utiliza Python y Arcade 3.0.2 para generar un pantalla como la que aparece en la imagen. No utilices funciones, ni main, ni bucle for, ni clases.
+      """
+
+Recuerda comprobar siempre el resultado de tu código en tu computadora.
