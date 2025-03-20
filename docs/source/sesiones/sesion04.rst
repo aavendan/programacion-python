@@ -69,6 +69,7 @@ Sprite y SpriteList
    :alt: Planeta01
 
    sprites/planeta01.png
+   :download:`nave <../img/sesion04/planeta01.png>`
 
 .. figure:: ../img/sesion04/planeta02.png
    :scale: 10%
@@ -76,6 +77,7 @@ Sprite y SpriteList
    :alt: Planeta02
 
    sprites/planeta02.png
+   :download:`nave <../img/sesion04/planeta02.png>`
 
 .. figure:: ../img/sesion04/planeta03.png
    :scale: 10%
@@ -83,6 +85,15 @@ Sprite y SpriteList
    :alt: Planeta03
 
    sprites/planeta03.png
+   :download:`nave <../img/sesion04/planeta03.png>`
+
+.. raw:: html
+
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <img src="../img/sesion04/planeta01.png" alt="Imagen 1" style="width: 30%;">
+      <img src="../img/sesion04/planeta02.png" alt="Imagen 2" style="width: 30%;">
+      <img src="../img/sesion04/planeta03.png" alt="Imagen 3" style="width: 30%;">
+  </div>
 
 .. note::
     
@@ -227,7 +238,7 @@ se muestra a continuación.
 .. rubric:: Imagen de la nave
   :heading-level: 2
 
-#. Descarga y descomprime la imagen de la :download:`nave <../img/sesion04/nave.png>`.
+#. Descarga y descomprime la imagen de la :download:`nave <../img/sesion04/nave01.png>`.
 #. Guárdalas en la carpeta ``sprites``.
 
 .. rubric:: Nave
