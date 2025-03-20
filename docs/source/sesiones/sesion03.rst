@@ -130,7 +130,7 @@ Reglas para escribir una función:
 
 
 .. warning::
-    Los nombres de funciones siguen las mismas reglas que los nombres de variables. Deben:
+    El nombre de una función sigue las mismas reglas que los nombres de variables. Deben:
 
         1. Comenzar con una letra minúscula.
         2. Después de la primera letra, solo usa letras, números y guiones bajos.
