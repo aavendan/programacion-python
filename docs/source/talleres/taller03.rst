@@ -42,3 +42,13 @@ Utiliza el siguente código como base para comenzar:
 
       # Inicia el bucle principal del juego que mantiene la ventana abierta
       arcade.run()
+
+.. note::
+
+    Puedes consultar los nombres en la 
+    tabla de colores de 
+    `arcade.csscolor <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
+    para especificar colores por nombre (por 
+    ejemplo `arcade.csscolor.DARK_VIOLET`) o  `arcade.color <https://api.arcade.academy/en/latest/api_docs/arcade.color.html>`_.
+    para especificar colores por nombre (por 
+    ejemplo `arcade.color.DARK_IMPERIAL_BLUE`)
