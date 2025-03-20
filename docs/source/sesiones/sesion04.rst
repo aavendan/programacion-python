@@ -92,17 +92,20 @@ Galería de imágenes
 
 .. container:: gallery
 
-  .. image:: ../img/sesion04/planeta03.png
+  .. image:: ../img/sesion04/planeta01.png
     :width: 30%
-    :alt: Imagen 1
+    :alt: Planeta01
+    :download:`nave <../img/sesion04/planeta01.png>`
+
+  .. image:: ../img/sesion04/planeta02.png
+    :width: 30%
+    :alt: Planeta02
+    :download:`nave <../img/sesion04/planeta02.png>`
 
   .. image:: ../img/sesion04/planeta03.png
     :width: 30%
-    :alt: Imagen 2
-
-  .. image:: ../img/sesion04/planeta03.png
-    :width: 30%
-    :alt: Imagen 3
+    :alt: Planeta03
+    :download:`nave <../img/sesion04/planeta03.png>`
 
 
 .. note::
