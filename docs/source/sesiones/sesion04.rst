@@ -63,19 +63,22 @@ Sprite y SpriteList
 #. Junto a tu archivo **mision01.py**, crea la carpeta `sprites`.
 #. Descargue las imágenes de :download:`planeta01 <../img/sesion04/planeta01.png>`, :download:`planeta03 <../img/sesion04/planeta03.png>` y :download:`planeta03 <../img/sesion04/planeta03.png>`
 
-.. container:: gallery
+  .. container:: gallery
 
-  .. image:: ../img/sesion04/planeta01.png
-    :width: 30%
-    :alt: Planeta01
+    .. image:: ../img/sesion04/planeta01.png
+      :width: 30%
+      :scale: 40%
+      :alt: Planeta01
 
-  .. image:: ../img/sesion04/planeta02.png
-    :width: 30%
-    :alt: Planeta02
+    .. image:: ../img/sesion04/planeta02.png
+      :width: 30%
+      :scale: 40%
+      :alt: Planeta02
 
-  .. image:: ../img/sesion04/planeta03.png
-    :width: 30%
-    :alt: Planeta03
+    .. image:: ../img/sesion04/planeta03.png
+      :width: 30%
+      :scale: 40%
+      :alt: Planeta03
  
 #. Coloque las imágenes en la carpeta `sprites`. 
 
