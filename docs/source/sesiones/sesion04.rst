@@ -4,55 +4,76 @@ Misión 04: Despegue 🚀
 Programa principal: mision01.py
 ------------------
 
-En Visual Studio Code, crea el archivo ``mision01.py`` con el siguiente 
-código básico:
+#. En Windows, crea la carpeta ``galaxia_indie``.
 
-.. code-block:: python
+    .. figure:: ../img/sesion04/creacioncarpeta.png
+        :figclass: align-center
+        :alt: Crear la carpeta del proyecto
 
-    """
-    Galaxia Indie
+#. En Visual Studio Code, abre la carpeta ``galaxia_indie``. 
 
-    Un juego indie minimalista de exploración espacial 
-    donde viajarás a través del cosmos.
-    Navega a través de misteriosos sistemas estelares,
-    descubriendo antiguos artefactos y desentrañando los 
-    misterios de una civilización olvidada.
+    .. figure:: ../img/sesion04/abrircarpeta.png
+        :figclass: align-center
+        :alt: Busca la carpeta del proyecto
 
-    Creado con Python y con Arcade.
-    """
+    .. figure:: ../img/sesion04/abrirgalaxia_indie.png
+        :figclass: align-center
+        :alt: Abrir la carpeta del proyecto
 
-    # Importar la librería "arcade" para crear videojuegos.
-    import arcade
+#. Crea el archivo ``mision01.py`` dentro de la carpeta ``galaxia_indie``
 
-    # Constantes
-    ALTO = 600
-    ANCHO = 600
-    TITULO = "Misión 01: Listos para el despegue"
+    .. figure:: ../img/sesion04/crearmision01.png
+        :figclass: align-center
+        :alt: Crear el archivo mision01.py
 
-    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window(ANCHO, ALTO, TITULO)    
+#. Copia el siguiente código básico y pégalo en tu archivo ``mision01.py``:
 
-    # Establecer el color de fondo de la ventana
-    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+    .. code-block:: python
 
-    # Inicio del dibujo
-    arcade.start_render()
+        """
+        Galaxia Indie
 
-    # (Aquí irá el código para dibujar)
+        Un juego indie minimalista de exploración espacial 
+        donde viajarás a través del cosmos.
+        Navega a través de misteriosos sistemas estelares,
+        descubriendo antiguos artefactos y desentrañando los 
+        misterios de una civilización olvidada.
 
-    # Fin del dibujo
-    arcade.finish_render()
+        Creado con Python y con Arcade.
+        """
 
-    # Inicia el bucle principal del juego que mantiene la ventana abierta
-    arcade.run()
+        # Importar la librería "arcade" para crear videojuegos.
+        import arcade
 
-Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
+        # Constantes
+        ALTO = 600
+        ANCHO = 600
+        TITULO = "Misión 01: Listos para el despegue"
+
+        # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+        arcade.open_window(ANCHO, ALTO, TITULO)    
+
+        # Establecer el color de fondo de la ventana
+        arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+        # Inicio del dibujo
+        arcade.start_render()
+
+        # (Aquí irá el código para dibujar)
+
+        # Fin del dibujo
+        arcade.finish_render()
+
+        # Inicia el bucle principal del juego que mantiene la ventana abierta
+        arcade.run()
+
+#. Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
 se muestra en la siguente imagen. 
 
-.. figure:: ../img/sesion04/base.png
-    :scale: 50%
-    :figclass: align-center
-    :alt: base
+    .. figure:: ../img/sesion04/base.png
+        :scale: 50%
+        :figclass: align-center
+        :alt: base
 
 Sprite y SpriteList
 ------------------
@@ -218,13 +239,17 @@ se muestra a continuación.
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
     ...
 
-.. rubric:: Imagen de la nave
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+.. rubric:: Imagen
   :heading-level: 2
 
-#. Descarga y descomprime la imagen de la :download:`nave <../img/sesion04/nave01.png>`.
+#. Descarga la imagen de la :download:`nave <../img/sesion04/nave01.png>`.
 #. Guarda la imagen en la carpeta ``sprites``.
 
-.. rubric:: Nave
+.. rubric:: Código
   :heading-level: 2
 
 #. Crea una lista de sprites llamada ``naves``.
