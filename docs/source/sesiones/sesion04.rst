@@ -109,7 +109,7 @@ como un planeta, un extraterrestre o una nave.
 Copia las siguientes instrucciones resaltadas y colócalas en las ubicaciones indicadas.
 
 .. code-block:: python
-    :emphasize-lines: 4-6, 8-11, 13-14, 23
+    :emphasize-lines: 4-6, 8-11, 13-14, 22-23
 
     # Constantes
     ...
