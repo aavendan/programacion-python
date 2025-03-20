@@ -74,9 +74,9 @@ Sprite y SpriteList
       :width: 30%
       :alt: Planeta03
 
-#. Junto a tu archivo **mision01.py**, crea la carpeta `sprites`.
-#. Descargue las imágenes de :download:`planeta01 <../img/sesion04/planeta01.png>`, :download:`planeta02 <../img/sesion04/planeta02.png>` y :download:`planeta03 <../img/sesion04/planeta03.png>`
-#. Coloque las imágenes en la carpeta `sprites`. 
+#. Crea la carpeta `sprites` junto a tu archivo **mision01.py**.
+#. Descarga las imágenes de :download:`planeta01 <../img/sesion04/planeta01.png>`, :download:`planeta02 <../img/sesion04/planeta02.png>` y :download:`planeta03 <../img/sesion04/planeta03.png>`
+#. Coloca las imágenes en la carpeta `sprites`. 
 
 .. note::
     
@@ -90,7 +90,7 @@ parte de una escena gráfica más grande. Por lo general, un sprite
 será algún tipo de objeto en la escena con el que se interactuará, 
 como un planeta, un extraterrestre o una nave.
 
-Copia el siguiente código y colócalo en la ubicación indicada.
+Copia las siguientes instrucciones resaltadas y colócalas en las ubicaciones indicadas.
 
 .. code-block:: python
     :emphasize-lines: 4-6, 8-11, 13-14, 23
