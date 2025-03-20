@@ -128,6 +128,10 @@ Copia el siguiente código y colócalo en la ubicación indicada.
     # Fin del dibujo
     ...
 
+.. rubric:: Explicación
+  :heading-level: 2
+  :class: explanation
+
 Antes de empezar, utilizaremos la variable ``planetas`` 
 para almacenar nuestros sprites en una :term:`lista` 
 (:py:func:`arcade.SpriteList()`).
@@ -261,3 +265,8 @@ se muestra a continuación.
     # (Aquí irá el código para dibujar)
     ...
     naves.draw()
+
+.. rubric:: En resumen
+  :heading-level: 2
+
+Al finalizar esta sesión, tu código debería verse así:

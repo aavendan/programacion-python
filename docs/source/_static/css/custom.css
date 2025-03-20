@@ -11,6 +11,10 @@ li.toctree-l1 {
 	text-decoration: underline;
 }
 
+.explanation {
+	font-style: italic;
+}
+
 details.admonition-haga-click-aqui-para-ver-la-solucion {
 	background-color: #FCFCFC !important;
 	cursor: pointer !important;
