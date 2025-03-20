@@ -129,8 +129,7 @@ Reglas para escribir una función:
 #. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
 #. A continuación, dos puntos.
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
-#. Todo el código que va en la función estará en las siguientes líneas. Ese código debe tener una :term:`sangría` o :term:`indentación`. 
-
+#. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. 
 
 .. warning::
     El nombre de una función sigue las mismas reglas que los nombres de variables. Deben:
@@ -243,7 +242,7 @@ Recorta todas las instrucciones para crear las estrellas.
 .. rubric:: 2. Crea la función
   :heading-level: 2
 
-Escribe la función :py:func:`dibujar_estrellas()` y pega el código anterior dentro de la función
+Escribe la función :py:func:`dibujar_estrellas()`. Pega el código anterior dentro de la función. Asegúrate que todo el código tenga la misma indentación.
  
 .. code-block:: python
    :caption: Función dibujar_estrellas
@@ -283,7 +282,7 @@ Escribe la función :py:func:`dibujar_estrellas()` y pega el código anterior de
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-Llama a la función :py:func:`dibujar_estrellas()` en lugar donde se encontraban las instrucciones anteriores.
+En lugar de las instrucciones anteriores, llama a la función :py:func:`dibujar_estrellas()`.
 
 .. code-block:: python
 
@@ -304,7 +303,7 @@ Función: Dibujar los planetas
 Galaxia
 ------------------
 
-Ahora, tu código lucirá como el siguiente:
+Ahora, tu código contendrá las funciones :py:func:`titulo_juego()`, :py:func:`dibujar_estrellas()` y :py:func:`dibujar_planetas()`. Además de la llamada a las funciones en lugar de las instrucciones.
 
 .. code-block:: python
 
