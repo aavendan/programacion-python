@@ -235,10 +235,10 @@ se muestra a continuación.
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
 se muestra a continuación.
 
-.. figure:: ../img/sesion04/tresplanetas.png
+.. figure:: ../img/sesion04/tresplanetasynave.png
     :width: 300
     :figclass: align-center
-    :alt: tresplanetas
+    :alt: tresplanetasynave
 
 
 .. admonition:: Haga click aquí para ver la solución
