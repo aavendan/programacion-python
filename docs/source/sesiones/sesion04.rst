@@ -67,17 +67,14 @@ Sprite y SpriteList
 
     .. image:: ../img/sesion04/planeta01.png
       :width: 30%
-      :scale: 40%
       :alt: Planeta01
 
     .. image:: ../img/sesion04/planeta02.png
       :width: 30%
-      :scale: 40%
       :alt: Planeta02
 
     .. image:: ../img/sesion04/planeta03.png
       :width: 30%
-      :scale: 40%
       :alt: Planeta03
  
 #. Coloque las imágenes en la carpeta `sprites`. 
