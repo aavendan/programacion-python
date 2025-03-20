@@ -4,7 +4,7 @@ Taller 03
 Reproduce la siguiente imagen mediante figuras primitivas de Arcade
 
 .. figure:: ../img/talleres/final_program02.png
-   :width: 300
+   :width: 450
    :figclass: align-center
    :alt: final_program02
 
@@ -47,8 +47,15 @@ Utiliza el siguente código como base para comenzar:
 
     Puedes consultar los nombres en la 
     tabla de colores de 
-    `arcade.csscolor <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_.
+    `arcade.csscolor <https://api.arcade.academy/en/latest/api_docs/arcade.csscolor.html>`_
     para especificar colores por nombre (por 
-    ejemplo `arcade.csscolor.DARK_VIOLET`) o  `arcade.color <https://api.arcade.academy/en/latest/api_docs/arcade.color.html>`_.
+    ejemplo `arcade.csscolor.DARK_VIOLET`) o  `arcade.color <https://api.arcade.academy/en/latest/api_docs/arcade.color.html>`_
     para especificar colores por nombre (por 
     ejemplo `arcade.color.DARK_IMPERIAL_BLUE`)
+
+.. rubric:: Formas básicas
+  :heading-level: 2
+
+Para las formas básicas puedes consultar la 
+documentación de Arcade en el sitio oficial con más 
+`formas básicas <https://api.arcade.academy/en/latest/example_code/drawing_primitives.html#drawing-primitives>`_ y el `índice de instrucciones de formas básicas <https://api.arcade.academy/en/latest/api_docs/quick_index.html#quick-index>`_.
