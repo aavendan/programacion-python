@@ -129,12 +129,7 @@ Reglas para escribir una función:
 #. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
 #. A continuación, dos puntos.
 #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
-#. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. Utiliza la tecla **TAB** para indentar.el código. 
-
-.. figure:: ../img/sesion03/tab.jpg
-   :width: 200
-   :figclass: align-center
-   :alt: Tecla TAB
+#. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. 
 
 .. warning::
     El nombre de una función sigue las mismas reglas que los nombres de variables. Deben:
@@ -146,10 +141,10 @@ Reglas para escribir una función:
 
 
 
-.. rubric:: 1. Identifica las instrucciones a colocar en la función
+.. rubric:: 1. Identifica las instrucciones
   :heading-level: 2
 
-Identifica la instrucción que colocaremos en la función :py:func:`titulo_juego()`:
+**Identifica** la instrucción que colocaremos en la función :py:func:`titulo_juego()`:
 
 .. code-block:: python
    :caption: Función titulo_juego
@@ -167,7 +162,7 @@ Identifica la instrucción que colocaremos en la función :py:func:`titulo_juego
 .. rubric:: 2. Crea la función
   :heading-level: 2
 
-Para escribir la función en tu programa:
+Para **crear** la función en tu programa:
 
 #. Ve al inicio del programa, después de la sección de variables.
 #. Define la función :py:func:`titulo_juego()`. 
@@ -193,7 +188,7 @@ Para escribir la función en tu programa:
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de las instrucciones.
+Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de se encontraban las instrucciones para **llamar** a la función.
 
 .. code-block:: python
    :caption: Llamada a la función titulo_juego
@@ -211,7 +206,7 @@ Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de
 Función: Dibujar las estrellas
 ------------------
 
-.. rubric:: 1. Identifica las instrucciones a colocar en la función
+.. rubric:: 1. Identifica las instrucciones
   :heading-level: 2
 
 Recorta todas las instrucciones para crear las estrellas.
@@ -249,7 +244,7 @@ Recorta todas las instrucciones para crear las estrellas.
 .. rubric:: 2. Crea la función
   :heading-level: 2
 
-Escribe la función :py:func:`dibujar_estrellas()`. Pega el código anterior dentro de la función. Asegúrate que todo el código tenga la misma indentación.
+Escribe la función :py:func:`dibujar_estrellas()`. Pega el código anterior dentro de la función. Asegúrate que todo el código tenga la misma indentación. 
  
 .. code-block:: python
    :caption: Función dibujar_estrellas
@@ -286,10 +281,19 @@ Escribe la función :py:func:`dibujar_estrellas()`. Pega el código anterior den
     # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
     ...
 
+.. warning::
+
+    Utiliza la tecla **TAB** para indentar el código. 
+
+    .. figure:: ../img/sesion03/tab.jpg
+      :width: 200
+      :figclass: align-center
+      :alt: Tecla TAB
+
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-En lugar de las instrucciones anteriores, llama a la función :py:func:`dibujar_estrellas()`.
+Llama a la función :py:func:`dibujar_estrellas()` en lugar donde se encontraban las instrucciones anteriores.
 
 .. code-block:: python
 
@@ -303,9 +307,9 @@ En lugar de las instrucciones anteriores, llama a la función :py:func:`dibujar_
 Función: Dibujar los planetas
 ------------------
 
-#. Ahora, identifica las instrucciones para dibujar los planetas.
-#. Crea la función al inicio del programa y pega el código dentro de la función.
-#. Llama a la función en lugar donde se encontraban las instrucciones anteriores.
+#. Ahora, **identifica** las instrucciones para dibujar los planetas.
+#. **Crea** la función al inicio del programa y pega el código dentro de la función.
+#. **Llama** a la función en lugar donde se encontraban las instrucciones anteriores.
 
 Galaxia
 ------------------
