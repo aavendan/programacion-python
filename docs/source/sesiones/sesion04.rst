@@ -222,7 +222,7 @@ se muestra a continuación.
   :heading-level: 2
 
 #. Descarga y descomprime la imagen de la :download:`nave <../img/sesion04/nave01.png>`.
-#. Guárdalas en la carpeta ``sprites``.
+#. Guarda la imagen en la carpeta ``sprites``.
 
 .. rubric:: Nave
   :heading-level: 2
@@ -231,6 +231,14 @@ se muestra a continuación.
 #. Crea un variable ``nave01`` para el sprite con la imagen ``sprites/nave01.png``, con una escala de **0.6**. El centro se encuentra a la **mitad horizontal** de la ventana  y a un **40 píxeles** del borde inferior de la ventana.
 #. Agrega cada el sprite de la nave a la lista de sprites ``naves``.
 #. Dibuja la lista de sprites ``naves`` en la ventana.
+
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion04/tresplanetas.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetas
 
 
 .. admonition:: Haga click aquí para ver la solución
