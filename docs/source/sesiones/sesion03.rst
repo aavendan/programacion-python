@@ -118,6 +118,9 @@ Función: Título del juego
 
     def titulo_juego():
         """ Esta función muestra el título del juego. """
+
+        # Aquí va una línea de código
+        # Aquí va otra línea de código 
         
 Reglas para escribir una función:
 
@@ -144,6 +147,7 @@ Identifica la instrucción que colocaremos en la función :py:func:`titulo_juego
 
 .. code-block:: python
    :caption: Función titulo_juego
+   :emphasize-lines: 5
 
     # Cráteres del planeta
     ...
@@ -157,7 +161,11 @@ Identifica la instrucción que colocaremos en la función :py:func:`titulo_juego
 .. rubric:: 2. Crea la función
   :heading-level: 2
 
-Para escribir la función en tu programa, define la función :py:func:`titulo_juego()` al inicio de tu programa. Mueve el código dentro de la función en tu programa.
+Para escribir la función en tu programa:
+
+#. Ve al inicio del programa, después de la sección de variables.
+#. Define la función :py:func:`titulo_juego()`. 
+#. Coloca el código dentro de la función con la indentación.
 
 .. code-block:: python
    :caption: Función titulo_juego
@@ -183,7 +191,7 @@ Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de
 
 .. code-block:: python
    :caption: Llamada a la función titulo_juego
-   :emphasize-lines: 4-5
+   :emphasize-lines: 3-4
 
    ...
    
