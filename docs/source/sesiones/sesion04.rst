@@ -121,7 +121,7 @@ Función: Crear ventana
    :caption: Función titulo_juego
    :emphasize-lines: 4-12
 
-    #Variables
+    # Sprite 4
     ....
 
     #Funciones
@@ -144,14 +144,36 @@ Regresa al lugar donde se encontraban las instrucciones y **llama** a la funció
 
 .. code-block:: python
    :caption: Llamada a la función crear_ventana
-   :emphasize-lines: 6
+   :emphasize-lines: 7
   
    ...
 
    #Funciones
-   ...
+   def crear_ventana():
+      ...
    
    crear_ventana()
 
    # Inicio del dibujo
    ...
+
+.. note::
+
+  Reglas para escribir una función:
+
+  #. Comienza con la palabra clave ``def``, que es la abreviatura de *define*.
+  #. A continuación, escribe el nombre de la función. 
+  #. Después del nombre de la función, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
+  #. A continuación, dos puntos.
+  #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
+  #. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. 
+
+.. warning::
+
+  El nombre de una función sigue las mismas reglas que los nombres de variables. Deben:
+
+    1. Comenzar con una letra minúscula.
+    2. Después de la primera letra, solo usa letras, números y guiones bajos.
+    3. No se permiten espacios. Usa guiones bajos en su lugar.
+    4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
+
