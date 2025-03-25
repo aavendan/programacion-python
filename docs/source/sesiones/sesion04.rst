@@ -1,4 +1,4 @@
-Misión 04: Satélite espacial 🛰️
+Misión 04: Sonda espacial 🛰️
 ===================================
 
 .. figure:: ../img/sesion04/satelite.jpeg
@@ -12,7 +12,7 @@ En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para da
 
 Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()`, la función :py:func:`arcade.Text()` o la función :py:func:`arcade.Sprite()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
-De la sesión anterior, abra la crea la carpeta ``galaxia_indie``, que contiene el archivo ``mision01.py`` con el siguiente código:
+Abre la crea la carpeta ``galaxia_indie``, que contiene el archivo ``mision01.py`` con el siguiente código:
 
 .. code-block:: python
 
