@@ -176,3 +176,39 @@ Reglas para escribir una función:
     3. No se permiten espacios. Usa guiones bajos en su lugar.
     4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
 
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion04/tresplanetasynave.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynave
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+#. Crea la función :py:func:`dibujar_elementos()`.
+#. Copia y pega las instrucciones que dibujan la lista con los planetas y la nave.
+#. Llama a la función :py:func:`dibujar_elementos()` en la parte del código donde se dibujan los elementos. 
+
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion04/tresplanetasynave.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynave
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 4,10-14,20
+
+.. rubric:: En resumen
+  :heading-level: 2
+
+Al finalizar esta sesión, tu código debería verse así:
+
+.. code-block:: python
