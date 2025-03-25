@@ -88,3 +88,70 @@ De la sesión anterior, abre la crea la carpeta ``galaxia_indie`` que contiene e
 
 Función: Crear ventana
 ------------------
+
+.. rubric:: 1. Selecciona y copia las instrucciones
+  :heading-level: 2
+
+**Selecciona y copia** las siguientes instrucciones y comentarios:
+
+.. code-block:: python
+   :caption: Selecciona y copia las instrucciones
+   :emphasize-lines: 5
+
+    # Sprite 4
+    ...
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window(ANCHO, ALTO, TITULO)
+
+    # Establecer el color de fondo de la ventana
+    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+    # Inicio del dibujo
+    ...
+
+.. rubric:: 2. Escribe la función y coloca el código
+  :heading-level: 2
+
+#. Ve al inicio del programa, después de crear todas las variables y define la función :py:func:`crear_ventana()`. 
+#. Pega las instrucciones y los comentarios que copiaste anteriormente.
+#. Selecciona las instrucciones y los comentarios pegados recientemente, y presiona una (1) vez la tecla TAB.
+
+.. code-block:: python
+   :caption: Función titulo_juego
+   :emphasize-lines: 4-9
+
+    #Variables
+    ....
+
+    #Funciones
+    def crear_ventana():
+      """ Esta función muestra la ventana. """
+
+      # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+      arcade.open_window(ANCHO, ALTO, TITULO)
+
+      # Establecer el color de fondo de la ventana
+      arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+    # Inicio del dibujo
+    ...
+
+.. rubric:: 3. Llama a la función
+  :heading-level: 2
+
+Coloca el nombre de la función seguido a un par de paréntesis ``()`` en lugar de se encontraban las instrucciones previamente.
+
+.. code-block:: python
+   :caption: Llamada a la función titulo_juego
+   :emphasize-lines: 4
+  
+   ...
+
+   #Funciones
+   ...
+   
+   crear_ventana()
+
+   # Inicio del dibujo
+   ...

@@ -9,7 +9,7 @@ Diccionario de términos
         de software, como un editor de texto, un compilador, un depurador,
         entre otras.
 
-    lenguaje de programación
+    lenguaje de prograImación
         Un lenguaje de programación es un conjunto de reglas y
         estructuras de datos que se utilizan para escribir programas
         informáticos.
