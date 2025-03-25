@@ -96,7 +96,7 @@ Función: Crear ventana
 
 .. code-block:: python
    :caption: Selecciona y copia las instrucciones
-   :emphasize-lines: 5
+   :emphasize-lines: 4-5, 7-8
 
     # Sprite 4
     ...
@@ -119,7 +119,7 @@ Función: Crear ventana
 
 .. code-block:: python
    :caption: Función titulo_juego
-   :emphasize-lines: 4-9
+   :emphasize-lines: 4-12
 
     #Variables
     ....
@@ -144,7 +144,7 @@ Coloca el nombre de la función seguido a un par de paréntesis ``()`` en lugar 
 
 .. code-block:: python
    :caption: Llamada a la función titulo_juego
-   :emphasize-lines: 4
+   :emphasize-lines: 6
   
    ...
 
