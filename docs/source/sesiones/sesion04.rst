@@ -2,7 +2,7 @@ Misión 04: Satélite espacial 🛰️
 ===================================
 
 .. figure:: ../img/sesion04/satelite.jpeg
-    :scale: 40%
+    :scale: 80%
     :figclass: align-center
     :alt: ordenes
 
@@ -12,7 +12,7 @@ En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para da
 
 Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()`, la función :py:func:`arcade.Text()` o la función :py:func:`arcade.Sprite()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
-De la sesión anterior, abre la crea la carpeta ``galaxia_indie`` que contiene el archivo llamado ``mision01.py``. :
+De la sesión anterior, abra la crea la carpeta ``galaxia_indie``, que contiene el archivo ``mision01.py`` con el siguiente código:
 
 .. code-block:: python
 
@@ -89,13 +89,13 @@ De la sesión anterior, abre la crea la carpeta ``galaxia_indie`` que contiene e
 Función: Crear ventana
 ------------------
 
-.. rubric:: 1. Selecciona y copia las instrucciones
+.. rubric:: 1. Selecciona y recorta las instrucciones
   :heading-level: 2
 
-**Selecciona y copia** las siguientes instrucciones y comentarios:
+**Selecciona y recorta** las siguientes instrucciones y comentarios:
 
 .. code-block:: python
-   :caption: Selecciona y copia las instrucciones
+   :caption: Selecciona y recorta las instrucciones
    :emphasize-lines: 4-5, 7-8
 
     # Sprite 4
@@ -115,7 +115,7 @@ Función: Crear ventana
 
 #. Ve al inicio del programa, después de crear todas las variables y define la función :py:func:`crear_ventana()`. 
 #. Pega las instrucciones y los comentarios que copiaste anteriormente.
-#. Selecciona las instrucciones y los comentarios pegados recientemente, y presiona una (1) vez la tecla TAB.
+#. Selecciona SOLO las instrucciones y los comentarios que pegaste recientemente, y presiona una (1) vez la tecla TAB.
 
 .. code-block:: python
    :caption: Función titulo_juego
@@ -140,10 +140,10 @@ Función: Crear ventana
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-Coloca el nombre de la función seguido a un par de paréntesis ``()`` en lugar de se encontraban las instrucciones previamente.
+Regresa al lugar donde se encontraban las instrucciones y **llama** a la función con su nombre y un par de paréntesis ``()``.
 
 .. code-block:: python
-   :caption: Llamada a la función titulo_juego
+   :caption: Llamada a la función crear_ventana
    :emphasize-lines: 6
   
    ...
