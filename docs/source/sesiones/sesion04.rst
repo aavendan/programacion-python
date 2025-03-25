@@ -1,7 +1,7 @@
-Misión 04: Galaxias 🌌
+Misión 04: Satélite espacial 🛰️
 ===================================
 
-.. figure:: ../img/sesion03/istockphoto-1845480259-612x612.jpg
+.. figure:: ../img/sesion04/satelite.jpeg
     :scale: 40%
     :figclass: align-center
     :alt: ordenes
@@ -90,3 +90,66 @@ Utiliza, o crea, el archivo **mision01.py** con el siguiente código:
   # Inicia el bucle principal del juego que mantiene la ventana abierta
   arcade.run()
 
+Función: Título del juego
+------------------
+
+.. rubric:: 1. Identifica las instrucciones
+  :heading-level: 2
+
+**Identifica** la instrucción que colocaremos en la función :py:func:`titulo_juego()`:
+
+.. code-block:: python
+   :caption: Función titulo_juego
+   :emphasize-lines: 5
+
+    # Cráteres del planeta
+    ...
+
+    # Título en (300, 200), de tamaño 32 pts.
+    arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
+
+    # Fin del dibujo
+    ...
+
+.. rubric:: 2. Crea la función
+  :heading-level: 2
+
+Para **crear** la función en tu programa:
+
+#. Ve al inicio del programa, después de la sección de variables.
+#. Define la función :py:func:`titulo_juego()`. 
+#. Coloca el código dentro de la función con la indentación.
+
+.. code-block:: python
+   :caption: Función titulo_juego
+   :emphasize-lines: 4-9
+
+    #Variables
+    ....
+
+    #Funciones
+    def titulo_juego():
+        """ Esta función muestra el título del juego. """
+
+        # Título en (300, 200), de tamaño 32 pts.
+        arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
+
+    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
+    ...
+
+.. rubric:: 3. Llama a la función
+  :heading-level: 2
+
+Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de se encontraban las instrucciones para **llamar** a la función.
+
+.. code-block:: python
+   :caption: Llamada a la función titulo_juego
+   :emphasize-lines: 4
+
+   ...
+   
+   # Título en (300, 200), de tamaño 32 pts.
+   titulo_juego()
+
+   # Fin del dibujo
+   ...

@@ -6,23 +6,23 @@ Programa principal: mision01.py
 
 #. En Windows, crea la carpeta ``galaxia_indie``.
 
-    .. figure:: ../img/sesion04/creacioncarpeta.png
+    .. figure:: ../img/sesion03/creacioncarpeta.png
         :figclass: align-center
         :alt: Crear la carpeta del proyecto
 
 #. En Visual Studio Code, abre la carpeta ``galaxia_indie``. 
 
-    .. figure:: ../img/sesion04/abrircarpeta.png
+    .. figure:: ../img/sesion03/abrircarpeta.png
         :figclass: align-center
         :alt: Busca la carpeta del proyecto
 
-    .. figure:: ../img/sesion04/abrirgalaxia_indie.png
+    .. figure:: ../img/sesion03/abrirgalaxia_indie.png
         :figclass: align-center
         :alt: Abrir la carpeta del proyecto
 
 #. Crea el archivo ``mision01.py`` dentro de la carpeta ``galaxia_indie``
 
-    .. figure:: ../img/sesion04/crearmision01.png
+    .. figure:: ../img/sesion03/crearmision01.png
         :figclass: align-center
         :alt: Crear el archivo mision01.py
 
@@ -70,7 +70,7 @@ Programa principal: mision01.py
 Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
 se muestra en la siguente imagen. 
 
-  .. figure:: ../img/sesion04/base.png
+  .. figure:: ../img/sesion03/base.png
       :scale: 50%
       :figclass: align-center
       :alt: base
@@ -83,14 +83,14 @@ Sprite y SpriteList
 
 #. Crea la carpeta `sprites` junto a tu archivo **mision01.py**.
 
-    .. figure:: ../img/sesion04/crearsprites.png
+    .. figure:: ../img/sesion03/crearsprites.png
         :figclass: align-center
         :alt: Crear el archivo sprites
 
-#. Descarga las imágenes de :download:`planeta01 <../img/sesion04/planeta01.png>`, :download:`planeta02 <../img/sesion04/planeta02.png>` y :download:`planeta03 <../img/sesion04/planeta03.png>`
+#. Descarga las imágenes de :download:`planeta01 <../img/sesion03/planeta01.png>`, :download:`planeta02 <../img/sesion03/planeta02.png>` y :download:`planeta03 <../img/sesion03/planeta03.png>`
 #. Coloca las imágenes en la carpeta `sprites`. 
 
-    .. figure:: ../img/sesion04/imagenesplanetas.png
+    .. figure:: ../img/sesion03/imagenesplanetas.png
         :figclass: align-center
         :alt: Guardar imagenes de planetas
 
@@ -187,7 +187,7 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
     planetas.draw()
 
 
-.. figure:: ../img/sesion04/planetaenventana.png
+.. figure:: ../img/sesion03/planetaenventana.png
    :width: 300
    :figclass: align-center
    :alt: Planeta en la ventana
@@ -204,7 +204,7 @@ Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
 Al ejecutar el código, deberías ver los tres planetas en la ventana como 
 se muestra a continuación.
 
-.. figure:: ../img/sesion04/tresplanetas.png
+.. figure:: ../img/sesion03/tresplanetas.png
     :width: 300
     :figclass: align-center
     :alt: tresplanetas
@@ -241,7 +241,7 @@ se muestra a continuación.
 .. rubric:: Imagen
   :heading-level: 2
 
-#. Descarga la imagen de la :download:`nave <../img/sesion04/nave01.png>`.
+#. Descarga la imagen de la :download:`nave <../img/sesion03/nave01.png>`.
 #. Guarda la imagen en la carpeta ``sprites``.
 
 .. rubric:: Código
@@ -255,7 +255,7 @@ se muestra a continuación.
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
 se muestra a continuación.
 
-.. figure:: ../img/sesion04/tresplanetasynave.png
+.. figure:: ../img/sesion03/tresplanetasynave.png
     :width: 300
     :figclass: align-center
     :alt: tresplanetasynave
