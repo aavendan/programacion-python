@@ -157,9 +157,8 @@ Regresa al lugar donde se encontraban las instrucciones y **llama** a la funció
    # Inicio del dibujo
    ...
 
-.. note::
 
-  Reglas para escribir una función:
+Reglas para escribir una función:
 
   #. Comienza con la palabra clave ``def``, que es la abreviatura de *define*.
   #. A continuación, escribe el nombre de la función. 
