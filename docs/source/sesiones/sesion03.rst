@@ -1,349 +1,292 @@
-Misión 03: Galaxias 🌌
+Misión 04: Despegue 🚀
 ===================================
 
-.. figure:: ../img/sesion03/istockphoto-1845480259-612x612.jpg
-    :scale: 40%
-    :figclass: align-center
-    :alt: ordenes
-
-En la misión anterior aprendimos a usar instrucciones, crear variables y a crear en expresiones matemáticas. 
-
-En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para dar un instrucciones a la computadora.
-
-Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()` o la función :py:func:`arcade.Text()`. Ahora vamos a aprender a crear nuestras propias funciones.
-
-
-.. rubric:: En resumen
-  :heading-level: 2
-
-Utiliza, o crea, el archivo **intro.py** con el siguiente código:
-
-.. code-block:: python
-
-  """
-  Galaxia Indie
-
-  Un juego indie minimalista de exploración espacial
-  donde viajarás a través del cosmos.
-  Navega a través de misteriosos sistemas estelares,
-  descubriendo antiguos artefactos y desentrañando los
-  misterios de una civilización olvidada.
-
-  Creado con Python y con Arcade.
-  """
-
-  # Importar la librería "arcade" para crear videojuegos.
-  import arcade
-
-  # Constantes
-  ANCHO = 600
-  ALTO = 600
-  TITULO = "Galaxia Indie"
-
-  # Variables
-  planeta_centro_x = 200
-  planeta_centro_y = 200
-  radio = 15
-
-  crater1_centro_x = planeta_centro_x - 10
-  crater1_centro_y = planeta_centro_y + 5
-  crater2_centro_x = planeta_centro_x + 10
-  crater2_centro_y = planeta_centro_y - 5
-  crater3_centro_x = planeta_centro_x + 5
-  crater3_centro_y = planeta_centro_y + 10
-
-  # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
-  arcade.open_window( ANCHO, ALTO, TITULO )
-
-  # Establecer el color de fondo de la ventana
-  arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
-
-  # Inicio del dibujo
-  arcade.start_render()
-
-  # (Aquí irá el código para dibujar)
-
-  # Rayos de luz
-  # Horizontal, de izquierda (400, 450) a derecha (500, 450)
-  arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
-  # Vertical, de arriba (450, 500) a abajo (450, 400)
-  arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
-
-  # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
-  arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
-  # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
-  arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
-
-  # Estrella en  (100,100)
-  # Línea horizontal
-  arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
-  # Línea vertical
-  arcade.draw_line(100, 75, 100, 125, arcade.color.HELIOTROPE, 1)
-
-  # Líneas diagonales
-  arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
-  arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
-
-  # Planeta
-  arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.DARK_VIOLET)
-
-  # Cráteres del planeta
-  arcade.draw_circle_filled(90, 360, 5, arcade.csscolor.DARK_SLATE_GRAY)
-  arcade.draw_circle_filled(110, 355, 4, arcade.csscolor.DARK_SLATE_GRAY)
-  arcade.draw_circle_filled(95, 340, 3, arcade.csscolor.DARK_SLATE_GRAY)
-
-  # Planeta en (200,200)
-  # Planeta Gris
-  arcade.draw_circle_filled( planeta_centro_x, planeta_centro_y, radio, arcade.csscolor.GRAY)
-
-  # Cráteres del planeta
-  arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
-  arcade.draw_circle_filled(crater2_centro_x, crater2_centro_y, 3, arcade.csscolor.DARK_GRAY)
-  arcade.draw_circle_filled(crater3_centro_x, crater3_centro_y, 2, arcade.csscolor.DARK_GRAY)
-
-  # Título en (300, 200), de tamaño 32 pts.
-  arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
-
-  # Fin del dibujo
-  arcade.finish_render()
-
-  # Inicia el bucle principal del juego que mantiene la ventana abierta
-  arcade.run()
-
-Función: Título del juego
+Programa principal: mision01.py
 ------------------
 
-.. code-block:: python
-   :caption: Función titulo_juego
+#. En Windows, crea la carpeta ``galaxia_indie``.
 
-    def titulo_juego():
-        """ Esta función muestra el título del juego. """
+    .. figure:: ../img/sesion04/creacioncarpeta.png
+        :figclass: align-center
+        :alt: Crear la carpeta del proyecto
 
-        # Aquí va una línea de código
-        # Aquí va otra línea de código 
-        
-Reglas para escribir una función:
+#. En Visual Studio Code, abre la carpeta ``galaxia_indie``. 
 
-#. Comienza con la palabra clave ``def``, que es la abreviatura de *define*.
-#. A continuación, escribe el nombre de la función. 
-#. Después de eso, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
-#. A continuación, dos puntos.
-#. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
-#. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. 
+    .. figure:: ../img/sesion04/abrircarpeta.png
+        :figclass: align-center
+        :alt: Busca la carpeta del proyecto
 
-.. warning::
-    El nombre de una función sigue las mismas reglas que los nombres de variables. Deben:
+    .. figure:: ../img/sesion04/abrirgalaxia_indie.png
+        :figclass: align-center
+        :alt: Abrir la carpeta del proyecto
 
-        1. Comenzar con una letra minúscula.
-        2. Después de la primera letra, solo usa letras, números y guiones bajos.
-        3. No se permiten espacios. Usa guiones bajos en su lugar.
-        4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
+#. Crea el archivo ``mision01.py`` dentro de la carpeta ``galaxia_indie``
 
+    .. figure:: ../img/sesion04/crearmision01.png
+        :figclass: align-center
+        :alt: Crear el archivo mision01.py
 
+#. Copia el siguiente código básico y pégalo en tu archivo ``mision01.py``:
 
-.. rubric:: 1. Identifica las instrucciones
-  :heading-level: 2
+    .. code-block:: python
 
-**Identifica** la instrucción que colocaremos en la función :py:func:`titulo_juego()`:
+        """
+        Galaxia Indie
 
-.. code-block:: python
-   :caption: Función titulo_juego
-   :emphasize-lines: 5
+        Un juego indie minimalista de exploración espacial 
+        donde viajarás a través del cosmos.
+        Navega a través de misteriosos sistemas estelares,
+        descubriendo antiguos artefactos y desentrañando los 
+        misterios de una civilización olvidada.
 
-    # Cráteres del planeta
-    ...
+        Creado con Python y con Arcade.
+        """
 
-    # Título en (300, 200), de tamaño 32 pts.
-    arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
+        # Importar la librería "arcade" para crear videojuegos.
+        import arcade
 
-    # Fin del dibujo
-    ...
+        # Constantes
+        ALTO = 600
+        ANCHO = 600
+        TITULO = "Misión 01: Listos para el despegue"
 
-.. rubric:: 2. Crea la función
-  :heading-level: 2
+        # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+        arcade.open_window(ANCHO, ALTO, TITULO)    
 
-Para **crear** la función en tu programa:
+        # Establecer el color de fondo de la ventana
+        arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
 
-#. Ve al inicio del programa, después de la sección de variables.
-#. Define la función :py:func:`titulo_juego()`. 
-#. Coloca el código dentro de la función con la indentación.
+        # Inicio del dibujo
+        arcade.start_render()
 
-.. code-block:: python
-   :caption: Función titulo_juego
-   :emphasize-lines: 4-9
+        # (Aquí irá el código para dibujar)
 
-    #Variables
-    ....
+        # Fin del dibujo
+        arcade.finish_render()
 
-    #Funciones
-    def titulo_juego():
-        """ Esta función muestra el título del juego. """
+        # Inicia el bucle principal del juego que mantiene la ventana abierta
+        arcade.run()
 
-        # Título en (300, 200), de tamaño 32 pts.
-        arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
+Ejecuta el código y verás una ventana con el color de fondo azul oscuro, como 
+se muestra en la siguente imagen. 
 
-    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
-    ...
-
-.. rubric:: 3. Llama a la función
-  :heading-level: 2
-
-Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de se encontraban las instrucciones para **llamar** a la función.
-
-.. code-block:: python
-   :caption: Llamada a la función titulo_juego
-   :emphasize-lines: 4
-
-   ...
-   
-   # Título en (300, 200), de tamaño 32 pts.
-   titulo_juego()
-
-   # Fin del dibujo
-   ...
-
-
-Función: Dibujar las estrellas
-------------------
-
-.. rubric:: 1. Identifica las instrucciones
-  :heading-level: 2
-
-Recorta todas las instrucciones para crear las estrellas.
-
-.. code-block:: python
-   :caption: Recorta las instrucciones en tu programa
-
-    ...
-    # (Aquí irá el código para dibujar)
-
-    # Rayos de luz
-    # Horizontal, de izquierda (400, 450) a derecha (500, 450)
-    arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
-    # Vertical, de arriba (450, 500) a abajo (450, 400)
-    arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
-
-    # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
-    arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
-    # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
-    arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
-
-    # Estrella en  (100,100)
-    # Línea horizontal
-    arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
-    # Línea vertical
-    arcade.draw_line(100, 75, 100, 125, arcade.color.HELIOTROPE, 1)
-
-    # Líneas diagonales
-    arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
-    arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
-
-    # Planeta
-    ...
-
-.. rubric:: 2. Crea la función
-  :heading-level: 2
-
-Escribe la función :py:func:`dibujar_estrellas()`. Pega el código anterior dentro de la función. Asegúrate que todo el código tenga la misma indentación. 
- 
-.. code-block:: python
-   :caption: Función dibujar_estrellas
-
-    # Funciones
-    def titulo_juego():
-        ...
-    
-    def dibujar_estrellas():
-    
-        """ Esta función dibuja una estrella en la pantalla. """
-
-        # Rayos de luz
-        # Horizontal, de izquierda (400, 450) a derecha (500, 450)
-        arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
-        # Vertical, de arriba (450, 500) a abajo (450, 400)
-        arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
-
-        # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
-        arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
-        # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
-        arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
-
-        # Estrella en  (100,100)
-        # Línea horizontal
-        arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
-        # Línea vertical
-        arcade.draw_line(100, 75, 100, 125, arcade.color.HELIOTROPE, 1)
-
-        # Líneas diagonales
-        arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
-        arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
-
-    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
-    ...
-
-.. warning::
-
-    Utiliza la tecla **TAB** para indentar el código. 
-
-    .. figure:: ../img/sesion03/tab.jpg
-      :width: 200
+  .. figure:: ../img/sesion04/base.png
+      :scale: 50%
       :figclass: align-center
-      :alt: Tecla TAB
+      :alt: base
 
-.. rubric:: 3. Llama a la función
+Sprite y SpriteList
+------------------
+
+.. rubric:: Imágenes de los planetas
   :heading-level: 2
 
-Llama a la función :py:func:`dibujar_estrellas()` en lugar donde se encontraban las instrucciones anteriores.
+#. Crea la carpeta `sprites` junto a tu archivo **mision01.py**.
+
+    .. figure:: ../img/sesion04/crearsprites.png
+        :figclass: align-center
+        :alt: Crear el archivo sprites
+
+#. Descarga las imágenes de :download:`planeta01 <../img/sesion04/planeta01.png>`, :download:`planeta02 <../img/sesion04/planeta02.png>` y :download:`planeta03 <../img/sesion04/planeta03.png>`
+#. Coloca las imágenes en la carpeta `sprites`. 
+
+    .. figure:: ../img/sesion04/imagenesplanetas.png
+        :figclass: align-center
+        :alt: Guardar imagenes de planetas
+
+.. note::
+    
+    Puedes obtener más imágenes en `kenney.nl <https://kenney.nl/>`_.
+
+.. rubric:: Planetas
+  :heading-level: 2
+
+Un :term:`sprite` es una imagen :term:`bidimensional` que forma 
+parte de una escena gráfica más grande. Por lo general, un sprite 
+será algún tipo de objeto en la escena con el que se interactuará, 
+como un planeta, un extraterrestre o una nave.
+
+Copia las siguientes instrucciones resaltadas y colócalas en las ubicaciones indicadas.
 
 .. code-block:: python
+    :emphasize-lines: 4-6, 8-11, 13-14, 22-23
+
+    # Constantes
+    ...
+
+    # Variables 
+    # Creamos una lista de sprites
+    planetas = arcade.SpriteList()
+
+    # Creamos un sprite y establecemos la posición
+    planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
+    planeta1.center_x = 150
+    planeta1.center_y = 450
+
+    # Agregamos el sprite a la lista de sprites
+    planetas.append(planeta1)
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+
+    ...
 
     # (Aquí irá el código para dibujar)
 
-    dibujar_estrellas()
-
-    # Planeta
-    ...
-
-Función: Dibujar los planetas
-------------------
-
-#. Ahora, **identifica** las instrucciones para dibujar los planetas.
-#. **Crea** la función al inicio del programa y pega el código dentro de la función.
-#. **Llama** a la función en lugar donde se encontraban las instrucciones anteriores.
-
-Galaxia
-------------------
-
-Ahora, tu código contendrá las funciones :py:func:`titulo_juego()`, :py:func:`dibujar_estrellas()` y :py:func:`dibujar_planetas()`. Además de la llamada a las funciones en lugar de las instrucciones.
-
-.. code-block:: python
-
-    #Funciones
-    def titulo_juego():
-        ...
-
-    def dibujar_estrellas():
-       ...
-
-    def dibujar_planetas():
-      ...
-
-    ...
-    # (Aquí irá el código para dibujar)
-
-    dibujar_estrellas()
-    dibujar_planetas()
-    titulo_juego()
+    # Dibujamos la lista de sprites
+    planetas.draw()
 
     # Fin del dibujo
     ...
 
-Y tu programa se seguirá viendo de la misma manera:
+.. rubric:: Explicación
+  :heading-level: 2
+  :class: explanation
 
-.. figure:: ../img/sesion02/texto.png
+Antes de empezar, utilizaremos la variable ``planetas`` 
+para almacenar nuestros sprites en una :term:`lista` 
+(:py:func:`arcade.SpriteList()`).
+
+.. code-block:: python
+
+    ...
+    # Creamos una lista de sprites
+    planetas = arcade.SpriteList()
+
+
+Luego, usamos la variable ``planeta1`` 
+para almacenar un sprite :py:func:`arcade.Sprite()`, 
+con la :term:`ruta` a la imagen y la :term:`escala`. 
+
+Además, usamos la variable ``planeta1`` para 
+colocar el sprite en la ventana cuyo centro es (``x``, ``y``), con 
+``planeta1.center_x = 150`` y en ``planeta1.center_y = 450``.
+
+.. code-block:: python
+
+    ...
+    # Creamos un sprite y establecemos la posición
+    planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
+    planeta1.center_x = 150
+    planeta1.center_y = 450
+
+Luego, con :py:func:`planetas.append()` agregamos el sprite 
+(``planeta1``) a la lista de sprites (``planetas``).
+
+.. code-block:: python
+
+    ...
+    # Agregamos el sprite a la lista de sprites
+    planetas.append(planeta1)
+
+Finalmente, dibujamos la lista de sprites ``planetas`` en la ventana.
+
+.. code-block:: python
+
+    ...
+    # Dibujamos la lista de sprites
+    planetas.draw()
+
+
+.. figure:: ../img/sesion04/planetaenventana.png
    :width: 300
    :figclass: align-center
-   :alt: Texto
+   :alt: Planeta en la ventana
+
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+#. Crea un sprite para la imagen ``sprites/planeta02.png``, con una escala de **0.02**. El centro se encuentra a **100 píxeles** menos del ancho de la ventana y a la **mitad vertical** de la ventana.
+#. Crea un sprite para la imagen ``sprites/planeta03.png``, con una escala de **0.05**. El centro se encuentra a **100 píxeles** y a un **tercio de la vertical** de la ventana.
+#. Agrega cada uno de los sprites a la lista de sprites.
+
+Al ejecutar el código, deberías ver los tres planetas en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion04/tresplanetas.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetas
+
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 4-8,10-14
+
+    # Agregamos el sprite a la lista de sprites
+    ...
+
+    # Sprite 2
+    planeta2 = arcade.Sprite("sprites/planeta02.png", 0.02)
+    planeta2.center_x = ANCHO - 100 
+    planeta2.center_y = ALTO / 2
+    planetas.append(planeta2)
+
+    # Sprite 3
+    planeta3 = arcade.Sprite("sprites/planeta03.png", 0.05)
+    planeta3.center_x = 100
+    planeta3.center_y = ALTO / 3
+    planetas.append(planeta3)
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    ...
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+.. rubric:: Imagen
+  :heading-level: 2
+
+#. Descarga la imagen de la :download:`nave <../img/sesion04/nave01.png>`.
+#. Guarda la imagen en la carpeta ``sprites``.
+
+.. rubric:: Código
+  :heading-level: 2
+
+#. Crea una lista de sprites llamada ``naves``.
+#. Crea un variable ``nave01`` para el sprite con la imagen ``sprites/nave01.png``, con una escala de **0.6**. El centro se encuentra a la **mitad horizontal** de la ventana  y a un **40 píxeles**.
+#. Agrega cada el sprite de la nave a la lista de sprites ``naves``.
+#. Dibuja la lista de sprites ``naves`` en la ventana.
+
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion04/tresplanetasynave.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynave
+
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 4,10-14,20
+
+    ...
+    # Creamos una lista de sprites
+    ...
+    naves = arcade.SpriteList()
+    ...
+
+    # Sprite 3
+    ...
+
+    # Sprite 4
+    nave01 = arcade.Sprite("sprites/nave01.png", 0.6)
+    nave01.center_x = ANCHO / 2
+    nave01.center_y = 40
+    naves.append(nave01)
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+
+    # (Aquí irá el código para dibujar)
+    ...
+    naves.draw()
 
 .. rubric:: En resumen
   :heading-level: 2
@@ -368,76 +311,43 @@ Al finalizar esta sesión, tu código debería verse así:
   import arcade
 
   # Constantes
-  ANCHO = 600
   ALTO = 600
-  TITULO = "Galaxia Indie"
+  ANCHO = 600
+  TITULO = "Misión 01: Listos para el despegue"
 
   # Variables
-  planeta_centro_x = 200
-  planeta_centro_y = 200
-  radio = 15
+  # Creamos una lista de sprites
+  planetas = arcade.SpriteList()
+  naves = arcade.SpriteList()
 
-  crater1_centro_x = planeta_centro_x - 10
-  crater1_centro_y = planeta_centro_y + 5
-  crater2_centro_x = planeta_centro_x + 10
-  crater2_centro_y = planeta_centro_y - 5
-  crater3_centro_x = planeta_centro_x + 5
-  crater3_centro_y = planeta_centro_y + 10
+  # Creamos un sprite y establecemos la posición
+  planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
+  planeta1.center_x = 150
+  planeta1.center_y = 450
 
-  #Funciones
-  def titulo_juego():
-      """ Esta función muestra el título del juego. """
+  # Agregamos el sprite a la lista de sprites
+  planetas.append(planeta1)
 
-      # Título en (300, 200), de tamaño 32 pts.
-      arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
-      
-  def dibujar_estrellas():
+  # Sprite 2
+  planeta2 = arcade.Sprite("sprites/planeta02.png", 0.02)
+  planeta2.center_x = ANCHO - 100
+  planeta2.center_y = ALTO / 2
+  planetas.append(planeta2)
 
-      """ Esta función dibuja una estrella en la pantalla. """
+  # Sprite 3
+  planeta3 = arcade.Sprite("sprites/planeta03.png", 0.05)
+  planeta3.center_x = 100
+  planeta3.center_y = ALTO / 3
+  planetas.append(planeta3)
 
-      # Rayos de luz
-      # Horizontal, de izquierda (400, 450) a derecha (500, 450)
-      arcade.draw_line(400, 450, 500, 450, arcade.color.HELIOTROPE, 1)
-      # Vertical, de arriba (450, 500) a abajo (450, 400)
-      arcade.draw_line(450, 500, 450, 400, arcade.color.HELIOTROPE, 1)
+  # Sprite 4
+  nave01 = arcade.Sprite("sprites/nave01.png", 0.6)
+  nave01.center_x = ANCHO / 2
+  nave01.center_y = 40
+  naves.append(nave01)
 
-      # Abajo a la izquierda (425, 425) hacia arriba la derecha (475, 475)
-      arcade.draw_line(425, 425, 475, 475, arcade.color.HELIOTROPE, 3)
-      # Arriba a la izquierda (425, 475) hacia abajo la derecha (475, 425)
-      arcade.draw_line(425, 475, 475, 425, arcade.color.HELIOTROPE, 3)
-
-      # Estrella en  (100,100)
-      # Línea horizontal
-      arcade.draw_line(75, 100, 125, 100, arcade.color.HELIOTROPE, 1)
-      # Línea vertical
-      arcade.draw_line(100, 75, 100, 125, arcade.color.HELIOTROPE, 1)
-
-      # Líneas diagonales
-      arcade.draw_line(85, 85, 115, 115, arcade.color.HELIOTROPE, 3)
-      arcade.draw_line(85, 115, 115, 85, arcade.color.HELIOTROPE, 3)
-      
-  def dibujar_planetas():
-      
-      # Planeta
-      arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.DARK_VIOLET)
-
-      # Cráteres del planeta
-      arcade.draw_circle_filled(90, 360, 5, arcade.csscolor.DARK_SLATE_GRAY)
-      arcade.draw_circle_filled(110, 355, 4, arcade.csscolor.DARK_SLATE_GRAY)
-      arcade.draw_circle_filled(95, 340, 3, arcade.csscolor.DARK_SLATE_GRAY)
-
-      # Planeta en (200,200)
-      # Planeta Gris
-      arcade.draw_circle_filled( planeta_centro_x, planeta_centro_y, radio, arcade.csscolor.GRAY)
-
-      # Cráteres del planeta
-      arcade.draw_circle_filled(crater1_centro_x, crater1_centro_y, 3, arcade.csscolor.DARK_GRAY)
-      arcade.draw_circle_filled(crater2_centro_x, crater2_centro_y, 3, arcade.csscolor.DARK_GRAY)
-      arcade.draw_circle_filled(crater3_centro_x, crater3_centro_y, 2, arcade.csscolor.DARK_GRAY)
-      
-
-  # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
-  arcade.open_window( ANCHO, ALTO, TITULO )
+  # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+  arcade.open_window(ANCHO, ALTO, TITULO)
 
   # Establecer el color de fondo de la ventana
   arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
@@ -446,13 +356,8 @@ Al finalizar esta sesión, tu código debería verse así:
   arcade.start_render()
 
   # (Aquí irá el código para dibujar)
-
-  dibujar_estrellas()
-
-  dibujar_planetas()
-
-  # Título en (300, 200), de tamaño 32 pts.
-  titulo_juego()
+  planetas.draw()
+  naves.draw()
 
   # Fin del dibujo
   arcade.finish_render()
