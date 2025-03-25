@@ -12,11 +12,7 @@ En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para da
 
 Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()`, la función :py:func:`arcade.Text()` o la función :py:func:`arcade.Sprite()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
-
-.. rubric:: En resumen
-  :heading-level: 2
-
-Utiliza, o crea, el archivo **mision01.py** con el siguiente código:
+De la sesión anterior, abre la crea la carpeta ``galaxia_indie`` que contiene el archivo llamado ``mision01.py``. :
 
 .. code-block:: python
 
@@ -90,66 +86,5 @@ Utiliza, o crea, el archivo **mision01.py** con el siguiente código:
   # Inicia el bucle principal del juego que mantiene la ventana abierta
   arcade.run()
 
-Función: Título del juego
+Función: Crear ventana
 ------------------
-
-.. rubric:: 1. Identifica las instrucciones
-  :heading-level: 2
-
-**Identifica** la instrucción que colocaremos en la función :py:func:`titulo_juego()`:
-
-.. code-block:: python
-   :caption: Función titulo_juego
-   :emphasize-lines: 5
-
-    # Cráteres del planeta
-    ...
-
-    # Título en (300, 200), de tamaño 32 pts.
-    arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
-
-    # Fin del dibujo
-    ...
-
-.. rubric:: 2. Crea la función
-  :heading-level: 2
-
-Para **crear** la función en tu programa:
-
-#. Ve al inicio del programa, después de la sección de variables.
-#. Define la función :py:func:`titulo_juego()`. 
-#. Coloca el código dentro de la función con la indentación.
-
-.. code-block:: python
-   :caption: Función titulo_juego
-   :emphasize-lines: 4-9
-
-    #Variables
-    ....
-
-    #Funciones
-    def titulo_juego():
-        """ Esta función muestra el título del juego. """
-
-        # Título en (300, 200), de tamaño 32 pts.
-        arcade.Text("Galaxia Indie", 300, 200, arcade.color.WHEAT, 32).draw()
-
-    # Crear una ventana de 600x600 píxeles con el título "Galaxia Indie"
-    ...
-
-.. rubric:: 3. Llama a la función
-  :heading-level: 2
-
-Coloca el nombre de la función junto a un par de paréntesis ``()`` en lugar de se encontraban las instrucciones para **llamar** a la función.
-
-.. code-block:: python
-   :caption: Llamada a la función titulo_juego
-   :emphasize-lines: 4
-
-   ...
-   
-   # Título en (300, 200), de tamaño 32 pts.
-   titulo_juego()
-
-   # Fin del dibujo
-   ...
