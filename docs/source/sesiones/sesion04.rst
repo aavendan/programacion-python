@@ -165,8 +165,18 @@ Regresa al lugar donde se encontraban las instrucciones y **llama** a la funció
    # Inicio del dibujo
    ...
 
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
 
-Reglas para escribir una función:
+.. figure:: ../img/sesion04/tresplanetasynave.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynave
+
+Reglas para escribir una función
+------------------
+
+Para escribir una función en Python, sigue estas reglas:
 
   #. Comienza con la palabra clave ``def``, que es la abreviatura de *define*.
   #. A continuación, escribe el nombre de la función. 
@@ -184,13 +194,8 @@ Reglas para escribir una función:
     3. No se permiten espacios. Usa guiones bajos en su lugar.
     4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
 
-Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
-se muestra a continuación.
-
-.. figure:: ../img/sesion04/tresplanetasynave.png
-    :width: 300
-    :figclass: align-center
-    :alt: tresplanetasynave
+Función: Dibujar elementos
+------------------
 
 .. rubric:: Reto
   :heading-level: 2
@@ -212,7 +217,7 @@ se muestra a continuación.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 5-6, 8-9, 15
+    :emphasize-lines: 5-9, 15
 
     #Funciones
     def crear_ventana():
