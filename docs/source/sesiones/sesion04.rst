@@ -86,6 +86,14 @@ De la sesión anterior, abra la crea la carpeta ``galaxia_indie``, que contiene 
   # Inicia el bucle principal del juego que mantiene la ventana abierta
   arcade.run()
 
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion04/tresplanetasynave.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynave
+
 Función: Crear ventana
 ------------------
 
@@ -204,7 +212,26 @@ se muestra a continuación.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 4,10-14,20
+    :emphasize-lines: 5-6, 8-9, 15
+
+    #Funciones
+    def crear_ventana():
+      ...
+
+    def dibujar_elementos():
+      """ Dibuja los elementos en pantalla """
+      
+      planetas.draw()
+      naves.draw()
+
+    # Inicio del dibujo
+    ...
+
+    # (Aquí irá el código para dibujar)
+    dibujar_elementos()
+
+    # Fin del dibujo
+    ...
 
 .. rubric:: En resumen
   :heading-level: 2
@@ -212,3 +239,84 @@ se muestra a continuación.
 Al finalizar esta sesión, tu código debería verse así:
 
 .. code-block:: python
+
+  """
+  Galaxia Indie
+
+  Un juego indie minimalista de exploración espacial
+  donde viajarás a través del cosmos.
+  Navega a través de misteriosos sistemas estelares,
+  descubriendo antiguos artefactos y desentrañando los
+  misterios de una civilización olvidada.
+
+  Creado con Python y con Arcade.
+  """
+
+  # Importar la librería "arcade" para crear videojuegos.
+  import arcade
+
+  # Constantes
+  ALTO = 600
+  ANCHO = 600
+  TITULO = "Misión 01: Listos para el despegue"
+
+  # Variables
+  # Creamos una lista de sprites
+  planetas = arcade.SpriteList()
+  naves = arcade.SpriteList()
+
+  # Creamos un sprite y establecemos la posición
+  planeta1 = arcade.Sprite("sprites/planeta01.png", 0.08)
+  planeta1.center_x = 150
+  planeta1.center_y = 450
+
+  # Agregamos el sprite a la lista de sprites
+  planetas.append(planeta1)
+
+  # Sprite 2
+  planeta2 = arcade.Sprite("sprites/planeta02.png", 0.02)
+  planeta2.center_x = ANCHO - 100
+  planeta2.center_y = ALTO / 2
+  planetas.append(planeta2)
+
+  # Sprite 3
+  planeta3 = arcade.Sprite("sprites/planeta03.png", 0.05)
+  planeta3.center_x = 100
+  planeta3.center_y = ALTO / 3
+  planetas.append(planeta3)
+
+  # Sprite 4
+  nave01 = arcade.Sprite("sprites/nave01.png", 0.6)
+  nave01.center_x = ANCHO / 2
+  nave01.center_y = 40
+  naves.append(nave01)
+
+  #Funciones
+  def crear_ventana():
+    """ Esta función muestra la ventana. """
+
+    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+    arcade.open_window(ANCHO, ALTO, TITULO)
+
+    # Establecer el color de fondo de la ventana
+    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+    
+  def dibujar_elementos():
+      """ Dibuja los elementos en pantalla """
+      
+      planetas.draw()
+      naves.draw()
+
+  crear_ventana()
+
+  # Inicio del dibujo
+  arcade.start_render()
+
+  # (Aquí irá el código para dibujar)
+  dibujar_elementos()
+
+  # Fin del dibujo
+  arcade.finish_render()
+
+  # Inicia el bucle principal del juego que mantiene la ventana abierta
+  arcade.run()
