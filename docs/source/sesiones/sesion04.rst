@@ -104,7 +104,7 @@ Función: Crear ventana
 
 .. code-block:: python
    :caption: Selecciona y recorta las instrucciones
-   :emphasize-lines: 4-5, 7-8
+   :emphasize-lines: 4-5
 
     # Sprite 4
     ...
@@ -112,57 +112,52 @@ Función: Crear ventana
     # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
     arcade.open_window(ANCHO, ALTO, TITULO)
 
-    # Establecer el color de fondo de la ventana
-    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
-
     # Inicio del dibujo
     ...
 
 .. rubric:: 2. Escribe la función y coloca el código
   :heading-level: 2
 
-#. Ve al inicio del programa, después de crear todas las variables y define la función :py:func:`crear_ventana()`. 
+#. Ve al inicio del programa, después de crear todas las variables y define la función :py:func:`abrir_ventana()`. 
 #. Pega las instrucciones y los comentarios que copiaste anteriormente.
 #. Selecciona SOLO las instrucciones y los comentarios que pegaste recientemente, y presiona una (1) vez la tecla TAB.
 
 .. code-block:: python
-   :caption: Función titulo_juego
-   :emphasize-lines: 4-12
+   :caption: Función abrir_ventana
+   :emphasize-lines: 4-9
 
     # Sprite 4
     ....
 
     #Funciones
-    def crear_ventana():
-      """ Esta función muestra la ventana. """
+    def abrir_ventana():
+      """ Abre la ventana """
 
       # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
       arcade.open_window(ANCHO, ALTO, TITULO)
 
-      # Establecer el color de fondo de la ventana
-      arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
-
-    # Inicio del dibujo
+    # Establecer el color de fondo de la ventana
+    
     ...
 
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-Regresa al lugar donde se encontraban las instrucciones y **llama** a la función con su nombre y un par de paréntesis ``()``.
+Regresa al lugar donde se encontraban la instrucción y **llama** a la función con su nombre y un par de paréntesis ``()``.
 
 .. code-block:: python
-   :caption: Llamada a la función crear_ventana
+   :caption: Llamada a la función abrir_ventana
    :emphasize-lines: 7
   
    ...
 
    #Funciones
-   def crear_ventana():
+   def abrir_ventana():
       ...
    
-   crear_ventana()
+   abrir_ventana()
 
-   # Inicio del dibujo
+   # Establecer el color de fondo de la ventana
    ...
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
@@ -194,16 +189,16 @@ Para escribir una función en Python, sigue estas reglas:
     3. No se permiten espacios. Usa guiones bajos en su lugar.
     4. Si bien se pueden usar letras mayúsculas, los nombres de las funciones normalmente son todos en minúsculas.
 
-Función: Dibujar elementos
+Función: Fondo de ventana
 ------------------
 
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
 
-#. Crea la función :py:func:`dibujar_elementos()`.
+#. Crea la función :py:func:`fondo_ventana()`.
 #. Copia y pega las instrucciones que dibujan la lista con los planetas y la nave.
-#. Llama a la función :py:func:`dibujar_elementos()` en la parte del código donde se dibujan los elementos. 
+#. Llama a la función :py:func:`fondo_ventana()` en la parte del código donde se dibujan los elementos. 
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
 se muestra a continuación.
@@ -217,27 +212,24 @@ se muestra a continuación.
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 5-9, 15
+    :emphasize-lines: 5-9, 12
 
     #Funciones
-    def crear_ventana():
+    def abrir_ventana():
       ...
 
-    def dibujar_elementos():
-      """ Dibuja los elementos en pantalla """
+    def fondo_ventana():
+      """ Muestra el fondo de la ventana """
       
-      planetas.draw()
-      naves.draw()
+      # Establecer el color de fondo de la ventana
+      arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+    abrir_ventana()
+    fondo_ventana()
 
     # Inicio del dibujo
     ...
-
-    # (Aquí irá el código para dibujar)
-    dibujar_elementos()
-
-    # Fin del dibujo
-    ...
-
+    
 .. rubric:: En resumen
   :heading-level: 2
 
@@ -296,29 +288,27 @@ Al finalizar esta sesión, tu código debería verse así:
   nave01.center_y = 40
   naves.append(nave01)
 
-  #Funciones
-  def crear_ventana():
-    """ Esta función muestra la ventana. """
-
-    # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
-    arcade.open_window(ANCHO, ALTO, TITULO)
-
-    # Establecer el color de fondo de la ventana
-    arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
-    
-  def dibujar_elementos():
-      """ Dibuja los elementos en pantalla """
+  def abrir_ventana():
+      """ Abre la ventana """
       
-      planetas.draw()
-      naves.draw()
+      # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
+      arcade.open_window(ANCHO, ALTO, TITULO)
 
-  crear_ventana()
+  def fondo_ventana():
+      """ Muestra el fondo de la ventana """
+        
+      # Establecer el color de fondo de la ventana
+      arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
+
+  abrir_ventana()
+  fondo_ventana()
 
   # Inicio del dibujo
   arcade.start_render()
 
   # (Aquí irá el código para dibujar)
-  dibujar_elementos()
+  planetas.draw()
+  naves.draw()
 
   # Fin del dibujo
   arcade.finish_render()
