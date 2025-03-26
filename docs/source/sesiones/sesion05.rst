@@ -1,2 +1,2 @@
-Misión 05: Navegando por el espacio 🚀🌌🌑
+Misión 05: Panel de control 🎛️
 ===================================
