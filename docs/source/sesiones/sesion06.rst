@@ -1,2 +1,2 @@
-Misión 06: Navegando por el espacio 🚀🌌🌑
+Misión 06: Explorando planetas 🚀🌑
 ===================================

@@ -1,12 +1,12 @@
-Misión 04: Sonda espacial 🛰️
+Misión 04: Módulo espacial 🛰️🚀
 ===================================
 
 En la misión anterior aprendimos a usar instrucciones, crear variables, a crear en expresiones matemáticas y a usar sprites. 
 
-.. figure:: ../img/sesion04/sonda_espacial.jpg
-    :scale: 40%
+.. figure:: ../img/sesion04/modulos.jpeg
+    :scale: 30%
     :figclass: align-center
-    :alt: sonda espacial
+    :alt: módulo espacial
 
 En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para dar un instrucciones específicas a la computadora.
 
