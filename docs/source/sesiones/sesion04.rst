@@ -3,7 +3,7 @@ Misión 04: Sonda espacial 🛰️
 
 En la misión anterior aprendimos a usar instrucciones, crear variables, a crear en expresiones matemáticas y a usar sprites. 
 
-.. figure:: ../img/sesion04/sonda_espacial.jpeg
+.. figure:: ../img/sesion04/sonda_espacial.jpg
     :scale: 60%
     :figclass: align-center
     :alt: ordenes
