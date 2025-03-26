@@ -100,10 +100,10 @@ Función: Crear ventana
 .. rubric:: 1. Selecciona y recorta las instrucciones
   :heading-level: 2
 
-**Selecciona y recorta** las siguientes instrucciones y comentarios:
+**Selecciona y recorta** la siguiente instrucción y comentario:
 
 .. code-block:: python
-   :caption: Selecciona y recorta las instrucciones
+   :caption: Selecciona y recorta la siguiente instrucción y comentario
    :emphasize-lines: 4-5
 
     # Sprite 4
@@ -197,8 +197,8 @@ Función: Fondo de ventana
   :class: mi-clase-css
 
 #. Crea la función :py:func:`fondo_ventana()`.
-#. Copia y pega las instrucciones que dibujan la lista con los planetas y la nave.
-#. Llama a la función :py:func:`fondo_ventana()` en la parte del código donde se dibujan los elementos. 
+#. Copia y pega la instrucción y el comentario que establece el color de fondo de la ventana.
+#. Llama a la función :py:func:`fondo_ventana()` donde se encontraba la instrucción y el comentario. 
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
 se muestra a continuación.
@@ -288,15 +288,16 @@ Al finalizar esta sesión, tu código debería verse así:
   nave01.center_y = 40
   naves.append(nave01)
 
+  #Funciones
   def abrir_ventana():
       """ Abre la ventana """
       
       # Crear una ventana de 600x600 píxeles con el título "Misión 01: Listos para el despegue"
       arcade.open_window(ANCHO, ALTO, TITULO)
 
-  def fondo_ventana():
+  def fondo_ventana():  
       """ Muestra el fondo de la ventana """
-        
+      
       # Establecer el color de fondo de la ventana
       arcade.set_background_color( arcade.color.DARK_IMPERIAL_BLUE )
 
