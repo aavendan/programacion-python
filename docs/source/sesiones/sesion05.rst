@@ -94,8 +94,8 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
     # Inicia el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
-Control: Auto dibujo
+Control: Dibujar
 ------------------
 
-Control: Movimiento
+Control: Mover
 ------------------
