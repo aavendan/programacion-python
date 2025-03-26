@@ -4,7 +4,6 @@ Misión 04: Módulo espacial 🛰️🚀
 En la misión anterior aprendimos a usar instrucciones, crear variables, a crear en expresiones matemáticas y a usar sprites. 
 
 .. figure:: ../img/sesion04/modulos.jpeg
-    :scale: 30%
     :figclass: align-center
     :alt: módulo espacial
 
