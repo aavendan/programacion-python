@@ -1,14 +1,12 @@
 Misión 05: Navegando por el espacio 🚀🌌
 ===================================
 
-En la misión anterior aprendimos a crear y a usar funciones propias. 
+En la misión anterior aprendimos a crear y a usar funciones propias. En esta sesión, aprenderemos a configurar panel de control de nuestra nave.
 
 .. figure:: ../img/sesion05/panel_control.jpeg
     :scale: 120%
     :figclass: align-center
     :alt: panel de control
-
-En esta sesión, aprenderemos a mover nuestros *sprites* en el videojuego mediante el teclado. 
 
 Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie``. Verifica el archivo ``mision01.py`` tenga el siguiente código:
 
@@ -94,8 +92,8 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
     # Inicia el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
-Control: Dibujar
+Control: Función Dibujar
 ------------------
 
-Control: Mover
+Control: Función Mover
 ------------------
