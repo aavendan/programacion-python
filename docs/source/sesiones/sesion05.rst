@@ -8,7 +8,7 @@ En la misión anterior aprendimos a crear y a usar funciones propias.
     :figclass: align-center
     :alt: panel de control
 
-En esta sesión, aprenderemos a mover nuestros *sprites* en el videojuego. 
+En esta sesión, aprenderemos a mover nuestros *sprites* en el videojuego mediante el teclado. 
 
 Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie``. Verifica el archivo ``mision01.py`` tenga el siguiente código:
 

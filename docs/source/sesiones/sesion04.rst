@@ -8,9 +8,9 @@ En la misión anterior aprendimos a usar instrucciones, crear variables, a crear
     :figclass: align-center
     :alt: módulo espacial
 
-En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para dar un instrucciones específicas a la computadora.
+En esta misión, aprenderemos a crear nuestras propias :term:`funciones` para con instrucciones únicas y específicas dentro de nuestro programa.
 
-Ya hemos usado funciones, por ejemplo, la función :py:func:`arcade.draw_line()`, la función :py:func:`arcade.Text()` o la función :py:func:`arcade.Sprite()`. Ahora vamos a aprender a crear nuestras propias funciones.
+Antes, ya hemos usado funciones; por ejemplo, la función :py:func:`arcade.draw_line()`, la función :py:func:`arcade.Text()` o la función :py:func:`arcade.Sprite()`. Ahora vamos a aprender a crear nuestras propias funciones.
 
 Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie``. Verifica el archivo ``mision01.py`` tenga el siguiente código:
 
