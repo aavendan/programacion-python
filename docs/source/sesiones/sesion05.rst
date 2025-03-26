@@ -4,9 +4,10 @@ Misión 05: Panel de control 🎛️
 En la misión anterior aprendimos a crear y a usar funciones propias. 
 
 .. figure:: ../img/sesion05/panel_control.jpeg
-    :scale: 60%
     :figclass: align-center
     :alt: panel de control
+
+En esta sesión, aprenderemos a mover nuestros *sprites* en el videojuego. 
 
 Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie``. Verifica el archivo ``mision01.py`` tenga el siguiente código:
 
