@@ -4,7 +4,7 @@ Misión 05: Panel de control 🎛️
 En la misión anterior aprendimos a crear y a usar funciones propias. 
 
 .. figure:: ../img/sesion05/panel_control.jpeg
-    :scale: 50%
+    :scale: 60%
     :figclass: align-center
     :alt: panel de control
 
