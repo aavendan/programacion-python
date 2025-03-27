@@ -97,9 +97,9 @@ Control: Dibujar todos los sprites
 
 El primer control a programar será **dibujar todos los sprites**. Para esto: 
 
-#. Define la función :py:func:`dibujar_sprites()`,
-#. Mueve las instrucciones para dibujar las listas de *sprites*. 
-#. Llama a la función :py:func:`dibujar_sprites()` en el lugar donde se encontraban las instrucciones para dibujar las listas de *sprites*
+#. Defina la función :py:func:`dibujar_sprites()`,
+#. Mueva las instrucciones para dibujar las listas de *sprites*.
+#. Llame a la función :py:func:`dibujar_sprites()` en el lugar donde se encontraban las instrucciones para dibujar las listas de *sprites*
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
@@ -124,6 +124,9 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
     
     # El control on_draw sirve para indicar qué función se ejecutará cada vez que se necesite redibujar la ventana del juego
     arcade.get_window().on_draw = dibujar_sprites
+
+    # Fin del dibujo
+    ...
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
 se muestra a continuación.
@@ -165,6 +168,9 @@ El segundo control a programar será **mover la nave**. Para esto:
 
     # El control on_key_press sirve para indicar qué función se ejecutará cuando se presione una tecla en el juego.
     arcade.get_window().on_key_press = mover_sprites
+    
+    # Fin del dibujo
+    ...
 
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
