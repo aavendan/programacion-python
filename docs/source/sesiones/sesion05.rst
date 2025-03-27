@@ -103,14 +103,14 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 6-13, 19-20
+    :emphasize-lines: 5-12, 18-19
 
     ...
     def fondo_ventana():
         ...
    
     def dibujar_sprites():
-        """ Dibuja la lista de sprites """
+        """ Limpia la pantalla y dibuja la lista de sprites """
         
         # Limpia la ventana antes de dibujar
         arcade.get_window().clear()
@@ -122,7 +122,7 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
 
     # (Aquí irá el código para dibujar)
     
-    # La función dibujar_sprites se encargará de dibujar todos los sprites
+    # El control on_draw sirve para indicar qué función se ejecutará cada vez que se necesite redibujar la ventana del juego
     arcade.get_window().on_draw = dibujar_sprites
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
@@ -133,7 +133,44 @@ se muestra a continuación.
     :figclass: align-center
     :alt: tresplanetasynave
 
-La función :py:func:`arcade.get_window().on_draw` tiene el control para dibujar todos los sprites que se encuentran dentro de :py:func:`dibujar_sprites`. Mientras que la función :py:func:`arcade.get_window().clear()` limpia la pantalla antes de colocar los sprites. 
+El control :py:func:`arcade.get_window().on_draw` sirve para indicar qué función se ejecutará cada vez que se necesite redibujar la ventana del juego.
 
-Control: Mover solo la nave
+Control: Mover la nave
 ------------------
+
+El segundo control a programar será **mover la nave**. Para esto: 
+
+.. code-block:: python
+    :caption: Define la función dibujar_sprites
+    :emphasize-lines: 3, 9-13, 20-21
+
+    # Constantes
+    ...
+    VELOCIDAD = 10
+
+    ...
+    def dibujar_sprites():
+        ...
+
+    def mover_sprites(tecla_principal, tecla_modificadora):
+        """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
+
+        if tecla_principal == arcade.key.UP:
+            nave01.center_y += VELOCIDAD
+    
+    ...
+
+    # El control on_draw sirve para indicar qué función se ejecutará cada vez que se necesite redibujar la ventana del juego
+    ...
+
+    # El control on_key_press sirve para indicar qué función se ejecutará cuando se presione una tecla en el juego.
+    arcade.get_window().on_key_press = mover_sprites
+
+
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion05/tresplanetasynavemoviendo.gif
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynavemoviendo
