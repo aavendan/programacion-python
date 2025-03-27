@@ -5,8 +5,8 @@ La primera misión de tu videojuego necesita que tu personaje se mueva por la pa
 
 Crea el código para que tu personaje principal se mueva por toda la pantalla. 
 
-.. figure:: ../img/talleres/taller04_1.gif
+.. figure:: ../img/talleres/taller04_2.gif
    :figclass: align-center
-   :alt: taller04_1.gif
+   :alt: taller04_2.gif
 
 Recuerda, puedes encontar más sprites, desde la web o desde `Kenney <https://kenney.nl/>`_.

@@ -1,5 +1,5 @@
-Misión 07: Misión cumplida 🚀✨
+Misión 07: Explorando planetas 🚀🌑
 ===================================
 
-Control: Exploración
+Control: Verificar Choque
 ------------------
