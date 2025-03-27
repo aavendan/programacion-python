@@ -134,7 +134,7 @@ se muestra a continuación.
     :alt: tresplanetasynaveblack
 
 
-Para resolver el problema del fondo negro, será necesario **limpiar la pantalla** con ``.
+Para resolver el problema del fondo negro, será necesario **limpiar la pantalla** con :py:func:`arcade.get_window().clear()`.
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
