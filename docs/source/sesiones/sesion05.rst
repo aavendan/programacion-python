@@ -189,7 +189,7 @@ El control :py:func:`arcade.get_window().on_key_press` sirve para indicar qué f
 La instrucción `if` contiene una :term:`condición` seguida de dos puntos (`:`). La condición se lee `si la tecla_principal es igual a arcade.key.UP (la tecla flecha arriba ↑)`. En caso que la condición sea verdadera se ejecutará la instrucción indentada.
 
 .. code-block:: python
-    :emphasize-lines: 3
+    :emphasize-lines: 2
 
     ...
     if tecla_principal == arcade.key.UP:
@@ -198,7 +198,7 @@ La instrucción `if` contiene una :term:`condición` seguida de dos puntos (`:`)
 La instrucción indentada `nave01.center_y = nave01.center_y + ESPACIO` aumentará la posición en **y**, es decir se moverá hacia arriba.
 
 .. code-block:: python
-    :emphasize-lines: 4
+    :emphasize-lines: 3
 
     ...
     if tecla_principal == arcade.key.UP:
