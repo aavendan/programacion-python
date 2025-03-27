@@ -98,18 +98,29 @@ Control: Dibujar todos los sprites
 El primer control a programar será **dibujar todos los sprites**. Para esto: 
 
 #. Define la función :py:func:`dibujar_sprites()`,
-#. Mueve las instrucciones para mostrar todos los *sprites*. 
-#. Llama a la función en el lugar 
+#. Mueve las instrucciones para dibujar las listas de *sprites*. 
+#. Llama a la función :py:func:`dibujar_sprites()` en el lugar donde se encontraban las instrucciones para dibujar las listas de *sprites*
 
 .. code-block:: python
-   :caption: Define la función dibujar_sprites
-   :emphasize-lines: 
+    :caption: Define la función dibujar_sprites
+    :emphasize-lines: 5-9, 15
 
-   ...
-   def fondo_ventana():
-   ...
+    ...
+    def fondo_ventana():
+    ...
    
-   def dibujar_sprites():
+    def dibujar_sprites():
+        """ Dibuja la lista de sprites """
+        
+        planetas.draw()
+        naves.draw()
+
+    abrir_ventana()
+
+    ...
+
+    # (Aquí irá el código para dibujar)
+    dibujar_sprites()
     
 
 Control: Mover solo la nave
