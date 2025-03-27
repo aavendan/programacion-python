@@ -92,8 +92,10 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
     # Inicia el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
-Control: Función Dibujar
+Control: Dibujar todos los sprites
 ------------------
 
-Control: Función Mover
+El primer control a programar será la función :py:func:`dibujar_sprites()`, que se encargará de dibujar todos los *sprites*.
+
+Control: Mover solo la nave
 ------------------

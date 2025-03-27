@@ -117,9 +117,10 @@ Función: Crear ventana
 .. rubric:: 2. Escribe la función y coloca el código
   :heading-level: 2
 
-#. Ve al inicio del programa, después de crear todas las variables y define la función :py:func:`abrir_ventana()`. 
+#. Después de crear todas las variables, define la función :py:func:`abrir_ventana()`. 
+#. Agrega un comentario con lo que hace la función. 
 #. Pega las instrucciones y los comentarios que copiaste anteriormente.
-#. Selecciona SOLO las instrucciones y los comentarios que pegaste recientemente, y presiona una (1) vez la tecla TAB.
+#. Selecciona los comentarios y las instrucciones y presiona una (1) vez la tecla TAB.
 
 .. code-block:: python
    :caption: Función abrir_ventana
@@ -142,7 +143,7 @@ Función: Crear ventana
 .. rubric:: 3. Llama a la función
   :heading-level: 2
 
-Regresa al lugar donde se encontraban la instrucción y **llama** a la función con su nombre y un par de paréntesis ``()``.
+Regresa al lugar donde se encontraban la instrucción :py:func:`arcade.open_window(ANCHO, ALTO, TITULO)` y **llama** a la función mediante su nombre seguido de par de paréntesis ``()``.
 
 .. code-block:: python
    :caption: Llamada a la función abrir_ventana
@@ -176,7 +177,7 @@ Para escribir una función en Python, sigue estas reglas:
   #. A continuación, escribe el nombre de la función. 
   #. Después del nombre de la función, tenemos un par de paréntesis. Dentro de los paréntesis irán los :term:`parámetros` (Los veremos después).
   #. A continuación, dos puntos.
-  #. Por lo general, comenzamos una función con un comentario de varias líneas que explica lo que hace la función.
+  #. Por lo general, comenzamos una función con un comentario, de una o varias líneas, que explica lo que hace la función.
   #. Todo el código dentro función tiene :term:`sangría` o :term:`indentación`. 
 
 .. warning::
