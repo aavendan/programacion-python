@@ -214,6 +214,13 @@ Dentro de la función :py:func:`dibujar_sprites()`:
 #. La condición es `si la tecla_principal es igual a arcade.key.DOWN (la tecla flecha abajo ↓)`
 #. Si la condición es verdadera, la posición en **y** se reducirá, es decir se moverá hacia arriba.
 
+Al ejecutar el código, presiona la tecla **flecha arriba ↑** y la nave se moverá hacia arriba. Mientras que si presiona la tecla **flecha abajo ↓** y la nave se moverá hacia abajo.
+
+.. figure:: ../img/sesion05/tresplanetasynavemoviendoupdown.gif
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynavemoviendoupdown
+
 .. admonition:: Haga click aquí para ver la solución
   :collapsible: closed
 
