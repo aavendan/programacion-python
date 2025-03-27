@@ -234,7 +234,7 @@ Dentro de la función :py:func:`dibujar_sprites()`:
 
 #. Agrega otra instrucción `if`
 #. La condición es `si la tecla_principal es igual a arcade.key.DOWN (la tecla flecha abajo ↓)`
-#. Si la condición es verdadera, la posición en **y** se reducirá, es decir se moverá hacia arriba.
+#. Si la condición es verdadera, la posición en **y** reducirá, es decir se moverá hacia arriba.
 
 Al ejecutar el código, presiona la tecla **flecha arriba ↑** y la nave se moverá hacia arriba. Mientras que si presiona la tecla **flecha abajo ↓** y la nave se moverá hacia abajo.
 
@@ -259,3 +259,30 @@ Al ejecutar el código, presiona la tecla **flecha arriba ↑** y la nave se mov
         if tecla_principal == arcade.key.DOWN:
             nave01.center_y = nave01.center_y - ESPACIO
 
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Dentro de la función :py:func:`dibujar_sprites()`:
+
+#. Agrega una instrucción `if`
+#. La condición es `si la tecla_principal es igual a arcade.key.LEFT (la tecla flecha izquierda ←)`.
+#. Si la condición es verdadera, la posición en **x** reducirá, es decir se moverá hacia izquierda.
+#. Agrega una instrucción `if`
+#. La condición es `si la tecla_principal es igual a arcade.key.RIGHT (la tecla flecha derecha →)`.
+#. Si la condición es verdadera, la posición en **x** aumentará, es decir se moverá hacia derecha.
+
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Dentro de la función :py:func:`dibujar_sprites()`:
+
+#. Agrega una instrucción `if`
+#. La condición es `si la tecla_principal es igual a arcade.key.F (la tecla F)`.
+#. Si la condición es verdadera, el ángulo reducirá, es decir girará hacia la derecha en su misma posición.
+#. Agrega una instrucción `if`
+#. La condición es `si la tecla_principal es igual a arcade.key.S (la tecla S)`.
+#. Si la condición es verdadera, el ángulo aumentará, es decir girará hacia la izquierda en su misma posición.
