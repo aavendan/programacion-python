@@ -149,7 +149,7 @@ El segundo control a programar será **mover la nave**. Para esto:
 
     # Constantes
     ...
-    VELOCIDAD = 10
+    ESPACIO = 10
 
     ...
     def dibujar_sprites():
@@ -159,7 +159,7 @@ El segundo control a programar será **mover la nave**. Para esto:
         """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
 
         if tecla_principal == arcade.key.UP:
-            nave01.center_y += VELOCIDAD
+            nave01.center_y = nave01.center_y + ESPACIO
     
     ...
 
@@ -173,7 +173,7 @@ El segundo control a programar será **mover la nave**. Para esto:
     ...
 
 
-Al ejecutar el código, presiona la tecla `flecha arriba` y deberías ver la nave desplazándose hacia arriba.
+Al ejecutar el código, presiona la tecla **flecha arriba ↑** y la nave se moverá hacia arriba.
 
 .. figure:: ../img/sesion05/tresplanetasynavemoviendo.gif
     :width: 300
@@ -182,8 +182,50 @@ Al ejecutar el código, presiona la tecla `flecha arriba` y deberías ver la nav
 
 El control :py:func:`arcade.get_window().on_key_press` sirve para indicar qué función se ejecutará cuando se presione una tecla en el juego.
 
+.. rubric:: Explicación
+  :heading-level: 2
+  :class: explanation
 
+La instrucción `if` contiene una :term:`condición` seguida de dos puntos (`:`). La condición se lee `si la tecla_principal es igual a arcade.key.UP (la tecla flecha arriba ↑)`. En caso que la condición sea verdadera se ejecutará la instrucción indentada.
+
+.. code-block:: python
+    :emphasize-lines: 3
+
+    ...
+    if tecla_principal == arcade.key.UP:
+        nave01.center_y = nave01.center_y + ESPACIO
+
+La instrucción indentada `nave01.center_y = nave01.center_y + ESPACIO` aumentará la posición en **y**, es decir se moverá hacia arriba.
+
+.. code-block:: python
+    :emphasize-lines: 4
+
+    ...
+    if tecla_principal == arcade.key.UP:
+        nave01.center_y = nave01.center_y + ESPACIO
 
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
+
+Dentro de la función :py:func:`dibujar_sprites()`:
+
+#. Agrega otra instrucción `if`
+#. La condición es `si la tecla_principal es igual a arcade.key.DOWN (la tecla flecha abajo ↓)`
+#. Si la condición es verdadera, la posición en **y** se reducirá, es decir se moverá hacia arriba.
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 8-9
+
+    ...
+
+    def mover_sprites(tecla_principal, tecla_modificadora):
+    """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
+
+        ...
+
+        if tecla_principal == arcade.key.DOWN:
+            nave01.center_y = nave01.center_y - ESPACIO

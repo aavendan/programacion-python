@@ -70,3 +70,7 @@ Diccionario de términos
         Es el desplazamiento de un bloque de texto hacia la derecha. 
         Se utiliza para separar el texto del margen izquierdo y distinguirlo 
         del texto que le precede. 
+
+    condición
+        Una condición en programación es una expresión lógica que se evalúa 
+        como verdadera o falsa para controlar el flujo de ejecución del código.
