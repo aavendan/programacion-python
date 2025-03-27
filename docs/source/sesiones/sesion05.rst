@@ -173,10 +173,17 @@ El segundo control a programar será **mover la nave**. Para esto:
     ...
 
 
-Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
-se muestra a continuación.
+Al ejecutar el código, presiona la tecla `flecha arriba` y deberías ver la nave desplazándose hacia arriba.
 
 .. figure:: ../img/sesion05/tresplanetasynavemoviendo.gif
     :width: 300
     :figclass: align-center
     :alt: tresplanetasynavemoviendo
+
+El control :py:func:`arcade.get_window().on_key_press` sirve para indicar qué función se ejecutará cuando se presione una tecla en el juego.
+
+
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
