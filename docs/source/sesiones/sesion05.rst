@@ -103,7 +103,7 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 5-12, 18-19
+    :emphasize-lines: 5-9, 15-16
 
     ...
     def fondo_ventana():
@@ -111,9 +111,6 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
    
     def dibujar_sprites():
         """ Limpia la pantalla y dibuja la lista de sprites """
-        
-        # Limpia la ventana antes de dibujar
-        arcade.get_window().clear()
         
         planetas.draw()
         naves.draw()
@@ -127,6 +124,31 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
 
     # Fin del dibujo
     ...
+
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion05/tresplanetasynaveblack.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynaveblack
+
+
+Para resolver el problema del fondo negro, será necesario **limpiar la pantalla** con ``.
+
+.. code-block:: python
+    :caption: Define la función dibujar_sprites
+    :emphasize-lines: 5-6
+
+    ...
+    def dibujar_sprites():
+        """ Limpia la pantalla y dibuja la lista de sprites """
+
+        # Limpia la ventana antes de dibujar
+        arcade.get_window().clear()
+
+        planetas.draw()
+        naves.draw()
 
 Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
 se muestra a continuación.
@@ -236,3 +258,4 @@ Al ejecutar el código, presiona la tecla **flecha arriba ↑** y la nave se mov
 
         if tecla_principal == arcade.key.DOWN:
             nave01.center_y = nave01.center_y - ESPACIO
+
