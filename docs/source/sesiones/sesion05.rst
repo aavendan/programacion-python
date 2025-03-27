@@ -95,7 +95,22 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
 Control: Dibujar todos los sprites
 ------------------
 
-El primer control a programar será la función :py:func:`dibujar_sprites()`, que se encargará de dibujar todos los *sprites*.
+El primer control a programar será **dibujar todos los sprites**. Para esto: 
+
+#. Define la función :py:func:`dibujar_sprites()`,
+#. Mueve las instrucciones para mostrar todos los *sprites*. 
+#. Llama a la función en el lugar 
+
+.. code-block:: python
+   :caption: Define la función dibujar_sprites
+   :emphasize-lines: 
+
+   ...
+   def fondo_ventana():
+   ...
+   
+   def dibujar_sprites():
+    
 
 Control: Mover solo la nave
 ------------------
