@@ -103,25 +103,37 @@ El primer control a programar será **dibujar todos los sprites**. Para esto:
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 5-9, 15
+    :emphasize-lines: 6-13, 19-20
 
     ...
     def fondo_ventana():
-    ...
+        ...
    
     def dibujar_sprites():
         """ Dibuja la lista de sprites """
         
+        # Limpia la ventana antes de dibujar
+        arcade.get_window().clear()
+        
         planetas.draw()
         naves.draw()
-
-    abrir_ventana()
 
     ...
 
     # (Aquí irá el código para dibujar)
-    dibujar_sprites()
     
+    # La función dibujar_sprites se encargará de dibujar todos los sprites
+    arcade.get_window().on_draw = dibujar_sprites
+
+Al ejecutar el código, deberías ver los tres planetas y la nave en la ventana como 
+se muestra a continuación.
+
+.. figure:: ../img/sesion05/tresplanetasynave.png
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynave
+
+La función :py:func:`arcade.get_window().on_draw` tiene el control para dibujar todos los sprites que se encuentran dentro de :py:func:`dibujar_sprites`. Mientras que la función :py:func:`arcade.get_window().clear()` limpia la pantalla antes de colocar los sprites. 
 
 Control: Mover solo la nave
 ------------------
