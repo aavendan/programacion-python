@@ -273,6 +273,25 @@ Dentro de la función :py:func:`dibujar_sprites()`:
 #. La condición es `si la tecla_principal es igual a arcade.key.RIGHT (la tecla flecha derecha →)`.
 #. Si la condición es verdadera, la posición en **x** aumentará, es decir se moverá hacia derecha.
 
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 8-9,11-12
+
+    ...
+
+    def mover_sprites(tecla_principal, tecla_modificadora):
+    """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
+
+        ...
+
+        if tecla_principal == arcade.key.LEFT:
+            nave01.center_x = nave01.center_x - ESPACIO
+       
+        if tecla_principal == arcade.key.RIGHT:
+            nave01.center_x = nave01.center_x + ESPACIO
+
 
 .. rubric:: Reto
   :heading-level: 2
@@ -286,3 +305,21 @@ Dentro de la función :py:func:`dibujar_sprites()`:
 #. Agrega una instrucción `if`
 #. La condición es `si la tecla_principal es igual a arcade.key.S (la tecla S)`.
 #. Si la condición es verdadera, el ángulo aumentará, es decir girará hacia la izquierda en su misma posición.
+
+.. admonition:: Haga click aquí para ver la solución
+  :collapsible: closed
+
+  .. code-block:: python
+    :emphasize-lines: 8-9,11-12
+
+    ...
+
+    def mover_sprites(tecla_principal, tecla_modificadora):
+    """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
+
+        ...
+
+        if tecla_principal == arcade.key.F:
+            nave01.angle = nave01.angle + ESPACIO
+        if tecla_principal == arcade.key.S:
+            nave01.angle = nave01.angle - ESPACIO
