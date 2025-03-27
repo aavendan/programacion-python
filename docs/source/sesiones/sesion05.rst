@@ -247,14 +247,15 @@ Al ejecutar el código, presiona la tecla **flecha arriba ↑** y la nave se mov
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 8-9
+    :emphasize-lines: 9-10
 
     ...
 
     def mover_sprites(tecla_principal, tecla_modificadora):
     """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
 
-        ...
+        if tecla_principal == arcade.key.UP:
+            ...
 
         if tecla_principal == arcade.key.DOWN:
             nave01.center_y = nave01.center_y - ESPACIO
@@ -277,14 +278,17 @@ Dentro de la función :py:func:`dibujar_sprites()`:
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 8-9,11-12
+    :emphasize-lines: 11-12, 14-15
 
     ...
 
     def mover_sprites(tecla_principal, tecla_modificadora):
     """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
 
-        ...
+            ...
+        
+        if tecla_principal == arcade.key.DOWN:
+            ...
 
         if tecla_principal == arcade.key.LEFT:
             nave01.center_x = nave01.center_x - ESPACIO
@@ -310,14 +314,17 @@ Dentro de la función :py:func:`dibujar_sprites()`:
   :collapsible: closed
 
   .. code-block:: python
-    :emphasize-lines: 8-9,11-12
+    :emphasize-lines: 11-12, 14-15
 
     ...
 
     def mover_sprites(tecla_principal, tecla_modificadora):
-    """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
+        """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
 
-        ...
+            ...
+
+        if tecla_principal == arcade.key.RIGHT:
+            ...
 
         if tecla_principal == arcade.key.F:
             nave01.angle = nave01.angle + ESPACIO
