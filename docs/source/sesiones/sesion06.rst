@@ -134,7 +134,7 @@ Para acelerar el movimiento de la nave será necesario que nuestro control **mov
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 12-13
+    :emphasize-lines: 11-12
 
     ...
     
