@@ -134,7 +134,7 @@ Para acelerar el movimiento de la nave será necesario que nuestro control **mov
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 12-13
+    :emphasize-lines: 11-12
 
     ...
     
@@ -158,18 +158,14 @@ Al ejecutar el código, presiona la combinación de teclas **flecha arriba ↑**
     :figclass: align-center
     :alt: tresplanetasynavemoviendoacelerado
 
-.. note::
-    
-    Puedes obtener más teclas modificadores en `arcade.key package <https://api.arcade.academy/en/2.6.1/arcade.key.html>`_.
-
 .. rubric:: Reto
   :heading-level: 2
   :class: mi-clase-css
 
 Dentro de la función :py:func:`dibujar_sprites()`:
 
-#. Considere una tecla modificadora y una tecla principal para acelerar el movimiento. 
-#. Agregue las condiciones necesarias para acelerar el movimiento en todas las direcciones.
+#. Considere la tecla modificadora **MOD_CTRL** y las teclas principales de movimiento. 
+#. Agregue la instrucción para realizar el movimiento acelerado en la dirección.
 
 Al ejecutar el código, presiona las teclas y sus modificadores para tener el siguiente movimiento de la nave.
 
@@ -177,6 +173,58 @@ Al ejecutar el código, presiona las teclas y sus modificadores para tener el si
     :width: 300
     :figclass: align-center
     :alt: tresplanetasynavemoviendoaceleracionall
+
+Control: Mover la nave (Desaceleración)
+------------------
+
+Para desacelerar el movimiento de la nave será necesario que nuestro control **mover la nave** considere una nueva combinación de teclas, por ejemplo: **flecha arriba ↑** + **tecla modificadora shift MOD_SHIFT**. 
+
+.. code-block:: python
+    :caption: Define la función dibujar_sprites
+    :emphasize-lines: 11-12
+
+    ...
+    
+    def mover_sprites(tecla_principal, tecla_modificadora):
+        """ Reacciona a la tecla presionada (tecla_principal) con el movimiento de la nave"""
+
+        ... 
+
+        if tecla_principal == arcade.key.RIGHT and tecla_modificadora & arcade.key.MOD_CTRL:
+            ...
+
+        if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_SHIFT:
+            nave01.center_y = nave01.center_y + (ESPACIO / 10)
+    
+    ...
+
+Al ejecutar el código, presiona la combinación de teclas **flecha arriba ↑** + **tecla modificadora shift MOD_SHIFT** y la nave se moverá más lento hacia arriba.
+
+.. figure:: ../img/sesion06/tresplanetasynavemoviendodesacelerado.gif
+    :width: 300
+    :figclass: align-center
+    :alt: tresplantresplanetasynavemoviendodesaceleradoetasynavemoviendoacelerado
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Dentro de la función :py:func:`dibujar_sprites()`:
+
+#. Considere la tecla modificadora **MOD_SHIFT** y las teclas principales de movimiento. 
+#. Agregue la instrucción para realizar el movimiento desacelerado en la dirección.
+
+Al ejecutar el código, presiona las teclas y sus modificadores para tener el siguiente movimiento de la nave.
+
+.. figure:: ../img/sesion06/tresplanetasynavemoviendodesaceleracionall.gif
+    :width: 300
+    :figclass: align-center
+    :alt: tresplanetasynavemoviendodesaceleracionall
+
+.. note::
+    
+    Puedes obtener más teclas modificadores en `arcade.key package <https://api.arcade.academy/en/2.6.1/arcade.key.html>`_.
+
 
 .. rubric:: En resumen
   :heading-level: 2
@@ -281,17 +329,16 @@ Al finalizar esta sesión, tu código debería verse así:
             nave01.angle = nave01.angle - ESPACIO
 
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_CTRL:
-                nave01.center_y = nave01.center_y + (ESPACIO * 4)
+            nave01.center_y = nave01.center_y + (ESPACIO * 4)
+
+        # Aquí van los otros controles de movimiento con aceleración
         
-        if tecla_principal == arcade.key.DOWN and tecla_modificadora & arcade.key.MOD_CTRL:
-                nave01.center_y = nave01.center_y - (ESPACIO * 4)
+        if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_SHIFT:
+            nave01.center_y = nave01.center_y + (ESPACIO / 10)
 
-        if tecla_principal == arcade.key.LEFT and tecla_modificadora & arcade.key.MOD_CTRL:
-                nave01.center_x = nave01.center_x - (ESPACIO * 4)
+        # Aquí van los otros controles de movimiento con desaceleración
 
-        if tecla_principal == arcade.key.RIGHT and tecla_modificadora & arcade.key.MOD_CTRL:
-                nave01.center_x = nave01.center_x + (ESPACIO * 4)
-
+        
     abrir_ventana()
     fondo_ventana()
 
