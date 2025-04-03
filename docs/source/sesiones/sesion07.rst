@@ -163,7 +163,7 @@ El siguiente control a programar será **verificar aterrizaje**. Para esto:
 
 .. code-block:: python
     :caption: Define la función verificar_aterrizaje
-    :emphasize-lines: 6-7, 13-19
+    :emphasize-lines: 6-14, 20-21
 
     ...
 
