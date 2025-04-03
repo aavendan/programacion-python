@@ -152,5 +152,8 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
     # Inicia el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
-Control: Verificar Choque
+Control: Verificar Aterrizaje
+------------------
+
+Control: Exploración
 ------------------
