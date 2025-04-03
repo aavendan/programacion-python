@@ -242,9 +242,24 @@ Ahora, será cuestión de mostrar el mensaje que está guardado en la ventana.
     ...
 
 
-Al ejecutar el código, mueve la nave hasta alcanzar el Planeta01.
+Al ejecutar el código, mueva la nave hasta alcanzar el **Planeta01**.
 
 .. figure:: ../img/sesion07/aterrizajeplaneta01.gif
     :width: 300
     :figclass: align-center
     :alt: aterrizajeplaneta01
+
+.. rubric:: Reto
+  :heading-level: 2
+  :class: mi-clase-css
+
+Dentro de la función :py:func:`verificar_aterrizaje()`:
+
+#. Agregue la verificación si la nave aterrizó en el **Planeta02** y en el **Planeta03**.
+
+Al ejecutar el código, presiona las teclas y sus modificadores para tener el siguiente movimiento de la nave.
+
+.. figure:: ../img/sesion07/aterrizajeplaneta02y03.gif
+    :width: 300
+    :figclass: align-center
+    :alt: aterrizajeplaneta02y03

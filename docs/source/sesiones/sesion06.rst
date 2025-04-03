@@ -165,8 +165,8 @@ Al ejecutar el código, presiona la combinación de teclas **flecha arriba ↑**
 
 Dentro de la función :py:func:`dibujar_sprites()`:
 
-#. Considere la tecla modificadora **MOD_CTRL** y las teclas principales de movimiento. 
-#. Agregue la instrucción para realizar el movimiento acelerado en la dirección.
+#. Agregue las combinaciones de las otras teclas principales de movimiento y la tecla modificadora **MOD_CTRL**. 
+#. De acuerdo con la combinación de teclas, agregue la instrucción para realizar el movimiento acelerado en la dirección.
 
 Al ejecutar el código, presiona las teclas y sus modificadores para tener el siguiente movimiento de la nave.
 
