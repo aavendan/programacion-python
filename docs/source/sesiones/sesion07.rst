@@ -205,11 +205,46 @@ La instrucción `aterrizaje = arcade.check_for_collision_with_list( nave01, plan
 Con la instrucción `if planeta1 in aterrizaje:` verificamos si existe `planeta1` está dentro del `aterrizaje`. De ser verdad, guardará un mensaje en la ventana `arcade.get_window().on_message = "¡A explorar el Planeta01!"` 
 
 .. code-block:: python
-    :emphasize-lines: 2-3
+    :emphasize-lines: 3-4
 
         ...
+
         if planeta1 in aterrizaje:
             arcade.get_window().on_message = "¡A explorar el Planeta01!"
 
 ¡A explorar!
 ------------------
+
+Ahora, será cuestión de mostrar el mensaje que está guardado en la ventana.
+
+#. Guarda el mensaje de la ventana, con `mensaje = arcade.get_window().on_message`
+#. Muestra un texto en la ventana con el mensaje, con: `arcade.Text(mensaje, 150, 100, arcade.color.WHEAT, 20).draw()`
+
+.. code-block:: python
+    :caption: Define la función verificar_aterrizaje
+    :emphasize-lines: 12-14
+
+    ...
+
+    def dibujar_sprites():
+        """ Limpia la pantalla y dibuja la lista de sprites """
+
+        # Limpia la ventana antes de dibujar
+        arcade.get_window().clear()
+
+        planetas.draw()
+        naves.draw()
+
+        # Mensaje en (150, 100), de tamaño 20 pts.
+        mensaje = arcade.get_window().on_message
+        arcade.Text(mensaje, 150, 100, arcade.color.WHEAT, 20).draw()
+
+    ...
+
+
+Al ejecutar el código, mueve la nave hasta alcanzar el Planeta01.
+
+.. figure:: ../img/sesion07/aterrizajeplaneta01.gif
+    :width: 300
+    :figclass: align-center
+    :alt: aterrizajeplaneta01
