@@ -173,7 +173,7 @@ El siguiente control a programar será **actualizar sprites**. Para esto:
     def actualizar_sprites(tiempo):
         """ Detecta si hay alguna actualización entre los sprites """
 
-        actualizaciones = arcade.check_for_collision_with_list(nave01, planetas)        
+        actualizaciones = arcade.check_for_collision_with_list(nave01, planetas)
 
     ...
 
@@ -181,7 +181,7 @@ El siguiente control a programar será **actualizar sprites**. Para esto:
     ...
 
     # El control on_update sirve para indicar qué función se ejecutará cuando ocurra una actualización en el juego.
-    arcade.get_window().on_update = colision_sprites
+    arcade.get_window().on_update = actualizar_sprites
 
     # Fin del dibujo
     ...
