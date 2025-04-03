@@ -134,7 +134,7 @@ Para acelerar el movimiento de la nave será necesario que nuestro control **mov
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 11-12
+    :emphasize-lines: 11-13
 
     ...
     
@@ -146,6 +146,7 @@ Para acelerar el movimiento de la nave será necesario que nuestro control **mov
         if tecla_principal == arcade.key.S:
             ...
 
+        # Controles de movimiento con aceleración
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_CTRL:
             nave01.center_y = nave01.center_y + (ESPACIO * 4)
     
@@ -181,7 +182,7 @@ Para desacelerar el movimiento de la nave será necesario que nuestro control **
 
 .. code-block:: python
     :caption: Define la función dibujar_sprites
-    :emphasize-lines: 11-12
+    :emphasize-lines: 11-13
 
     ...
     
@@ -190,9 +191,10 @@ Para desacelerar el movimiento de la nave será necesario que nuestro control **
 
         ... 
 
-        if tecla_principal == arcade.key.RIGHT and tecla_modificadora & arcade.key.MOD_CTRL:
+        # Controles de movimiento con aceleración
             ...
 
+        # Controles de movimiento con desaceleración
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_SHIFT:
             nave01.center_y = nave01.center_y + (ESPACIO / 10)
     
@@ -328,11 +330,13 @@ Al finalizar esta sesión, tu código debería verse así:
         if tecla_principal == arcade.key.S:
             nave01.angle = nave01.angle - ESPACIO
 
+        # Controles de movimiento con aceleración
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_CTRL:
             nave01.center_y = nave01.center_y + (ESPACIO * 4)
 
         # Aquí van los otros controles de movimiento con aceleración
-        
+
+        # Controles de movimiento con desaceleración
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_SHIFT:
             nave01.center_y = nave01.center_y + (ESPACIO / 10)
 
