@@ -3,9 +3,9 @@ Misión 07: Explorando planetas 🚀🌑
 
 En la misión anterior aprendimos a acelerar y desacelerar nuestra nave. En esta sesión, aprenderemos a verifica si la nave se encuentra explorando un planeta.
 
-.. figure:: ../img/sesion07/exploracion.jpg
+.. figure:: ../img/sesion07/aterrizaje.jpg
     :figclass: align-center
-    :alt: exploracion
+    :alt: aterrizaje
 
 Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie``. Verifica el archivo ``mision01.py`` tenga el siguiente código:
 
