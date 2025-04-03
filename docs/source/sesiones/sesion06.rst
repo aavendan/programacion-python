@@ -1,4 +1,4 @@
-Misión 06: A la velocidad de la luz 🚀
+Misión 06: A la velocidad de la luz ⚡🚀
 ===================================
 
 En la misión anterior aprendimos a configurar panel de control de nuestra nave. En esta sesión, aprenderemos acelerar o desacelerar la nave.
