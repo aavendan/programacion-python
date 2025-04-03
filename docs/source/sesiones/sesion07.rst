@@ -106,10 +106,10 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
         if tecla_principal == arcade.key.S:
             nave01.angle = nave01.angle - ESPACIO
 
+        # Controles de movimiento con aceleración
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_CTRL:
             nave01.center_y = nave01.center_y + (ESPACIO * 4)
 
-        # Aquí van los otros controles de movimiento con aceleración
         if tecla_principal == arcade.key.DOWN and tecla_modificadora & arcade.key.MOD_CTRL:
                 nave01.center_y = nave01.center_y - (ESPACIO * 4)
 
@@ -119,10 +119,10 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
         if tecla_principal == arcade.key.RIGHT and tecla_modificadora & arcade.key.MOD_CTRL:
                 nave01.center_x = nave01.center_x + (ESPACIO * 4)
 
+        # Controles de movimiento con desaceleración
         if tecla_principal == arcade.key.UP and tecla_modificadora & arcade.key.MOD_SHIFT:
                 nave01.center_y = nave01.center_y + (ESPACIO / 10)
 
-        # Aquí van los otros controles de movimiento con desaceleración
         if tecla_principal == arcade.key.DOWN and tecla_modificadora & arcade.key.MOD_SHIFT:
                 nave01.center_y = nave01.center_y - (ESPACIO / 10)
 
