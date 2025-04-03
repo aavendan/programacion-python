@@ -155,5 +155,36 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
 Control: Verificar Aterrizaje
 ------------------
 
+El siguiente control a programar será **actualizar sprites**. Para esto: 
+
+#. Defina la función :py:func:`actualizar_sprites()`,
+#. Agregue control :py:func:`arcade.get_window().on_update` sirve para indicar qué función se ejecutará cuando ocurra una actualización entre los sprites en el juego.
+
+
+.. code-block:: python
+    :caption: Define la función actualizar_sprites
+    :emphasize-lines: 6-9, 16-17
+
+    ...
+
+    def mover_sprites():
+        ...
+   
+    def actualizar_sprites(tiempo):
+        """ Detecta si hay alguna actualización entre los sprites """
+
+        actualizaciones = arcade.check_for_collision_with_list(nave01, planetas)        
+
+    ...
+
+    # El control on_key_press sirve para indicar qué función se ejecutará cuando se presione una tecla en el juego.
+    ...
+
+    # El control on_update sirve para indicar qué función se ejecutará cuando ocurra una actualización en el juego.
+    arcade.get_window().on_update = colision_sprites
+
+    # Fin del dibujo
+    ...
+
 Control: Exploración
 ------------------
