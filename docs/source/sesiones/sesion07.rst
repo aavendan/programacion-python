@@ -163,7 +163,7 @@ El siguiente control a programar será **verificar aterrizaje**. Para esto:
 
 .. code-block:: python
     :caption: Define la función verificar_aterrizaje
-    :emphasize-lines: 6-7, 13-14
+    :emphasize-lines: 6-7, 13-19
 
     ...
 
@@ -172,6 +172,13 @@ El siguiente control a programar será **verificar aterrizaje**. Para esto:
    
     def verificar_aterrizaje(tiempo):
         """ Detecta si ocurre una actualización entre los sprites """
+
+        aterrizaje = arcade.check_for_collision_with_list( nave01, planetas )
+
+        arcade.get_window().on_message = ""
+
+        if planeta1 in aterrizaje:
+            arcade.get_window().on_message = "¡A explorar el Planeta01!"
     ...
 
     # El control on_key_press sirve para indicar qué función se ejecutará cuando se presione una tecla en el juego.
@@ -183,5 +190,26 @@ El siguiente control a programar será **verificar aterrizaje**. Para esto:
     # Fin del dibujo
     ...
 
-Control: Exploración
+.. rubric:: Explicación
+  :heading-level: 2
+  :class: explanation
+
+La instrucción `aterrizaje = arcade.check_for_collision_with_list( nave01, planetas )` verifica si hay alguna actualización entre la `nave01` y los `planetas`.
+
+.. code-block:: python
+    :emphasize-lines: 2
+
+        ...
+        aterrizaje = arcade.check_for_collision_with_list( nave01, planetas )
+
+Con la instrucción `if planeta1 in aterrizaje:` verificamos si existe `planeta1` está dentro del `aterrizaje`. De ser verdad, guardará un mensaje en la ventana `arcade.get_window().on_message = "¡A explorar el Planeta01!"` 
+
+.. code-block:: python
+    :emphasize-lines: 2-3
+
+        ...
+        if planeta1 in aterrizaje:
+            arcade.get_window().on_message = "¡A explorar el Planeta01!"
+
+¡A explorar!
 ------------------
