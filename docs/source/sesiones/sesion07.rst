@@ -152,17 +152,17 @@ Para comenzar, abra **Visual Studio Code** y utiliza la carpeta ``galaxia_indie`
     # Inicia el bucle principal del juego que mantiene la ventana abierta
     arcade.run()
 
-Control: Verificar choques
+Control: Verificar aterrizaje
 ------------------
 
-El siguiente control a programar será **verificar sprites**. Para esto: 
+El siguiente control a programar será **verificar aterrizaje**. Para esto: 
 
-#. Defina la función :py:func:`verificar_sprites()`,
+#. Defina la función :py:func:`verificar_aterrizaje()`,
 #. Agregue control :py:func:`arcade.get_window().on_update` sirve para indicar qué función se ejecutará cuando ocurra una actualización entre los sprites en el juego.
 
 
 .. code-block:: python
-    :caption: Define la función verificar_sprites
+    :caption: Define la función verificar_aterrizaje
     :emphasize-lines: 6-7, 16-17
 
     ...
@@ -170,7 +170,7 @@ El siguiente control a programar será **verificar sprites**. Para esto:
     def mover_sprites():
         ...
    
-    def verificar_sprites(tiempo):
+    def verificar_aterrizaje(tiempo):
         """ Detecta si ocurre una actualización entre los sprites """
     ...
 
@@ -178,7 +178,7 @@ El siguiente control a programar será **verificar sprites**. Para esto:
     ...
 
     # El control on_update sirve para indicar qué función se ejecutará cuando ocurra una actualización entre los sprites del juego.
-    arcade.get_window().on_update = verificar_sprites
+    arcade.get_window().on_update = verificar_aterrizaje
 
     # Fin del dibujo
     ...
